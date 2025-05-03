@@ -1,32 +1,47 @@
-import logging
-from aiogram import Bot, Dispatcher, types
-from aiogram.types import Message
-from aiogram.utils.executor import start_webhook
+# app.py - Renderda asosiy ishga tushuruvchi file!
 import os
+import logging
 
-API_TOKEN = os.getenv("BOT_TOKEN")
+from flask import Flask, request
+from aiogram import Bot, Dispatcher, types
+from aiogram.utils.executor import start_webhook
+from loader import bot, dp
+import handlers  # Bu import qoladi, handlerlarni yuklaydi
+from dotenv import load_dotenv
 
-# Webhook settings:
-WEBHOOK_HOST = 'https://mandarinquizbot.onrender.com'  # Render URL
-WEBHOOK_PATH = f"/webhook/{API_TOKEN}"
+load_dotenv()
+
+# Logging
+logging.basicConfig(level=logging.INFO)
+
+# Webhook konfiguratsiyasi
+WEBHOOK_HOST = 'https://mandarinquizbot.onrender.com'  # ← bu sening Render URL'ing
+WEBHOOK_PATH = '/webhook'  # Ixtiyoriy, faqat oxirgi qismi
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
-# Webserver settings:
-WEBAPP_HOST = '0.0.0.0'
-WEBAPP_PORT = int(os.getenv("PORT", default=10000))
+WEBAPP_HOST = "0.0.0.0"  # Flask uchun
+WEBAPP_PORT = int(os.environ.get("PORT", 5000))  # Render beradi
 
-logging.basicConfig(level=logging.INFO)
-bot = Bot(token=API_TOKEN)
-dp = Dispatcher(bot)
+# Flask ilova
+app = Flask(__name__)
 
-async def on_startup(dispatcher):
+@app.route('/')
+def index():
+    return "Bot is running!"
+
+@app.route(WEBHOOK_PATH, methods=['POST'])
+async def webhook():
+    update = types.Update(**request.json)
+    await dp.process_update(update)
+    return "ok", 200
+
+async def on_startup(dp):
     await bot.set_webhook(WEBHOOK_URL)
-    print("Webhook set")
+    print("Webhook set:", WEBHOOK_URL)
 
-async def on_shutdown(dispatcher):
+async def on_shutdown(dp):
     await bot.delete_webhook()
     print("Webhook deleted")
-
 
 if __name__ == '__main__':
     start_webhook(
@@ -34,6 +49,7 @@ if __name__ == '__main__':
         webhook_path=WEBHOOK_PATH,
         on_startup=on_startup,
         on_shutdown=on_shutdown,
+        skip_updates=True,
         host=WEBAPP_HOST,
         port=WEBAPP_PORT,
     )
