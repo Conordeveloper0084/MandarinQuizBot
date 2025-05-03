@@ -3,7 +3,6 @@ import os
 from dotenv import load_dotenv
 from aiogram import Bot, Dispatcher
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
-from loader import bot, dp
 
 load_dotenv()  # .env faylni avtomatik yuklaydi
 BOT_TOKEN = os.getenv("BOT_TOKEN")
