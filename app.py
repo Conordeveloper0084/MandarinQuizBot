@@ -1,3 +1,4 @@
+# app.py bu Rednderda asosiy ishga tushuruvchi file!
 import os
 import threading
 import logging
@@ -5,13 +6,12 @@ from flask import Flask
 from aiogram import executor
 from loader import dp
 from dotenv import load_dotenv
+import handlers  
 
-load_dotenv()  # .env faylni yuklash
+load_dotenv()  
 
-# Loglar
 logging.basicConfig(level=logging.INFO)
 
-# Flask ilovasi
 app = Flask(__name__)
 
 @app.route('/')
@@ -30,5 +30,4 @@ def start_bot():
 if __name__ == "__main__":
     flask_thread = threading.Thread(target=start_flask, daemon=True)
     flask_thread.start()
-    # Botni faqat sinovda ishga tushirish uchun
     start_bot()
