@@ -1,19 +1,24 @@
 import os
 import threading
+import logging
 from flask import Flask
 from aiogram import executor
-from loader import dp  
+from loader import dp
+
+# Loglar
+logging.basicConfig(level=logging.INFO)
 
 # Flask ilovasi
 app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Hello, World!"
+    return "Hello, World! Bot is running."
 
 def start_flask():
     """Flask ilovasini ishga tushirish"""
-    app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port, debug=False)
 
 def start_bot():
     """Aiogram botini ishga tushirish"""
@@ -21,7 +26,7 @@ def start_bot():
 
 if __name__ == "__main__":
     # Flask va botni alohida thread-larda ishga tushirish
-    flask_thread = threading.Thread(target=start_flask)
+    flask_thread = threading.Thread(target=start_flask, daemon=True)
     flask_thread.start()
 
     start_bot()
