@@ -6,7 +6,7 @@ from flask import Flask, request
 from aiogram import Bot, Dispatcher, types
 from aiogram.utils.executor import start_webhook
 from loader import bot, dp
-import handlers  # Bu import qoladi, handlerlarni yuklaydi
+import handlers  
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -15,7 +15,7 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 
 # Webhook konfiguratsiyasi
-WEBHOOK_HOST = 'https://mandarinquizbot.onrender.com'  # ← bu sening Render URL'ing
+WEBHOOK_HOST = 'https://mandarinquizbot-trt6.onrender.com'  
 WEBHOOK_PATH = '/webhook'  # Ixtiyoriy, faqat oxirgi qismi
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
