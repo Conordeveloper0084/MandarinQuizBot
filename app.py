@@ -30,4 +30,5 @@ def start_bot():
 if __name__ == "__main__":
     flask_thread = threading.Thread(target=start_flask, daemon=True)
     flask_thread.start()
+    # Botni faqat sinovda ishga tushirish uchun
     start_bot()
