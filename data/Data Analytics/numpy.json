@@ -1,0 +1,1502 @@
+[
+    {
+        "question": "Quyidagilardan qaysi biri NumPy kutubxonasini to'g'ri import qilish usulidir?",
+        "options": [
+            "import numpy as np",
+            "import np as numpy",
+            "include numpy",
+            "inport numpy as np"
+        ],
+        "answer": "import numpy as np"
+    },
+    {
+        "question": "np.array([1, 2, 3]) kodining natijasi nima?",
+        "options": [
+            "Oddiy Python list",
+            "NumPy array",
+            "Tuple",
+            "String"
+        ],
+        "answer": "NumPy array"
+    },
+    {
+        "question": "Quyidagi kod natijasi nima bo'ladi? \nimport numpy as np\narr = np.zeros(3)\nprint(arr)",
+        "options": [
+            "[0. 0. 0.]",
+            "[0, 0, 0]",
+            "[1, 1, 1]",
+            "[None, None, None]"
+        ],
+        "answer": "[0. 0. 0.]"
+    },
+    {
+        "question": "NumPy'da massiv o'lchamini (shape) qaysi method bilan bilamiz?",
+        "options": [
+            "size()",
+            "shape",
+            "dimension()",
+            "length()"
+        ],
+        "answer": "shape"
+    },
+    {
+        "question": "np.arange(5) funksiyasi qanday array yaratadi?",
+        "options": [
+            "[1, 2, 3, 4, 5]",
+            "[0, 1, 2, 3, 4]",
+            "[0, 1, 2, 3, 4, 5]",
+            "[5, 4, 3, 2, 1]"
+        ],
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "question": "np.ones((2,3)) kodining natijasi qanday bo'ladi?",
+        "options": [
+            "2 qator, 3 ustundan iborat faqat 1 lardan iborat massiv",
+            "3 qator, 2 ustun massiv",
+            "2x3 nol massiv",
+            "2x3 tasodifiy sonlar massiv"
+        ],
+        "answer": "2 qator, 3 ustundan iborat faqat 1 lardan iborat massiv"
+    },
+    {
+        "question": "np.linspace(0, 1, 5) funksiyasi nima yaratadi?",
+        "options": [
+            "0 va 1 orasidagi 5 ta tasodifiy son",
+            "0 va 1 orasidagi 5 ta teng taqsimlangan son",
+            "0 va 5 orasidagi sonlar",
+            "0 dan 5 gacha natural sonlar"
+        ],
+        "answer": "0 va 1 orasidagi 5 ta teng taqsimlangan son"
+    },
+    {
+        "question": "np.random.rand(2,2) funksiyasi nima qiladi?",
+        "options": [
+            "2x2 faqat 1 lar massiv yaratadi",
+            "2x2 faqat 0 lar massiv yaratadi",
+            "2x2 o'lchamda 0 va 1 orasida tasodifiy sonlar yaratadi",
+            "Xatolik beradi"
+        ],
+        "answer": "2x2 o'lchamda 0 va 1 orasida tasodifiy sonlar yaratadi"
+    },
+    {
+        "question": "NumPy massivida barcha elementlarni yig'indisini olish uchun qaysi funksiyadan foydalaniladi?",
+        "options": [
+            "arr.add()",
+            "arr.total()",
+            "arr.plus()",
+            "arr.sum()"
+        ],
+        "answer": "arr.sum()"
+    },
+    {
+        "question": "np.reshape(arr, (2,3)) kodi nima qiladi?",
+        "options": [
+            "Massiv elementlarini o'zgartiradi",
+            "Massivga yangi qiymatlar qo'shadi",
+            "Massiv shaklini 2x3 ga aylantiradi",
+            "Massiv elementlarini o'chiradi"
+        ],
+        "answer": "Massiv shaklini 2x3 ga aylantiradi"
+    },
+    {
+        "question": "NumPy kutubxonasidagi qaysi method massivdagi maksimal qiymatni topadi?",
+        "options": [
+            "max()",
+            "maximum()",
+            "np.max()",
+            "np.maximum()"
+        ],
+        "answer": "np.max()"
+    },
+    {
+        "question": "np.identity(3) funksiyasi nima yaratadi?",
+        "options": [
+            "3x3 o'lchamdagi nol massiv",
+            "3x3 birlik (diagonalda 1) massiv",
+            "3x3 tasodifiy sonlar massiv",
+            "3x3 faqat 1 lar massiv"
+        ],
+        "answer": "3x3 birlik (diagonalda 1) massiv"
+    },
+    {
+        "question": "Qaysi method NumPy massivida elementlar sonini beradi?",
+        "options": [
+            "size",
+            "shape",
+            "length",
+            "count"
+        ],
+        "answer": "size"
+    },
+    {
+        "question": "np.array([1,2,3]) va np.array([4,5,6]) ni qo‘shsak nima bo'ladi?",
+        "options": [
+            "[5,7,9] massiv hosil bo‘ladi",
+            "Listlar qo‘shiladi va [1,2,3,4,5,6] hosil bo‘ladi",
+            "Error beradi",
+            "Faqat birinchi massivni qaytaradi"
+        ],
+        "answer": "[5,7,9] massiv hosil bo‘ladi"
+    },
+    {
+        "question": "np.array([[1,2,3],[4,5,6]])[1,2] qiymati nima?",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "2"
+        ],
+        "answer": "6"
+    },
+    {
+        "question": "np.mean(arr) funksiyasi nimani hisoblaydi?",
+        "options": [
+            "Massivdagi maksimal qiymatni",
+            "Massivdagi o'rtacha qiymatni",
+            "Massivdagi minimal qiymatni",
+            "Massivdagi jami yig'indini"
+        ],
+        "answer": "Massivdagi o'rtacha qiymatni"
+    },
+    {
+        "question": "Qaysi method massivning o'lchov (dimension) darajasini beradi?",
+        "options": [
+            "shape",
+            "ndim",
+            "size",
+            "type"
+        ],
+        "answer": "ndim"
+    },
+    {
+        "question": "np.full((2,2), 7) kodi nima beradi?",
+        "options": [
+            "2x2 massiv, har bir elementi 7 bo‘ladi",
+            "7ta 2x2 massiv yaratadi",
+            "2x2 tasodifiy sonli massiv",
+            "Error beradi"
+        ],
+        "answer": "2x2 massiv, har bir elementi 7 bo‘ladi"
+    },
+    {
+        "question": "NumPy massividagi barcha manfiy sonlarni 0 ga o‘zgartirish uchun qaysi usuldan foydalaniladi?",
+        "options": [
+            "arr[arr < 0] = 0",
+            "arr.negative(0)",
+            "arr.fill(0)",
+            "arr.replace(negative=0)"
+        ],
+        "answer": "arr[arr < 0] = 0"
+    },
+    {
+        "question": "NumPy kutubxonasida massiv yaratish uchun qaysi funksiyadan foydalanamiz?",
+        "options": [
+            "np.array()",
+            "np.list()",
+            "np.create()",
+            "np.make()"
+        ],
+        "answer": "np.array()"
+    },
+    {
+        "question": "np.arange(5) funksiyasi nima hosil qiladi?",
+        "options": [
+            "0 dan 5 gacha bo'lgan sonlar massivini",
+            "5 ta tasodifiy sonlardan iborat massiv",
+            "Faqat 5 sonidan iborat massiv",
+            "5x5 o'lchamli massiv"
+        ],
+        "answer": "0 dan 5 gacha bo'lgan sonlar massivini"
+    },
+    {
+        "question": "np.linspace(0,1,5) funksiyasi natijasi qanday bo‘ladi?",
+        "options": [
+            "0 va 1 orasida 5 ta butun son",
+            "0 va 1 orasida 5 ta bir xil qiymat",
+            "0 va 1 orasida 5 ta teng taqsimlangan qiymat",
+            "Faqat 0 va 1 qiymatlari"
+        ],
+        "answer": "0 va 1 orasida 5 ta teng taqsimlangan qiymat"
+    },
+    {
+        "question": "np.zeros((3,3)) funksiyasi nima yaratadi?",
+        "options": [
+            "3ta 0 qiymatli massiv",
+            "3x3 massiv, har bir elementi 0",
+            "0 qiymatli 3x1 massiv",
+            "Xato beradi"
+        ],
+        "answer": "3x3 massiv, har bir elementi 0"
+    },
+    {
+        "question": "Massivni to‘g‘ri shaklga keltirish uchun qaysi method ishlatiladi?",
+        "options": [
+            "rebuild()",
+            "reformat()",
+            "reshape()",
+            "resize()"
+        ],
+        "answer": "reshape()"
+    },
+    {
+        "question": "np.random.rand(2,3) funksiyasi nima hosil qiladi?",
+        "options": [
+            "2x3 o‘lchamli tasodifiy butun sonlar",
+            "2x3 o‘lchamli tasodifiy float sonlar",
+            "2x3 nol massiv",
+            "2x3 birlik massiv"
+        ],
+        "answer": "2x3 o‘lchamli tasodifiy float sonlar"
+    },
+    {
+        "question": "np.sort(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Massiv elementlarini o‘sish tartibida tartiblaydi",
+            "Massiv elementlarini kamayish tartibida tartiblaydi",
+            "Faqat musbat sonlarni chiqaradi",
+            "Faqat juft sonlarni chiqaradi"
+        ],
+        "answer": "Massiv elementlarini o‘sish tartibida tartiblaydi"
+    },
+    {
+        "question": "np.sum(arr) funksiyasi nima beradi?",
+        "options": [
+            "Massivdagi barcha elementlarning yig'indisini",
+            "Massivdagi elementlarning o'rtachasini",
+            "Massivdagi maksimal qiymatni",
+            "Massivdagi minimal qiymatni"
+        ],
+        "answer": "Massivdagi barcha elementlarning yig'indisini"
+    },
+    {
+        "question": "np.sqrt(arr) funksiyasi nimani hisoblaydi?",
+        "options": [
+            "Har bir elementning ildizini",
+            "Har bir elementning kvadratini",
+            "Elementlarning yig'indisini",
+            "Elementlarning kvadratlarini yig'indisini"
+        ],
+        "answer": "Har bir elementning ildizini"
+    },
+    {
+        "question": "NumPy massivining turini o‘zgartirish uchun qaysi method ishlatiladi?",
+        "options": [
+            "astype()",
+            "change()",
+            "convert()",
+            "edit()"
+        ],
+        "answer": "astype()"
+    },
+    {
+        "question": "np.eye(4) funksiyasi qanday natija beradi?",
+        "options": [
+            "4x4 birlik matritsa",
+            "4 ta nol qiymat",
+            "4x4 tasodifiy sonlar",
+            "4x4 barcha qiymatlar 4 ga teng massiv"
+        ],
+        "answer": "4x4 birlik matritsa"
+    },
+    {
+        "question": "np.full((2,2), 7) funksiyasi nima qiladi?",
+        "options": [
+            "2x2 tasodifiy sonlar massivi",
+            "2x2 nol qiymatli massiv",
+            "2x2 o‘lchamli va har bir elementi 7 bo‘lgan massiv",
+            "Foydalanuvchidan qiymat so‘raydi"
+        ],
+        "answer": "2x2 o‘lchamli va har bir elementi 7 bo‘lgan massiv"
+    },
+    {
+        "question": "Massivni tekislash uchun qaysi NumPy funksiyasi ishlatiladi?",
+        "options": [
+            "flatten()",
+            "resize()",
+            "reshape()",
+            "format()"
+        ],
+        "answer": "flatten()"
+    },
+    {
+        "question": "np.concatenate((a, b)) funksiyasi nima qiladi?",
+        "options": [
+            "Ikkita massivni birlashtiradi",
+            "Ikkita massivni solishtiradi",
+            "Ikkita massivni ko‘paytiradi",
+            "Ikkita massivni taqqoslaydi"
+        ],
+        "answer": "Ikkita massivni birlashtiradi"
+    },
+    {
+        "question": "np.ndim(arr) funksiyasi nimani aniqlaydi?",
+        "options": [
+            "Massivning o‘lchamlar sonini",
+            "Massivdagi umumiy elementlar sonini",
+            "Massivdagi maksimal qiymatni",
+            "Massivdagi minimal qiymatni"
+        ],
+        "answer": "Massivning o‘lchamlar sonini"
+    },
+    {
+        "question": "Massivning ma’lum o‘lchamdagi qismini olish uchun qaysi amaldan foydalaniladi?",
+        "options": [
+            "Kesish (slicing)",
+            "Qo‘shish",
+            "Ko‘paytirish",
+            "Taqqoslash"
+        ],
+        "answer": "Kesish (slicing)"
+    },
+    {
+        "question": "np.random.randint(1, 10, 5) funksiyasi nima hosil qiladi?",
+        "options": [
+            "1 va 10 oralig‘ida 5 ta tasodifiy butun son",
+            "1 dan 10 gacha ketma-ket sonlar",
+            "1 va 5 oralig‘ida 10 ta tasodifiy son",
+            "10 dan 1 gacha sonlar"
+        ],
+        "answer": "1 va 10 oralig‘ida 5 ta tasodifiy butun son"
+    },
+    {
+        "question": "Massivdagi barcha elementlarni birdan oshirish uchun qaysi amaldan foydalanamiz?",
+        "options": [
+            "arr + 1",
+            "arr * 2",
+            "arr - 1",
+            "arr / 2"
+        ],
+        "answer": "arr + 1"
+    },
+    {
+        "question": "Massivdagi elementlar o‘rtacha qiymatini topish uchun qaysi metoddan foydalaniladi?",
+        "options": [
+            "mean()",
+            "sum()",
+            "median()",
+            "average()"
+        ],
+        "answer": "mean()"
+    },
+    {
+        "question": "np.clip(arr, 0, 1) funksiyasi nima qiladi?",
+        "options": [
+            "Massiv elementlarini 0 va 1 oralig‘ida cheklaydi",
+            "Massiv elementlarini 0 ga o‘zgartiradi",
+            "Massiv elementlarini 1 ga oshiradi",
+            "Massivni teskari tartibda joylaydi"
+        ],
+        "answer": "Massiv elementlarini 0 va 1 oralig‘ida cheklaydi"
+    },
+    {
+        "question": "np.reshape(arr, (2,3)) funksiyasi nima qiladi?",
+        "options": [
+            "Massivni 2x3 o‘lchamga o‘zgartiradi",
+            "Massivni ikki baravar qiladi",
+            "Massivdagi 2 va 3-qiymatlarni almashtiradi",
+            "Massivni 6 elementga ajratadi"
+        ],
+        "answer": "Massivni 2x3 o‘lchamga o‘zgartiradi"
+    },
+    {
+        "question": "np.flatten() funksiyasining vazifasi nima?",
+        "options": [
+            "Ko‘p o‘lchamli massivni tekis (1D) massivga o‘tkazish",
+            "Massiv elementlarini teskari tartibda chiqarish",
+            "Massivni diagonal bo‘ylab ajratish",
+            "Massivni tasodifiy aralashtirish"
+        ],
+        "answer": "Ko‘p o‘lchamli massivni 1D massivga o‘tkazish"
+    },
+    {
+        "question": "np.unique(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Faqat noyob elementli massiv qaytaradi",
+            "Massivni teskari qiladi",
+            "Elementlarning yig‘indisini hisoblaydi",
+            "Massiv elementlarini juft va toqlarga ajratadi"
+        ],
+        "answer": "Faqat noyob elementli massiv qaytaradi"
+    },
+    {
+        "question": "np.split(arr, 2) funksiyasi nima qiladi?",
+        "options": [
+            "Massivni 2 teng qismga bo‘ladi",
+            "Massivni 2 ga ko‘paytiradi",
+            "Massivni 2 ga kamaytiradi",
+            "Massivdagi 2-chi elementni olib tashlaydi"
+        ],
+        "answer": "Massivni 2 teng qismga bo‘ladi"
+    },
+    {
+        "question": "np.where(arr > 5) funksiyasi nima uchun kerak?",
+        "options": [
+            "Massivdagi barcha 5 dan katta sonlarni olib tashlash uchun",
+            "Massivni 5 baravar oshirish uchun",
+            "Massivdagi barcha 5 dan kichik sonlarni 0 qilish uchun",
+            "Shartga mos keladigan element indekslarini topish uchun"
+        ],
+        "answer": "Shartga mos keladigan element indekslarini topish uchun"
+    },
+    {
+        "question": "np.any(arr > 0) funksiyasi qanday natija beradi?",
+        "options": [
+            "Barcha elementlar musbat bo‘lsa True qaytaradi",
+            "Massivdagi musbat sonlarning yig‘indisini qaytaradi",
+            "Agar hech bo‘lmasa bitta musbat son bo‘lsa True qaytaradi",
+            "Massivdagi 0 larni sanaydi"
+        ],
+        "answer": "Agar hech bo‘lmasa bitta musbat son bo‘lsa True qaytaradi"
+    },
+    {
+        "question": "np.all(arr > 0) funksiyasi nima qiladi?",
+        "options": [
+            "Barcha elementlar musbat bo‘lsa True qaytaradi",
+            "Agar hech bo‘lmasa bitta musbat son bo‘lsa True qaytaradi",
+            "Massivni 0 bilan to‘ldiradi",
+            "Barcha manfiy sonlarni olib tashlaydi"
+        ],
+        "answer": "Barcha elementlar musbat bo‘lsa True qaytaradi"
+    },
+    {
+        "question": "np.argmin(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Eng katta element indeksini topadi",
+            "Eng kichik element indeksini topadi",
+            "Massivdagi 0 larning sonini topadi",
+            "Massivdagi elementlarni kamayish tartibida saralaydi"
+        ],
+        "answer": "Eng kichik element indeksini topadi"
+    },
+    {
+        "question": "np.argmax(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Eng kichik element indeksini topadi",
+            "Barcha elementlarni 1 ga ko‘paytiradi",
+            "Eng katta element indeksini topadi",
+            "Massivni teskari tartibda chiqaradi"
+        ],
+        "answer": "Eng katta element indeksini topadi"
+    },
+    {
+        "question": "np.cumsum(arr) funksiyasi nima beradi?",
+        "options": [
+            "Massivning barcha elementlari yig‘indisini",
+            "Massivni nusxasini",
+            "Massivni teskari qiladi",
+            "Qayta-qayta yig‘indilar massivini"
+        ],
+        "answer": "Qayta-qayta yig‘indilar massivini"
+    },
+    {
+        "question": "np.cumprod(arr) funksiyasi natijasi nima?",
+        "options": [
+            "Faqat musbat sonlarni qaytaradi",
+            "Qayta-qayta ko‘paytmalar massivini",
+            "Massivni bo‘shatadi",
+            "Elementlarning yig‘indisini chiqaradi"
+        ],
+        "answer": "Qayta-qayta ko‘paytmalar massivini"
+    },
+    {
+        "question": "np.ptp(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Massivdagi o‘rtacha qiymatni hisoblaydi",
+            "Massivdagi barcha qiymatlarni musbat qiladi",
+            "Massivni transpozitsiya qiladi",
+            "Massivdagi maksimal va minimal qiymat farqini beradi"
+        ],
+        "answer": "Massivdagi maksimal va minimal qiymat farqini beradi"
+    },
+    {
+        "question": "np.diff(arr) funksiyasi natijasi nima?",
+        "options": [
+            "Massivni kvadrat qiladi",
+            "Massivdagi 0 larning o‘rnini 1 bilan to‘ldiradi",
+            "Massivni teskari qiladi",
+            "Ketma-ket elementlar orasidagi farqlarni qaytaradi"
+        ],
+        "answer": "Ketma-ket elementlar orasidagi farqlarni qaytaradi"
+    },
+    {
+        "question": "np.tile(arr, 2) funksiyasi nima qiladi?",
+        "options": [
+            "Massivni 2 marta takrorlaydi",
+            "Massivni 2 ga ko‘paytiradi",
+            "Massivdan 2 tasini olib tashlaydi",
+            "Massivdagi elementlarni 2 ga bo‘ladi"
+        ],
+        "answer": "Massivni 2 marta takrorlaydi"
+    },
+    {
+        "question": "np.repeat(arr, 3) funksiyasi nima beradi?",
+        "options": [
+            "Har bir elementni 3 marta takrorlab massivga joylaydi",
+            "Har uchinchi elementni oladi",
+            "3 ta massivni birlashtiradi",
+            "Massivni 3 ga qisqartiradi"
+        ],
+        "answer": "Barcha element 3 marta takrorlab massivga joylaydi"
+    },
+    {
+        "question": "np.isnan(arr) funksiyasi qanday natija beradi?",
+        "options": [
+            "Massivdagi NaN qiymatlarni aniqlaydi",
+            "Massivdagi 0 qiymatlarni aniqlaydi",
+            "Barcha musbat sonlarni aniqlaydi",
+            "Elementlar ustida logarifm hisoblaydi"
+        ],
+        "answer": "Massivdagi NaN qiymatlarni aniqlaydi"
+    },
+    {
+        "question": "np.isinf(arr) funksiyasi vazifasi nima?",
+        "options": [
+            "Massivdagi cheksiz (inf) qiymatlarni aniqlash",
+            "Massivdagi salbiy qiymatlarni aniqlash",
+            "Massivni indeks bo‘yicha saralash",
+            "Massiv elementlarini tasodifiy almashtirish"
+        ],
+        "answer": "Massivdagi cheksiz (inf) qiymatlarni aniqlash"
+    },
+    {
+        "question": "np.random.choice(arr, 3) nima qiladi?",
+        "options": [
+            "Massivdan tasodifiy 3 ta element tanlaydi",
+            "Massivni 3 baravar oshiradi",
+            "Massivning birinchi 3 ta elementini oladi",
+            "Massivni 3 qismga bo‘ladi"
+        ],
+        "answer": "Massivdan tasodifiy 3 ta element tanlaydi"
+    },
+    {
+        "question": "np.expand_dims(arr, axis=0) funksiyasi nima uchun kerak?",
+        "options": [
+            "Massivga yangi o‘lchov (axis) qo‘shadi",
+            "Massivni qisqartiradi",
+            "Massiv elementlarini 0 ga o‘zgartiradi",
+            "Massivdan 0 larni olib tashlaydi"
+        ],
+        "answer": "Massivga yangi o‘lchov (axis) qo‘shadi"
+    },
+    {
+        "question": "np.linspace(0, 10, 5) funksiyasi natijasi qanday bo‘ladi?",
+        "options": [
+            "0 dan 10 gacha 5 ta tasodifiy son",
+            "5 marta 0 va 10 ni takrorlaydi",
+            "10 ta 5 qiymatini beradi",
+            "0 va 10 oralig‘ida 5 ta teng taqsimlangan nuqta"
+        ],
+        "answer": "0 va 10 oralig‘ida 5 ta teng taqsimlangan nuqta"
+    },
+    {
+        "question": "np.logspace(1, 2, 5) funksiyasi nima qiladi?",
+        "options": [
+            "Logarifmik funktsiya hosil qiladi",
+            "Barcha elementlarning logarifmini oladi",
+            "Sonlarni kvadratga ko‘taradi",
+            "10^1 dan 10^2 gacha logarifmik 5 ta son beradi"
+        ],
+        "answer": "10^1 dan 10^2 gacha logarifmik 5 ta son beradi"
+    },
+    {
+        "question": "np.meshgrid(x, y) funksiyasi vazifasi nima?",
+        "options": [
+            "Ikkita massivni birlashtirish",
+            "Ikkita massivdan koordinatalar hosil qilish",
+            "Ikkita massivni farqini olish",
+            "Massivlarni diagonal kesish"
+        ],
+        "answer": "Ikkita massivdan koordinatalar hosil qilish"
+    },
+    {
+        "question": "np.indices((2, 3)) funksiyasi nima yaratadi?",
+        "options": [
+            "2x3 tasodifiy sonlar",
+            "2x3 o‘lchamli indeks massiv",
+            "2 va 3 orasidagi tasodifiy sonlar",
+            "Har bir elementni 2 va 3 ga ko‘paytiradi"
+        ],
+        "answer": "2x3 o‘lchamli indeks massiv"
+    },
+    {
+        "question": "np.array_split(arr, 3) funksiyasi nima qiladi?",
+        "options": [
+            "Massivni 3 barobar ko‘paytiradi",
+            "Massivni 3 ta kichik guruhga ajratadi",
+            "Massivdan 3 ta element o‘chiradi",
+            "Massivning faqat 3 ta birinchi elementini oladi"
+        ],
+        "answer": "Massivni 3 ta kichik guruhga ajratadi"
+    },
+    {
+        "question": "np.sort(arr, axis=0) funksiyasi qanday ishlaydi?",
+        "options": [
+            "Massivni 0-chi vertikal o‘q bo‘yicha saralaydi",
+            "Massivni gorizontal saralaydi",
+            "Massivni aralashtiradi",
+            "Massivdan maksimal qiymatni chiqaradi"
+        ],
+        "answer": "Massivni 0-chi vertikal o‘q bo‘yicha saralaydi"
+    },
+    {
+        "question": "np.sort(arr, axis=1) funksiyasi nima qiladi?",
+        "options": [
+            "Massivni 1-chi gorizontal o‘q bo‘yicha saralaydi",
+            "Massivni diagonal bo‘yicha saralaydi",
+            "Massivdagi 1-chi elementni olib tashlaydi",
+            "Massivni 1 qatorga o‘tkazadi"
+        ],
+        "answer": "Massivni 1-chi gorizontal o‘q bo‘yicha saralaydi"
+    },
+    {
+        "question": "np.argsort(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Elementlarni kamayish tartibida saralaydi",
+            "Faqat maksimal elementni qaytaradi",
+            "Elementlarni saralash tartibi indexlarini beradi",
+            "Massivni random o‘zgartiradi"
+        ],
+        "answer": "Elementlarni saralash tartibi indexlarini beradi"
+    },
+    {
+        "question": "np.take(arr, [0,2,4]) funksiyasi natijasi qanday bo‘ladi?",
+        "options": [
+            "Massivning birinchi uch elementini oladi",
+            "Massivdagi 0, 2 va 4 qiymatlarni olib tashlaydi",
+            "0, 2 va 4-indekslardagi elementlarni oladi",
+            "Massivni uch qismga bo‘ladi"
+        ],
+        "answer": "0, 2 va 4-indekslardagi elementlarni oladi"
+    },
+    {
+        "question": "np.put(arr, [1,3], [10,20]) funksiyasi nima qiladi?",
+        "options": [
+            "Massivga yangi elementlar qo‘shadi",
+            "1 va 3-chi satrlarni olib tashlaydi",
+            "1 va 3-indekslardagi elementlarni 10 va 20 bilan almashtiradi",
+            "Massivdagi barcha 10 va 20 qiymatlarni olib tashlaydi"
+        ],
+        "answer": "1 va 3-indekslardagi elementlarni 10 va 20 bilan almashtiradi"
+    },
+    {
+        "question": "np.copy(arr) funksiyasining vazifasi nima?",
+        "options": [
+            "Massivni aralashtiradi",
+            "Massivni bo‘shatadi",
+            "Massivning mustaqil nusxasini yaratadi",
+            "Massivni ikki barobar oshiradi"
+        ],
+        "answer": "Massivning mustaqil nusxasini yaratadi"
+    },
+    {
+        "question": "np.view(dtype=float) funksiyasi nima qiladi?",
+        "options": [
+            "Massivdagi qiymatlarni o‘chiradi",
+            "Massivni yangi ma'lumot turi (dtype) ko‘rinishida ko‘rsatadi",
+            "Massivni musbat sonlarga aylantiradi",
+            "Massivni logarifmik o‘zgartiradi"
+        ],
+        "answer": "Massivni yangi ma'lumot turi ko‘rinishida ko‘rsatadi"
+    },
+    {
+        "question": "np.clip(arr, 0, 10) funksiyasi nima qiladi?",
+        "options": [
+            "Qiymatlarni 0 va 10 oralig‘iga cheklaydi",
+            "Barcha qiymatlarni 0 va 10 ga ko‘paytiradi",
+            "Massivdagi 0 va 10 qiymatlarni olib tashlaydi",
+            "Massivni 10 qismga bo‘ladi"
+        ],
+        "answer": "Qiymatlarni 0 va 10 oralig‘iga cheklaydi"
+    },
+    {
+        "question": "np.setdiff1d(arr1, arr2) funksiyasi nima beradi?",
+        "options": [
+            "arr1 va arr2 o‘xshash elementlari",
+            "arr1 dagi, arr2 da bo‘lmagan elementlar",
+            "arr2 dagi arr1 da bo‘lgan elementlar",
+            "arr1 va arr2 ni birlashtirilgan massiv"
+        ],
+        "answer": "arr1 dagi, arr2 da bo‘lmagan elementlar"
+    },
+    {
+        "question": "np.intersect1d(arr1, arr2) vazifasi nima?",
+        "options": [
+            "Ikkala massivni farqlash",
+            "Ikkala massivdagi umumiy elementlarni topish",
+            "Ikkala massivni birlashtirish",
+            "Massivlardan faqat bitta element olish"
+        ],
+        "answer": "Ikkala massivdagi umumiy elementlarni topish"
+    },
+    {
+        "question": "np.union1d(arr1, arr2) funksiyasi nima beradi?",
+        "options": [
+            "arr1 va arr2 ning o‘zaro farqi",
+            "arr1 va arr2 ning yagona (takrorlanmas) birlashmasi",
+            "arr1 dan arr2 ni olib tashlash",
+            "arr1 va arr2 ni diagonal bo‘yicha ajratish"
+        ],
+        "answer": "arr1 va arr2 ning yagona birlashmasi"
+    },
+    {
+        "question": "np.isin(arr, [1,2,3]) funksiyasi nima qiladi?",
+        "options": [
+            "arr massivining elementlari 1,2,3 ga tengmi tekshiradi",
+            "arrdagi 1,2,3 ni olib tashlaydi",
+            "arrdagi 1,2,3 ni 0 bilan almashtiradi",
+            "arrni 1,2,3 ga ko‘paytiradi"
+        ],
+        "answer": "arr massivining elementlari 1,2,3 ga tengmi tekshiradi"
+    },
+    {
+        "question": "np.nan_to_num(arr) funksiyasi nima vazifani bajaradi?",
+        "options": [
+            "NaN qiymatlarni 0 bilan almashtiradi",
+            "NaN qiymatlarni o‘chirib tashlaydi",
+            "NaN qiymatlarni tasodifiy son bilan almashtiradi",
+            "Massivni kvadrat qiladi"
+        ],
+        "answer": "NaN qiymatlarni 0 bilan almashtiradi"
+    },
+    {
+        "question": "np.round(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Sonlarni eng yaqin butun songa yaxlitlaydi",
+            "Sonlarni kvadrat qiladi",
+            "Sonlarni 0 ga almashtiradi",
+            "Sonlarni 2 ga ko‘paytiradi"
+        ],
+        "answer": "Sonlarni eng yaqin butun songa yaxlitlaydi"
+    },
+    {
+        "question": "np.floor(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Sonni yuqoriga yaxlitlaydi",
+            "Sonni 0 ga tenglashtiradi",
+            "Sonni pastga yaxlitlaydi",
+            "Sonni 10 ga ko‘paytiradi"
+        ],
+        "answer": "Sonni pastga yaxlitlaydi"
+    },
+    {
+        "question": "np.ceil(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Sonlarni pastga yaxlitlaydi",
+            "Sonlarni 0 bilan almashtiradi",
+            "Sonlarni yuqoriga yaxlitlaydi",
+            "Sonlarni 2 ga ko‘paytiradi"
+        ],
+        "answer": "Sonlarni yuqoriga yaxlitlaydi"
+    },
+    {
+        "question": "np.ptp(arr) funksiyasi nima beradi?",
+        "options": [
+            "Massivning o‘rtacha qiymati",
+            "Massivning tasodifiy qiymatini",
+            "Massivdagi maksimal va minimal qiymat orasidagi farq",
+            "Massivni diagonal shaklida ajratadi"
+        ],
+        "answer": "Massivdagi maksimal va minimal qiymat orasidagi farq"
+    },
+    {
+        "question": "np.percentile(arr, 50) funksiyasi nimani qaytaradi?",
+        "options": [
+            "Massivning eng katta qiymatini",
+            "Massivning 50 foizini olib tashlaydi",
+            "Massivni 2 qismga bo‘ladi",
+            "Massivning 50 foizlik median qiymatini"
+        ],
+        "answer": "Massivning 50 foizlik median qiymatini"
+    },
+    {
+        "question": "np.median(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Massivning maksimumini topadi",
+            "Massivning minimumini topadi",
+            "Massivni tartiblaydi",
+            "Massivning medianasini topadi"
+        ],
+        "answer": "Massivning medianasini topadi"
+    },
+    {
+        "question": "np.outer(a, b) funksiyasi nima hosil qiladi?",
+        "options": [
+            "Ikkita massivning ichki ko‘paytmasini",
+            "Ikkita massivning yig‘indisini",
+            "Ikkita massivning tashqi ko‘paytmasini",
+            "Ikkita massivni birlashtiradi"
+        ],
+        "answer": "Ikkita massivning tashqi ko‘paytmasini"
+    },
+    {
+        "question": "np.inner(a, b) funksiyasi nima qiladi?",
+        "options": [
+            "Ikkita massivning tashqi ko‘paytmasini hisoblaydi",
+            "Ikkita massivni birlashtiradi",
+            "Ikkita massivning ichki ko‘paytmasini hisoblaydi",
+            "Ikkita massivni tartiblaydi"
+        ],
+        "answer": "Ikkita massivning ichki ko‘paytmasini hisoblaydi"
+    },
+    {
+        "question": "np.linalg.norm(arr) funksiyasi nimani qaytaradi?",
+        "options": [
+            "Massivning maksimal qiymatini",
+            "Massivning minimal qiymatini",
+            "Massivning uzunligini (normasini)",
+            "Massivning o‘rtacha qiymatini"
+        ],
+        "answer": "Massivning uzunligini (normasini)"
+    },
+    {
+        "question": "np.linalg.det(matrix) funksiyasi nima qiladi?",
+        "options": [
+            "Matritsani diagonal qiladi",
+            "Matritsaning determinantini hisoblaydi",
+            "Matritsani ko‘paytiradi",
+            "Matritsani bo‘sh qiladi"
+        ],
+        "answer": "Matritsaning determinantini hisoblaydi"
+    },
+    {
+        "question": "np.unique(arr, return_counts=True) nima beradi?",
+        "options": [
+            "Takrorlanmas elementlar va ularning soni",
+            "Faqat takrorlanmas elementlar",
+            "Takroriy elementlar",
+            "Barcha elementlar takroriy ko‘rinishda"
+        ],
+        "answer": "Takrorlanmas elementlar va ularning soni"
+    },
+    {
+        "question": "np.random.permutation(arr) funksiyasi nima qiladi?",
+        "options": [
+            "Massiv elementlarini aralashtiradi",
+            "Massivni o‘sish tartibida saralaydi",
+            "Massivdan maksimal qiymatni chiqaradi",
+            "Massivni 2 baravar ko‘paytiradi"
+        ],
+        "answer": "Massiv elementlarini aralashtiradi"
+    },
+    {
+        "question": "NumPy so‘zining to‘liq shakli qanday?",
+        "options": [
+            "Number Python",
+            "Numbering Python",
+            "Numerical Python",
+            "Numeric Programming"
+        ],
+        "answer": "Numerical Python"
+    },
+    {
+        "question": "NumPy kutubxonasida 'ndim' qisqartmasining to‘liq yozilishi qanday?",
+        "options": [
+            "number dimension",
+            "n-dimensional",
+            "number defined matrix",
+            "normal dimension"
+        ],
+        "answer": "n-dimensional"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); a + 5`",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[5, 10, 15, 20]",
+            "[6, 7, 8, 9]",
+            "Error"
+        ],
+        "answer": "[6, 7, 8, 9]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); a * 2`",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[3, 6, 9, 12]",
+            "[2, 4, 6, 8]",
+            "Error"
+        ],
+        "answer": "[2, 4, 6, 8]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.sum(a)`",
+        "options": [
+            "10",
+            "24",
+            "7",
+            "None"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.mean(a)`",
+        "options": [
+            "3",
+            "10",
+            "1",
+            "2.5"
+        ],
+        "answer": "2.5"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.min(a)`",
+        "options": [
+            "4",
+            "2",
+            "1",
+            "None"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.max(a)`",
+        "options": [
+            "4",
+            "3",
+            "1",
+            "2"
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([[1, 2], [3, 4]]); np.shape(a)`",
+        "options": [
+            "(2, 2)",
+            "(4, 1)",
+            "(2, 4)",
+            "(1, 2)"
+        ],
+        "answer": "(2, 2)"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.prod(a)`",
+        "options": [
+            "24",
+            "10",
+            "7",
+            "None"
+        ],
+        "answer": "24"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.square(a)`",
+        "options": [
+            "[1, 4, 9, 16]",
+            "[2, 4, 6, 8]",
+            "[1, 8, 27, 64]",
+            "[1, 2, 3, 4]"
+        ],
+        "answer": "[1, 4, 9, 16]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.subtract(a, 1)`",
+        "options": [
+            "[0, 1, 2, 3]",
+            "[1, 2, 3, 4]",
+            "[2, 3, 4, 5]",
+            "[None]"
+        ],
+        "answer": "[0, 1, 2, 3]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.multiply(a, 3)`",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[4, 5, 6, 7]",
+            "[3, 6, 9, 12]",
+            "[None]"
+        ],
+        "answer": "[3, 6, 9, 12]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.divide(a, 2)`",
+        "options": [
+            "[0.5, 1.0, 1.5, 2.0]",
+            "[1.5, 2.5, 3.5, 4.5]",
+            "[2, 4, 6, 8]",
+            "[None]"
+        ],
+        "answer": "[0.5, 1.0, 1.5, 2.0]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.dot(a, a)`",
+        "options": [
+            "30",
+            "10",
+            "24",
+            "None"
+        ],
+        "answer": "30"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.cumsum(a)`",
+        "options": [
+            "[1, 3, 6, 10]",
+            "[1, 2, 3, 4]",
+            "[0, 1, 3, 6]",
+            "[None]"
+        ],
+        "answer": "[1, 3, 6, 10]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.arange(1, 10, 2)`",
+        "options": [
+            "[1, 3, 5, 7, 9]",
+            "[1, 2, 3, 4]",
+            "[0, 1, 2, 3]",
+            "[None]"
+        ],
+        "answer": "[1, 3, 5, 7, 9]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.sort(a)`",
+        "options": [
+            "[4, 3, 2, 1]",
+            "[2, 1, 3, 4]",
+            "[1, 2, 3, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.concatenate((a, a))`",
+        "options": [
+            "[1, 1, 2, 2, 3, 3, 4, 4]",
+            "[4, 3, 2, 1, 4, 3, 2, 1]",
+            "[1, 2, 3, 4, 1, 2, 3, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 2, 3, 4, 1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.append(a, 5)`",
+        "options": [
+            "[5, 4, 3, 2, 1]",
+            "[4, 3, 2, 1, 5]",
+            "[1, 2, 3, 4, 5]",
+            "[None]"
+        ],
+        "answer": "[1, 2, 3, 4, 5]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.insert(a, 2, 10)`",
+        "options": [
+            "[10, 1, 2, 3, 4]",
+            "[1, 2, 10, 3, 4]",
+            "[1, 2, 3, 10, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 2, 10, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.delete(a, 1)`",
+        "options": [
+            "[0, 2, 4]",
+            "[2, 3, 4]",
+            "[1, 3, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.mean(a)`",
+        "options": [
+            "2.5",
+            "3",
+            "4",
+            "2"
+        ],
+        "answer": "2.5"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.argmax(a)`",
+        "options": [
+            "1",
+            "4",
+            "3",
+            "None"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.argmin(a)`",
+        "options": [
+            "4",
+            "1",
+            "2",
+            "0"
+        ],
+        "answer": "0"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.sort(a)`",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[4, 3, 2, 1]",
+            "[2, 1, 3, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.argsort(a)`",
+        "options": [
+            "[0, 1, 2, 3]",
+            "[3, 2, 1, 0]",
+            "[None]",
+            "[1, 2, 3, 4]"
+        ],
+        "answer": "[0, 1, 2, 3]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.reshape(a, (2, 2))`",
+        "options": [
+            "[[1, 2], [3, 4]]",
+            "[[1, 3], [2, 4]]",
+            "[[1, 2, 3], [4]]",
+            "[None]"
+        ],
+        "answer": "[[1, 2], [3, 4]]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.transpose(a)`",
+        "options": [
+            "[[1], [2], [3], [4]]",
+            "[[1, 2,][ 3, 4]]",
+            "[1, 2, 3, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.repeat(a, 2)`",
+        "options": [
+            "[2, 4, 6, 8]",
+            "[1, 2, 3, 4, 1, 2, 3, 4]",
+            "[1, 1, 2, 2, 3, 3, 4, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 1, 2, 2, 3, 3, 4, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.tile(a, 2)`",
+        "options": [
+            "[1, 1, 1, 1]",
+            "[1, 2, 3, 4, 1, 2, 3, 4]",
+            "[None]",
+            "[4, 3, 2, 1]"
+        ],
+        "answer": "[1, 2, 3, 4, 1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.sum(a)`",
+        "options": [
+            "10",
+            "24",
+            "12",
+            "None"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.flatten(a)`",
+        "options": [
+            "[1, 2, 3, 4, 5]",
+            "[[1], [2], [3], [4], [5]]",
+            "[None]",
+            "[1, 2, 3, 4, 5, 6]"
+        ],
+        "answer": "[1, 2, 3, 4, 5]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([[1, 2], [3, 4]]); np.trace(a)`",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "None"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([[1, 2], [3, 4]]); np.diagonal(a)`",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[2, 3]",
+            "[1, 4]",
+            "[None]"
+        ],
+        "answer": "[1, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.mean(a)`",
+        "options": [
+            "4",
+            "3",
+            "2.5",
+            "1"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.median(a)`",
+        "options": [
+            "3",
+            "2",
+            "4",
+            "None"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.var(a)`",
+        "options": [
+            "3.0",
+            "2.0",
+            "1.25",
+            "None"
+        ],
+        "answer": "2.0"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.reshape(a, (2, 2))`",
+        "options": [
+            "[[1, 2], [3, 4]]",
+            "[[1, 3], [2, 4]]",
+            "[[1, 2, 3], [4]]",
+            "[None]"
+        ],
+        "answer": "[[1, 2], [3, 4]]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([10, 20, 30, 40, 50]); np.cumsum(a)`",
+        "options": [
+            "[10, 30, 60, 100, 150]",
+            "[0, 10, 20, 30, 40]",
+            "[10, 20, 30, 40, 50]",
+            "[None]"
+        ],
+        "answer": "[10, 30, 60, 100, 150]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.all(a > 3)`",
+        "options": [
+            "False",
+            "True",
+            "None",
+            "Error"
+        ],
+        "answer": "False"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.diff(a)`",
+        "options": [
+            "[1, 1, 1]",
+            "[1, 2, 3]",
+            "[0, 1, 1, 1]",
+            "[None]"
+        ],
+        "answer": "[1, 1, 1]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.cumsum(a)`",
+        "options": [
+            "[15, 15, 15, 15, 15]",
+            "[10, 20, 30, 40, 50]",
+            "[1, 3, 6, 10, 15]",
+            "[None]"
+        ],
+        "answer": "[1, 3, 6, 10, 15]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.random.shuffle(a)`",
+        "options": [
+            "[5, 4, 3, 2, 1]",
+            "[None]",
+            "[1, 2, 3, 4, 5]",
+            "[4, 3, 2, 1, 5]"
+        ],
+        "answer": "[None]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.flip(a)`",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[4, 3, 2, 1]",
+            "[None]",
+            "[4, 5, 6, 7]"
+        ],
+        "answer": "[4, 3, 2, 1]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.resize(a, (2, 3))`",
+        "options": [
+            "[[1, 2, 3], [4, 5, 1]]",
+            "[[1, 2, 3], [4, 5, 6]]",
+            "[[1, 2], [3, 4], [5, 1]]",
+            "[None]"
+        ],
+        "answer": "[[1, 2, 3], [4, 5, 1]]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.unique(a)`",
+        "options": [
+            "[1, 2, 3, 4, 5]",
+            "[None]",
+            "[1, 2, 3]",
+            "[1, 2, 3, 4]"
+        ],
+        "answer": "[1, 2, 3, 4, 5]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 1, 2, 2, 3, 3]); np.unique(a, return_counts=True)`",
+        "options": [
+            "([1, 2, 3], [1, 1, 1])",
+            "([1, 2, 3], [2, 2, 2])",
+            "([1, 2, 3], [3, 3, 3])",
+            "[None]"
+        ],
+        "answer": "([1, 2, 3], [2, 2, 2])"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.all(a > 0)`",
+        "options": [
+            "False",
+            "None",
+            "True",
+            "1"
+        ],
+        "answer": "True"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.arange(5)`",
+        "options": [
+            "[0, 1, 2, 3, 4, 5]",
+            "[0, 1, 2, 3, 4]",
+            "[None]",
+            "[1, 2, 3, 4, 5]"
+        ],
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.sort(a)[::-1]`",
+        "options": [
+            "[4, 3, 2, 1]",
+            "[1, 2, 3, 4, 5]",
+            "[5, 4, 3, 2, 1]",
+            "[None]"
+        ],
+        "answer": "[5, 4, 3, 2, 1]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.corrcoef(a, a)`",
+        "options": [
+            "[[1, 0], [0, 1]]",
+            "[None]",
+            "[[1, -1], [-1, 1]]",
+            "[[1, 1], [1, 1]]"
+        ],
+        "answer": "[[1, 1], [1, 1]]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.subtract(a, 1)`",
+        "options": [
+            "[2, 3, 4, 5, 6]",
+            "[1, 2, 3, 4, 5]",
+            "[0, 1, 2, 3, 4]",
+            "[None]"
+        ],
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.add(a, 10)`",
+        "options": [
+            "[11, 12, 13, 14, 15]",
+            "[10, 9, 8, 7, 6]",
+            "[None]",
+            "[1, 2, 3, 4, 5]"
+        ],
+        "answer": "[11, 12, 13, 14, 15]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.floor(a)`",
+        "options": [
+            "[1.0, 2.0, 3.0, 4.0, 5.0]",
+            "[1, 2, 3, 4, 5]",
+            "[None]",
+            "[2.0, 3.0, 4.0, 5.0, 6.0]"
+        ],
+        "answer": "[1.0, 2.0, 3.0, 4.0, 5.0]"
+    },
+    {
+        "question": "NumPy kutubxonasi nima uchun ishlatiladi?",
+        "options": [
+            "Ma'lumotlar bazasini boshqarish",
+            "Matematik va statistik hisoblashlarni optimallashtirish",
+            "Veb-dasturlarni yaratish",
+            "Hujjatlarni yaratish va tahrirlash"
+        ],
+        "answer": "Matematik va statistik hisoblashlarni optimallashtirish"
+    },
+    {
+        "question": "NumPy ning `ndarray` obyekti nima?",
+        "options": [
+            "Ma'lumotlar bazasini saqlash uchun konteyner",
+            "Ko‘p o‘lchovli massiv",
+            "Fayl tizimini boshqarish vositasi",
+            "Ma'lumotlarni faylga yozish va o‘qish vositasi"
+        ],
+        "answer": "Ko‘p o‘lchovli massiv"
+    },
+    {
+        "question": "NumPy kutubxonasida `axis` parametri nima maqsadda ishlatiladi?",
+        "options": [
+            "Massivga yangi o‘lcham qo‘shish",
+            "Funktsiyalarni faqat o‘rnatilgan o‘lchovda bajarish",
+            "Massivning yo‘nalishini belgilash",
+            "Ko‘p o‘lchovli massivni bir o‘lchovli massivga aylantirish"
+        ],
+        "answer": "Funktsiyalarni faqat o‘rnatilgan o‘lchovda bajarish"
+    },
+    {
+        "question": "NumPy kutubxonasidagi `broadcasting` nima?",
+        "options": [
+            "Massivdagi barcha elementlarni ko‘paytirish",
+            "Har xil o‘lchamdagi massivlar bilan ishlash",
+            "Massivlarni maxsus shaklda chiqarish",
+            "Funktsiyalarni parallel ravishda bajarish"
+        ],
+        "answer": "Har xil o‘lchamdagi massivlar bilan ishlash"
+    },
+    {
+        "question": "NumPy kutubxonasida `numpy.random` moduli nima uchun ishlatiladi?",
+        "options": [
+            "Tasodifiy sonlarni yaratish va statistik jarayonlar",
+            "Funktsiyalarga tasodifiy elementlar qo‘shish",
+            "Massivdagi elementlarni o‘zgartirish",
+            "Ma'lumotlar faylini o‘qish va saqlash"
+        ],
+        "answer": "Tasodifiy sonlarni yaratish"
+    },
+    {
+        "question": "NumPy kutubxonasida `np.arange()` funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Matematik hisoblashlarni tezlashtirish",
+            "Ko‘p o‘lchovli massiv yaratish",
+            "Belgilangan oraliqda raqamlar yaratish",
+            "Statistik tahlilni o‘tkazish"
+        ],
+        "answer": "Belgilangan oraliqda raqamlar yaratish"
+    },
+    {
+        "question": "NumPy kutubxonasida `np.dot()` funksiyasi qanday vazifani bajaradi?",
+        "options": [
+            "Massivlarni bir-biriga qo‘shadi",
+            "Massivning elementlarini ko‘paytiradi",
+            "Matritsalar orasidagi nuqtaviy ko‘paytmani hisoblaydi",
+            "Yagona elementlarni ajratib ko‘rsatadi"
+        ],
+        "answer": "Matritsalar orasidagi nuqtaviy ko‘paytmani hisoblaydi"
+    }
+]

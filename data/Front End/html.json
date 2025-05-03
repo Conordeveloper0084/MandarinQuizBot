@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "HTML nima uchun ishlatiladi?",
+        "options": [
+            "Rasm chizish uchun",
+            "Web sahifa yaratish uchun",
+            "Ma'lumotlarni saqlash uchun",
+            "Mobil ilova yaratish uchun"
+        ],
+        "answer": "Web sahifa yaratish uchun"
+    },
+    {
+        "question": "HTML nechinchi yilda ishlab chiqarilgan?",
+        "options": [
+            "1989 yili",
+            "1990 yili",
+            "1991 yili",
+            "1992 yili"
+        ],
+        "answer": "1991 yili"
+    },
+    {
+        "question": "<br> tegi nima vazifani bajaradi?",
+        "options": [
+            "Sahifani bo'lish",
+            "Yangi qatordan boshlash",
+            "Matnni qalin qilish",
+            "Sahifani saqlash"
+        ],
+        "answer": "Yangi qatordan boshlash"
+    },
+    {
+        "question": "Qaysi atribut foydalanuvchi matn kiritadigan maydonni tavsiflaydi?",
+        "options": [
+            "value",
+            "type",
+            "placeholder",
+            "id"
+        ],
+        "answer": "placeholder"
+    },
+    {
+        "question": "Qaysi teg HTMLda matnni pastki chiziqli qilib ko'rsatadi?",
+        "options": [
+            "<u>",
+            "<s>",
+            "<b>",
+            "<strong>"
+        ],
+        "answer": "<u>"
+    },
+    {
+        "question": "HTMLda <div> tegining asosiy vazifasi nima?",
+        "options": [
+            "Matnni qalin qilish",
+            "Saytni ko'rish imkonini berish",
+            "Kontentni guruhlarga ajratish",
+            "Jadval yaratish"
+        ],
+        "answer": "Kontentni guruhlarga ajratish"
+    },
+    {
+        "question": "<style> tegi HTMLda qaysi vazifani bajaradi?",
+        "options": [
+            "Sahifa kodlarini yaratadi",
+            "Matnni o'zgartiradi",
+            "CSS qo'shadi",
+            "JavaScript qo'shadi"
+        ],
+        "answer": "CSS qo'shadi"
+    },
+    {
+        "question": "<form> tegida qaysi atribut yordamida ma'lumotlar serverga yuboriladi?",
+        "options": [
+            "method",
+            "action",
+            "value",
+            "type"
+        ],
+        "answer": "action"
+    },
+    {
+        "question": "HTMLda <textarea> tegi nima uchun ishlatiladi?",
+        "options": [
+            "Matnni qalin qilish",
+            "Katta matnli maydon yaratish",
+            "Sahifani yuklash",
+            "Xatoliklarni ko'rsatish"
+        ],
+        "answer": "Katta matnli maydon yaratish"
+    },
+    {
+        "question": "<p> tegi HTMLda nima uchun ishlatiladi?",
+        "options": [
+            "Matnni paragrafga ajratish",
+            "Sahifa sarlavhasini yaratish",
+            "Jadval yaratish",
+            "Link qo'shish"
+        ],
+        "answer": "Matnni paragrafga ajratish"
+    },
+    {
+        "question": "HTML sahifasida kontent ko'rsatiladigan qism qaysi tegda bo'ladi?",
+        "options": [
+            "<title>",
+            "<head>",
+            "<body>",
+            "<html>"
+        ],
+        "answer": "<body>"
+    },
+    {
+        "question": "HTMLda <style> tegining vazifasi nima?",
+        "options": [
+            "CSS kodlarini sahifaga qo'shish",
+            "JavaScript kodlarini sahifaga qo'shish",
+            "Rasmni sahifaga qo'shish",
+            "Sahifa sarlavhasini qo'shish"
+        ],
+        "answer": "CSS kodlarini sahifaga qo'shish"
+    },
+    {
+        "question": "<title> tegi qayerda ko'rinadi?",
+        "options": [
+            "Brauzerning yuqori sarlavhasida",
+            "Hujjat ichida",
+            "Footerda",
+            "Rasmlar tagida"
+        ],
+        "answer": "Brauzerning yuqori sarlavhasida"
+    },
+    {
+        "question": "HTMLda jadval yaratish uchun qaysi tegdan foydalaniladi?",
+        "options": [
+            "<ul>",
+            "<table>",
+            "<div>",
+            "<tr>"
+        ],
+        "answer": "<table>"
+    },
+    {
+        "question": "<td> tegi nimani bildiradi?",
+        "options": [
+            "Jadval qatori",
+            "Jadval sarlavhasi",
+            "Jadval katagi",
+            "Jadval ichidagi rasm"
+        ],
+        "answer": "Jadval katagi"
+    },
+    {
+        "question": "<strong> tegi nima qiladi?",
+        "options": [
+            "Matnni o'chiradi",
+            "Matnni qalin qilib ko'rsatadi",
+            "Matn rangini o'zgartiradi",
+            "Matnni kichraytiradi"
+        ],
+        "answer": "Matnni qalin qilib ko'rsatadi"
+    },
+    {
+        "question": "HTMLda qaysi atribut yordamida rasmni o'lchamini o'zgartirish mumkin?",
+        "options": [
+            "width",
+            "height",
+            "size",
+            "scale"
+        ],
+        "answer": "width"
+    },
+    {
+        "question": "HTMLda <footer> tegi nima uchun ishlatiladi?",
+        "options": [
+            "Sahifaning oxirgi qismini ko'rsatish",
+            "Matnni qalin qilish",
+            "Rasm qo'shish",
+            "Link yaratish"
+        ],
+        "answer": "Sahifaning oxirgi qismini ko'rsatish"
+    },
+    {
+        "question": "HTMLda <nav> tegi nima uchun ishlatiladi?",
+        "options": [
+            "Navigatsiya menyusi yaratish",
+            "Matnni qalin qilish",
+            "Sahifa sarlavhasini yaratish",
+            "Link qo'shish"
+        ],
+        "answer": "Navigatsiya menyusi yaratish"
+    },
+    {
+        "question": "HTMLda <table> tegining vazifasi nima?",
+        "options": [
+            "Jadval yaratish",
+            "Sahifa boshini yaratish",
+            "Matnni ajratish",
+            "Rasm qo'shish"
+        ],
+        "answer": "Jadval yaratish"
+    },
+    {
+        "question": "HTMLda <td> tegining vazifasi nima?",
+        "options": [
+            "Jadvalni yaratish",
+            "Jadval katakchasini yaratish",
+            "Sahifa sarlavhasini yaratish",
+            "Matnni qalin qilish"
+        ],
+        "answer": "Jadval katakchasini yaratish"
+    },
+    {
+        "question": "HTMLda <tr> tegining vazifasi nima?",
+        "options": [
+            "Jadvalni yaratish",
+            "Jadval qatorini yaratish",
+            "Jadval katakchasini yaratish",
+            "Sahifa sarlavhasini yaratish"
+        ],
+        "answer": "Jadval qatorini yaratish"
+    },
+    {
+        "question": "HTMLda <th> tegi nima vazifani bajaradi?",
+        "options": [
+            "Jadvalda sarlavha yaratish",
+            "Matnni pastki chiziqli qilish",
+            "Rasm qo'shish",
+            "Matnni qalin qilish"
+        ],
+        "answer": "Jadvalda sarlavha yaratish"
+    },
+    {
+        "question": "HTMLda <small> tegi qanday vazifani bajaradi?",
+        "options": [
+            "Matnni kichraytiradi",
+            "Matnni qalin qiladi",
+            "Matnni katta qiladi",
+            "Link yaratadi"
+        ],
+        "answer": "Matnni kichraytiradi"
+    },
+    {
+        "question": "HTMLda <abbr> tegi nima uchun ishlatiladi?",
+        "options": [
+            "Acronym (qisqartma)ni ta'kidlash",
+            "Rasmni qo'shish",
+            "Harfli ro'yxat yaratish",
+            "Jadval yaratish"
+        ],
+        "answer": "Acronym (qisqartma)ni ta'kidlash"
+    },
+    {
+        "question": "HTMLda <sub> tegi nima uchun ishlatiladi?",
+        "options": [
+            "Matnni pastga joylashtirish",
+            "Matnni yuqoriga joylashtirish",
+            "Matnni qalin qilish",
+            "Matnni kursiv qilish"
+        ],
+        "answer": "Matnni pastga joylashtirish"
+    },
+    {
+        "question": "HTMLda <sup> tegi nima uchun ishlatiladi?",
+        "options": [
+            "Matnni yuqoriga joylashtirish",
+            "Matnni pastga joylashtirish",
+            "Matnni qalin qilish",
+            "Matnni kursiv qilish"
+        ],
+        "answer": "Matnni yuqoriga joylashtirish"
+    },
+    {
+        "question": "HTMLda qaysi teg yordamida jadvalga qator qo'shish mumkin?",
+        "options": [
+            "<th>",
+            "<tr>",
+            "<td>",
+            "<table>"
+        ],
+        "answer": "<tr>"
+    },
+    {
+        "question": "HTMLda qaysi atribut yordamida <a> tegi orqali yangi oynada sahifa ochish mumkin?",
+        "options": [
+            "target",
+            "href",
+            "src",
+            "alt"
+        ],
+        "answer": "target"
+    },
+    {
+        "question": "HTMLda <em> va <i> teglarining farqi nima?",
+        "options": [
+            "<em> matnni ajratadi, <i> esa matnni kursiv qiladi",
+            "<i> matnni ajratadi, <em> esa matnni kursiv qiladi",
+            "<em> matnni qalin qiladi, <i> esa ta'kidlash uchun ishlatiladi",
+            "<i> matnni qo'shadi, <em> esa takrorlaydi"
+        ],
+        "answer": "<em> matnni ajratadi, <i> esa matnni kursiv qiladi"
+    },
+    {
+        "question": "HTMLda <b> va <strong> teglarining farqi nima?",
+        "options": [
+            "<b> vizual o'zgarish beradi, <strong> esa ta'kidlash uchun",
+            "<strong> matnni qalin qiladi, <b> esa matnni ta'kidlash uchun ishlatiladi",
+            "<b> mavjud emas, <strong> esa ma'no ta'kidlash uchun ishlatiladi",
+            "<strong> faqat vizual o'zgarish beradi, <b> esa ma'no ta'kidlash uchun ishlatiladi"
+        ],
+        "answer": "<b> vizual o'zgarish beradi, <strong> esa ta'kidlash uchun"
+    },
+    {
+        "question": "<em> tegi qanday vazifa bajaradi?",
+        "options": [
+            "Matnga urg'u beradi (italik qiladi)",
+            "Matnni yashiradi",
+            "Matnga link qo'shadi",
+            "Matnga rasm qo'shadi"
+        ],
+        "answer": "Matnga urg'u beradi (italik qiladi)"
+    },
+    {
+        "question": "<hr> tegi nima qiladi?",
+        "options": [
+            "Qatorni almashtiradi",
+            "Sahifani saqlaydi",
+            "Gorizontal chiziq chizadi",
+            "Matnni yashiradi"
+        ],
+        "answer": "Gorizontal chiziq chizadi"
+    },
+    {
+        "question": "HTMLda ro'yxat yaratish uchun qaysi teg ishlatiladi?",
+        "options": [
+            "<div>",
+            "<ul>",
+            "<span>",
+            "<br>"
+        ],
+        "answer": "<ul>"
+    },
+    {
+        "question": "<a> tegi qanday maqsadda ishlatiladi?",
+        "options": [
+            "Matnni qalinlashtirish",
+            "Havola (link) yaratish",
+            "Jadval yaratish",
+            "Rasm qo'shish"
+        ],
+        "answer": "Havola (link) yaratish"
+    },
+    {
+        "question": "HTMLda matnni markazlashtirish uchun qaysi tag ishlatiladi?",
+        "options": [
+            "<center>",
+            "<align>",
+            "<text-align>",
+            "<p align='center'>"
+        ],
+        "answer": "<center>"
+    },
+    {
+        "question": "HTMLda rasmga sarlavha qo'shish uchun qaysi tag ishlatiladi?",
+        "options": [
+            "<figcaption>",
+            "<caption>",
+            "<title>",
+            "<header>"
+        ],
+        "answer": "<figcaption>"
+    },
+    {
+        "question": "HTMLda internal style (ichki uslub) qaysi tagda joylashadi?",
+        "options": [
+            "<script>",
+            "<link>",
+            "<style>",
+            "<css>"
+        ],
+        "answer": "<style>"
+    },
+    {
+        "question": "HTMLda matnni tashqi (external) faylga bog'lash uchun qaysi tag ishlatiladi?",
+        "options": [
+            "<link>",
+            "<style>",
+            "<script>",
+            "<meta>"
+        ],
+        "answer": "<link>"
+    },
+    {
+        "question": "<th> tagining to'liq yozilishi qanday?",
+        "options": [
+            "Table Heading",
+            "Table Horizontal",
+            "Table Help",
+            "Table Header"
+        ],
+        "answer": "Table Header"
+    },
+    {
+        "question": "<td> tagining to'liq yozilishi qanday?",
+        "options": [
+            "Table Division",
+            "Table Data",
+            "Table Description",
+            "Table Display"
+        ],
+        "answer": "Table Data"
+    },
+    {
+        "question": "<thead> tagining to'liq yozilishi qanday?",
+        "options": [
+            "Table Header",
+            "Table Heading",
+            "Table Horizontal",
+            "Table Head"
+        ],
+        "answer": "Table Head"
+    },
+    {
+        "question": "<tfoot> tagining to'liq yozilishi qanday?",
+        "options": [
+            "Table Foot",
+            "Table Footer",
+            "Table Final",
+            "Table Form"
+        ],
+        "answer": "Table Footer"
+    },
+    {
+        "question": "<tfoot> tagining vazifasi nima?",
+        "options": [
+            "Jadvalning bosh qismidagi ma'lumotlarni guruhlash",
+            "Jadvalda ustunlarning nomlarini qo'shish",
+            "Jadvalning pastki qismidagi ma'lumotlarni guruhlash",
+            "Jadvaldagi ma'lumotlarni markazlashtirish"
+        ],
+        "answer": "Jadvalning pastki qismidagi ma'lumotlarni guruhlash"
+    },
+    {
+        "question": "rowspan atributi nima?",
+        "options": [
+            "Jadvaldagi bir nechta ustunlarga joy ajratish",
+            "Jadvaldagi matnni qalin qilish",
+            "Jadvaldagi bir nechta qatorlarga joy ajratish",
+            "Jadvaldagi qatorlarni o'zaro bog'lash"
+        ],
+        "answer": "Jadvaldagi bir nechta qatorlarga joy ajratish"
+    },
+    {
+        "question": "<label> tagi nima maqsadda ishlatiladi?",
+        "options": [
+            "Rasmlarni ko'rsatish",
+            "Formadagi input elementlarni nomlash",
+            "Sahifaga link qo'shish",
+            "Matnni kursiv qilish"
+        ],
+        "answer": "Formadagi input elementlarni nomlash"
+    },
+    {
+        "question": "colspan atributi nima?",
+        "options": [
+            "Jadvaldagi bir nechta qatorlarga joy ajratish",
+            "Jadvaldagi bir nechta ustunlarga joy ajratish",
+            "Jadvalda matnni qalin qilish",
+            "Jadvalning o'lchamini o'zgartirish"
+        ],
+        "answer": "Jadvaldagi bir nechta ustunlarga joy ajratish"
+    },
+    {
+        "question": "Qaysi atribut orqali <img> tegida rasm fayli ko'rsatiladi?",
+        "options": [
+            "href",
+            "src",
+            "alt",
+            "type"
+        ],
+        "answer": "src"
+    },
+    {
+        "question": "<head> qismida nimalar joylashadi?",
+        "options": [
+            "Asosiy kontent",
+            "Rasmlar va media fayllar",
+            "Skript, meta ma'lumot va sarlavha",
+            "Formalar va inputlar"
+        ],
+        "answer": "Skript, meta ma'lumot va sarlavha"
+    },
+    {
+        "question": "<meta> tegi nimani bildiradi?",
+        "options": [
+            "HTML faylga rasm qo'shish",
+            "Sayt haqida qo'shimcha ma'lumot berish",
+            "Yashirin sahifa yaratish",
+            "Navigatsiya yaratish"
+        ],
+        "answer": "Sayt haqida qo'shimcha ma'lumot berish"
+    },
+    {
+        "question": "HTML kim tomonidan ishlab chiqarilgan?",
+        "options": [
+            "Brendan Eich",
+            "Dennis Ritchie",
+            "Tim Berners-Lee",
+            "James Gosling"
+        ],
+        "answer": "Brendan Eich"
+    },
+    {
+        "question": "HTML so'zining to'liq yozilishi qanday?",
+        "options": [
+            "Hyper Text Makeup Language",
+            "High Text Marking Language",
+            "Hyperlink and Text Markup Language",
+            "Hyper Text Markup Language"
+        ],
+        "answer": "Hyper Text Markup Language"
+    },
+    {
+        "question": "HTML da sarlavhalar uchun jami nechta taglar mavjud?",
+        "options": [
+            "3 ta",
+            "5 ta",
+            "6 ta",
+            "7 ta"
+        ],
+        "answer": "6 ta"
+    },
+    {
+        "question": "Sarlavha uchun ishlatilinadigan <h1> taglarning to'liq yozilishi qanday?",
+        "options": [
+            "Head ( 1...6 )",
+            "Header ( 1...6 )",
+            "Heading ( 1...6 )",
+            "Highlight ( 1...6 )"
+        ],
+        "answer": "Heading ( 1...6 )"
+    },
+    {
+        "question": "HTMLda <p> tagining to'liq yozilishi qanday?",
+        "options": [
+            "Paragraph",
+            "Pages",
+            "Printed",
+            "Pointer"
+        ],
+        "answer": "Paragraph"
+    },
+    {
+        "question": "HTML va CSSda inline-block nima degani?",
+        "options": [
+            "Bu element faqat yangi qatordan boshlanadi",
+            "Bu element blok sifatida ishlaydi, lekin satr ichida joylashadi",
+            "Bu matnni bo'sh joy bilan ajratadi",
+            "Bunday tushuncha mavjud emas!"
+        ],
+        "answer": "Bu element blok sifatida ishlaydi, lekin satr ichida joylashadi"
+    },
+    {
+        "question": "HTMLda block element nima degani?",
+        "options": [
+            "Faqat matnlarni qalinlashtiruvchi element",
+            "Har doim yangi qatordan boshlanadigan element",
+            "Elementlarni bir qatorda ketma - ket joylashtiradi",
+            "Faqatgina sahifa sarlavhasi uchun ishlatiladigan element"
+        ],
+        "answer": "Har doim yangi qatordan boshlanadigan element"
+    },
+    {
+        "question": "HTMLdagi <ul> tagining to'liq yozilishi qanday?",
+        "options": [
+            "Unused List",
+            "Unified List",
+            "Unordered List",
+            "Unique List"
+        ],
+        "answer": "Unordered List"
+    },
+    {
+        "question": "HTMLdagi <ol> tagining to'liq yozilishi qanday?",
+        "options": [
+            "Ordered List",
+            "Official List",
+            "Outer List",
+            "Opened List"
+        ],
+        "answer": "Ordered List"
+    },
+    {
+        "question": "HTMLdagi <span> elementi qaysi turga kiradi, inline yoki block?",
+        "options": [
+            "Faqat block element",
+            "Faqat inline element",
+            "Faqat inline-block element",
+            "To'g'ri javob yo'q"
+        ],
+        "answer": "Faqat inline element"
+    },
+    {
+        "question": "HTML va CSSda inline va inline-block elementlar orasidagi asosiy farq nima?",
+        "options": [
+            "Ikkalasi ham faqat blok holatida ishlaydi",
+            "inline-block o'lcham oladi, inline esa olmaydi",
+            "inline yangi qatordan boshlanadi, inline-block esa boshlanmaydi",
+            "inline va inline-block bir xil ishlaydi"
+        ],
+        "answer": "inline-block o'lcham oladi, inline esa olmaydi"
+    },
+    {
+        "question": "HTMLda inline va block elementlar orasidagi asosiy farq nimada?",
+        "options": [
+            "Ikkalasi ham birxil",
+            "block yangi qatordan, inline esa bir qatorda joylashadi",
+            "inline kenglik egallaydi, block esa faqat balandlik",
+            "block faqat matnlar uchun ishlatiladi"
+        ],
+        "answer": "block yangi qatordan, inline esa bir qatorda joylashadi"
+    },
+    {
+        "question": "HTML faylida <!DOCTYPE html> yozuvi nimani bildiradi?",
+        "options": [
+            "Faylga CSS ulanganligini bildiradi",
+            "HTML faylida JavaScript ishlatilganini bildiradi",
+            "Brauzerga bu hujjat HTML5 version ekanini bildiradi",
+            "HTML faylning nomini bildiradi"
+        ],
+        "answer": "Brauzerga bu hujjat HTML5 version ekanini bildiradi"
+    },
+    {
+        "question": "HTMLda foydalanuvchidan ma'lumot olish uchun qaysi tag ishlatiladi?",
+        "options": [
+            "<label>",
+            "<input>",
+            "<form>",
+            "<alert>"
+        ],
+        "answer": "<input>"
+    },
+    {
+        "question": "<a href=\"https://example.com\"> tegi nima qiladi?",
+        "options": [
+            "Sahifani yangilaydi",
+            "Saytga havola yaratadi",
+            "Rasmni chiqaradi",
+            "Matnni ajratadi"
+        ],
+        "answer": "Saytga havola yaratadi"
+    },
+    {
+        "question": "HTMLda <img> tegining asosiy vazifasi nima?",
+        "options": [
+            "Jadval chizish",
+            "Video qo'yish",
+            "Link yaratish",
+            "Rasm yuklash"
+        ],
+        "answer": "Rasm yuklash"
+    },
+    {
+        "question": "HTMLda saytga rasm yuklash uchun qaysi tagdan foydalanamiz?",
+        "options": [
+            "<image>",
+            "<src>",
+            "<img>",
+            "<picture>"
+        ],
+        "answer": "<img>"
+    },
+    {
+        "question": "HTMLda saytga video yuklash uchun qaysi tagdan foydalaniladi?",
+        "options": [
+            "<vid>",
+            "<movie>",
+            "<video>",
+            "<media>"
+        ],
+        "answer": "<video>"
+    },
+    {
+        "question": "HTMLda saytga qo'shiq yoki audio fayl yuklash uchun qaysi tegdan foydalaniladi?",
+        "options": [
+            "<sound>",
+            "<music>",
+            "<audio>",
+            "<mp3>"
+        ],
+        "answer": "<audio>"
+    },
+    {
+        "question": "HTML sahifaga YouTube'dan video joylashtirish uchun odatda qaysi tagdan foydalaniladi?",
+        "options": [
+            "<video>",
+            "<media>",
+            "<iframe>",
+            "<embed>"
+        ],
+        "answer": "<iframe>"
+    },
+    {
+        "question": "HTMLda sahifadagi boshqa sahifaga bog'lanish (link) hosil qilish uchun qaysi tagdan foydalaniladi?",
+        "options": [
+            "<link>",
+            "<href>",
+            "<a>",
+            "<url>"
+        ],
+        "answer": "<a>"
+    },
+    {
+        "question": "HTMLda forma (foydalanuvchi ma'lumotlarini kiritish) yaratish uchun qaysi tegdan foydalaniladi?",
+        "options": [
+            "<input>",
+            "<form>",
+            "<textarea>",
+            "<submit>"
+        ],
+        "answer": "<form>"
+    },
+    {
+        "question": "HTMLda matn kiritish maydoni (text input) yaratish uchun qaysi tag ishlatiladi?",
+        "options": [
+            "<text>",
+            "<write>",
+            "<input>",
+            "<fill>"
+        ],
+        "answer": "<input>"
+    },
+    {
+        "question": "Foydalanuvchidan parol kiritishni so'rash uchun qaysi input turi ishlatiladi?",
+        "options": [
+            "<input type=\"text\">",
+            "<input type=\"password\">",
+            "<input type=\"email\">",
+            "<input type=\"hidden\">"
+        ],
+        "answer": "<input type=\"password\">"
+    },
+    {
+        "question": "HTMLda tanlov (dropdown) menyusi uchun qaysi teg ishlatiladi?",
+        "options": [
+            "<drop>",
+            "<select>",
+            "<option>",
+            "<choose>"
+        ],
+        "answer": "<select>"
+    },
+    {
+        "question": "HTML sahifasiga tashqi veb-sahifani joylashtirish uchun qaysi teg ishlatiladi?",
+        "options": [
+            "<frame>",
+            "<window>",
+            "<embed>",
+            "<iframe>"
+        ],
+        "answer": "<iframe>"
+    },
+    {
+        "question": "<script> tegi nimaga xizmat qiladi?",
+        "options": [
+            "CSS yozish uchun",
+            "Matnni markazga olish uchun",
+            "JavaScript kodlarini yozish uchun",
+            "Formani bezatish uchun"
+        ],
+        "answer": "JavaScript kodlarini yozish uchun"
+    },
+    {
+        "question": "HTMLda jadval yaratish uchun qaysi teg ishlatiladi?",
+        "options": [
+            "<table>",
+            "<tab>",
+            "<tr>",
+            " <td>"
+        ],
+        "answer": "<table>"
+    },
+    {
+        "question": "Jadvaldagi ( table ) sarlavha text uchun qaysi table tag ishlatiladi?",
+        "options": [
+            "<theading>",
+            "<title>",
+            "<th>",
+            "<thead>"
+        ],
+        "answer": "<th>"
+    },
+    {
+        "question": "HTML hujjatining boshlanishida yoziladigan \"doctype\" e'loni to'g'ri ko'rsatilgan variant qaysi?",
+        "options": [
+            "<doctype html>",
+            "<!DOCTYPE html>",
+            "<!DOCTYPE HTML>",
+            "<!HTML DOCTYPE>"
+        ],
+        "answer": "<!DOCTYPE html>"
+    },
+    {
+        "question": "HTMLda matnni kursiv ( qiya og'dirish ) qilish uchun qaysi tegdan foydalaniladi?",
+        "options": [
+            "<bold>",
+            "<italic>",
+            "<i>",
+            "<emphasis>"
+        ],
+        "answer": "<i>"
+    },
+    {
+        "question": "HTML sahifasiga meta ma'lumotlar (charset, description va boshqalar) yozish uchun qaysi tagdan foydalaniladi?",
+        "options": [
+            "<meta>",
+            "<head>",
+            "<header>",
+            "<data>"
+        ],
+        "answer": "<meta>"
+    },
+    {
+        "question": "HTMLda boshidagi sahifa sarlavhasi qaysi tagda ichida yoziladi?",
+        "options": [
+            "<title>",
+            "<head>",
+            "<meta>",
+            "<caption>"
+        ],
+        "answer": "<title>"
+    },
+    {
+        "question": "HTMLda oddiy matnli tugma yaratish uchun qaysi tag ishlatiladi?",
+        "options": [
+            "<button>",
+            "<input>",
+            "<submit>",
+            "<press>"
+        ],
+        "answer": "<button>"
+    },
+    {
+        "question": "HTMLda rasmga muqobil matn yozish uchun qaysi atribut ishlatiladi?",
+        "options": [
+            "alt",
+            "src",
+            "title",
+            "desc"
+        ],
+        "answer": "alt"
+    },
+    {
+        "question": "<a> tagida havola manzili qaysi atribut orqali belgilanadi?",
+        "options": [
+            "href",
+            "link",
+            "src",
+            "target"
+        ],
+        "answer": "href"
+    },
+    {
+        "question": "Foydalanuvchi fayl yuklashi (upload) uchun qaysi input turi kerak?",
+        "options": [
+            "<input type=\"text\">",
+            "<input type=\"upload\">",
+            "<input type=\"media\">",
+            "<input type=\"file\">"
+        ],
+        "answer": "<input type=\"file\">"
+    },
+    {
+        "question": "Radio tugmalar yaratish uchun qaysi input type ishlatiladi?",
+        "options": [
+            "<input type=\"check\">",
+            "<input type=\"radio\">",
+            "<input type=\"button\">",
+            "<input type=\"select\">"
+        ],
+        "answer": "<input type=\"radio\">"
+    },
+    {
+        "question": "Belgilash katakchalari uchun to'g'ri input turi qaysi?",
+        "options": [
+            "<input type=\"select\">",
+            "<input type=\"tick\">",
+            "<input type=\"checkbox\">",
+            "<input type=\"check\">"
+        ],
+        "answer": "<input type=\"checkbox\">"
+    },
+    {
+        "question": "<img> tegida rasm manzili (URL) qaysi atribut bilan beriladi?",
+        "options": [
+            "src",
+            "href",
+            "link",
+            "data"
+        ],
+        "answer": "src"
+    },
+    {
+        "question": "HTMLda semantik teglar qaysi variantda to'g'ri ko'rsatilgan?",
+        "options": [
+            "<article>, <section>, <footer>",
+            "<div>, <span>, <b>",
+            "<table>, <tr>, <td>",
+            "<style>, <script>, <code>"
+        ],
+        "answer": "<article>, <section>, <footer>"
+    },
+    {
+        "question": "HTMLda chiziq (gorizontal chiziq) chizish uchun qaysi tag ishlatiladi?",
+        "options": [
+            "<hr>",
+            "<line>",
+            "<br>",
+            "<border>"
+        ],
+        "answer": "<hr>"
+    },
+    {
+        "question": "HTMLda sahifaning asosiy sarlavhasi (title) qayerda yoziladi?",
+        "options": [
+            "<head>",
+            "<meta>",
+            "<title>",
+            "<header>"
+        ],
+        "answer": "<title>"
+    },
+    {
+        "question": "HTMLda izoh (kommentariya) qanday yoziladi?",
+        "options": [
+            "<!- bu izoh ->",
+            "// bu izoh",
+            "/* bu izoh */",
+            "# bu izoh"
+        ],
+        "answer": "<!- bu izoh ->"
+    },
+    {
+        "question": "Qaysi teg matnni qalin qilib ko'rsatadi?",
+        "options": [
+            "<b>",
+            "<strong>",
+            "<bold>",
+            "<fat>"
+        ],
+        "answer": "<b>"
+    },
+    {
+        "question": "HTML faylining asosiy strukturasi qaysi tartibda bo'ladi?",
+        "options": [
+            "<head> <body> <footer>",
+            "<meta> <head> <body>",
+            "<meta> <title> <body>",
+            "<html> <head> <body>"
+        ],
+        "answer": "<html> <head> <body>"
+    },
+    {
+        "question": "Quyidagilardan qaysi biri HTMLda semantik teg hisoblanadi?",
+        "options": [
+            "<div>",
+            "<b>",
+            "<article>",
+            "<span>"
+        ],
+        "answer": "<article>"
+    },
+    {
+        "question": "Mustaqil, to'liq mazmunga ega maqola yoki blog posti yozish uchun qaysi teg ishlatiladi?",
+        "options": [
+            "<span>",
+            "<article>",
+            "<p>",
+            "<lorem>"
+        ],
+        "answer": "<article>"
+    },
+    {
+        "question": "Yordamchi ma'lumotlar, reklama yoki yon panel uchun ishlatiladigan asosiy HTML tegi qaysi?",
+        "options": [
+            "<footer>",
+            "<aside>",
+            "<nav>",
+            "<span>"
+        ],
+        "answer": "<aside>"
+    },
+    {
+        "question": "Navigatsiya menyularini joylashtirish uchun qanday HTML tegi ishlatiladi?",
+        "options": [
+            "<navbar>",
+            "<nav>",
+            "<menu>",
+            "<bar>"
+        ],
+        "answer": "<nav>"
+    }
+]

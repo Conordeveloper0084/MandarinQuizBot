@@ -1,0 +1,2000 @@
+[
+    {
+        "question": "JavaScript nima?",
+        "options": [
+            "Ma'lumotlar bazasi",
+            "Dasturlash tili",
+            "Grafik tahrirlovchi",
+            "Server"
+        ],
+        "answer": "Dasturlash tili"
+    },
+    {
+        "question": "JavaScript asosan nima uchun ishlatiladi?",
+        "options": [
+            "Ma'lumotlar bazasini boshqarish uchun",
+            "Rasmlar chizish uchun",
+            "Veb sahifalarni interaktiv qilish uchun",
+            "Sahifa fonini o‘zgartirish uchun"
+        ],
+        "answer": "Veb sahifalarni interaktiv qilish uchun"
+    },
+    {
+        "question": "JavaScript fayllari qanday kengaytmada saqlanadi?",
+        "options": [
+            ".java",
+            ".js",
+            ".javas",
+            ".jst"
+        ],
+        "answer": ".js"
+    },
+    {
+        "question": "JavaScript-da o‘zgaruvchi yaratish uchun qaysi kalit so‘z ishlatiladi?",
+        "options": [
+            "let, const, var",
+            "define, new",
+            "create, set",
+            "Kalit so'z ishlatilinmaydi"
+        ],
+        "answer": "let, const, var"
+    },
+    {
+        "question": "JavaScript-da funksiyalar qanday e'lon qilinadi?",
+        "options": [
+            "function nomi() { }",
+            "fun nomi()",
+            "define nomi()",
+            "createFunction nomi()"
+        ],
+        "answer": "function nomi() { }"
+    },
+    {
+        "question": "JavaScript-da alert() funksiyasi nima qiladi?",
+        "options": [
+            "Ma'lumotni konsolga chiqaradi",
+            "Web sahifani o‘zgartiradi",
+            "Foydalanuvchiga ogohlantirish oynasi chiqaradi",
+            "Rasmni yuklaydi"
+        ],
+        "answer": "Foydalanuvchiga ogohlantirish oynasi chiqaradi"
+    },
+    {
+        "question": "JavaScript-da matn uzunligini qanday o‘lchaymiz?",
+        "options": [
+            "text.size()",
+            "text.count()",
+            "text.length",
+            "text.getLength()"
+        ],
+        "answer": "text.length"
+    },
+    {
+        "question": "JavaScript qaysi holatda `undefined` qiymatini beradi?",
+        "options": [
+            "Fayl topilmasa",
+            "HTML xato bo‘lsa",
+            "Foydalanuvchi brauzerni yopsa",
+            "O‘zgaruvchi aniqlanmagan bo‘lsa"
+        ],
+        "answer": "O‘zgaruvchi aniqlanmagan bo‘lsa"
+    },
+    {
+        "question": "JavaScript-da `==` va `===` farqi nimada?",
+        "options": [
+            "Ikkalasi bir xil ishlaydi",
+            "`===` faqat stringlarga ishlatiladi",
+            "`==` faqat raqamlarga ishlatiladi",
+            "== qiymatni, === esa qiymat va tipni ham solishtiradi"
+        ],
+        "answer": "== qiymatni, === esa qiymat va tipni ham solishtiradi"
+    },
+    {
+        "question": "JavaScript-ning `console.log()` funksiyasi nima qiladi?",
+        "options": [
+            "Brauzer oynasida xabar chiqaradi",
+            "Konsolga ma'lumot chiqaradi",
+            "Faylni saqlaydi",
+            "Stilni o‘zgartiradi"
+        ],
+        "answer": "Konsolga ma'lumot chiqaradi"
+    },
+    {
+        "question": "JavaScript-da `typeof` operatori nima qiladi?",
+        "options": [
+            "Elementni o‘chiradi",
+            "O‘zgaruvchining tipini aniqlaydi",
+            "Faylni ochadi",
+            "Matnni kesadi"
+        ],
+        "answer": "O‘zgaruvchining tipini aniqlaydi"
+    },
+    {
+        "question": "JavaScript-da `null` nimani bildiradi?",
+        "options": [
+            "Xatolik",
+            "Hech qanday qiymat yo‘qligini",
+            "Nol raqamni",
+            "Bo‘sh stringni"
+        ],
+        "answer": "Hech qanday qiymat yo‘qligini"
+    },
+    {
+        "question": "JavaScript-da `if` operatori nima uchun ishlatiladi?",
+        "options": [
+            "Shartli tekshiruvlar uchun",
+            "Loop yaratish uchun",
+            "Funksiya yaratish uchun",
+            "Ma'lumot saqlash uchun"
+        ],
+        "answer": "Shartli tekshiruvlar uchun"
+    },
+    {
+        "question": "JavaScript-da `for` sikli nima uchun ishlatiladi?",
+        "options": [
+            "Elementni formatlash uchun",
+            "Sahifani yangilash uchun",
+            "Takrorlovchi operatsiyalarni bajarish uchun",
+            "Foydalanuvchini aniqlash uchun"
+        ],
+        "answer": "Takrorlovchi operatsiyalarni bajarish uchun"
+    },
+    {
+        "question": "JavaScript-da massiv (array) qanday e’lon qilinadi?",
+        "options": [
+            "let arr = []",
+            "let arr = {}",
+            "let arr = ()",
+            "let arr = <>"
+        ],
+        "answer": "let arr = []"
+    },
+    {
+        "question": "JavaScript-da `push()` metodi nima qiladi?",
+        "options": [
+            "Massivga yangi element qo‘shadi",
+            "Elementni o‘chiradi",
+            "Matnni almashtiradi",
+            "Elementlarni tartiblaydi"
+        ],
+        "answer": "Massivga yangi element qo‘shadi"
+    },
+    {
+        "question": "JavaScript-da `return` nimaga xizmat qiladi?",
+        "options": [
+            "Funksiyani to‘xtatish va qiymat qaytarish uchun",
+            "Matnni chiqarish uchun",
+            "Faylni yangilash uchun",
+            "Loopni to‘xtatish uchun"
+        ],
+        "answer": "Funksiyani to‘xtatish va qiymat qaytarish uchun"
+    },
+    {
+        "question": "JavaScript-da `NaN` nimani anglatadi?",
+        "options": [
+            "New and Null",
+            "Not allowed Name",
+            "Not a Number – raqam emas",
+            "Network Access Notified"
+        ],
+        "answer": "Not a Number – raqam emas"
+    },
+    {
+        "question": "`document.getElementById()` funksiyasi nima qiladi?",
+        "options": [
+            "Sahifani yangilaydi",
+            "Berilgan IDga ega elementni tanlaydi",
+            "Foydalanuvchini chiqaradi",
+            "Stil qo‘llaydi"
+        ],
+        "answer": "Berilgan IDga ega elementni tanlaydi"
+    },
+    {
+        "question": "`setTimeout()` funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Darhol bajariladigan funksiya",
+            "Belgilangan vaqt o‘tgach funksiyani bajarish",
+            "Kodga xatolik kiritish",
+            "Faylni ochish uchun"
+        ],
+        "answer": "Belgilangan vaqt o‘tgach funksiyani bajarish"
+    },
+    {
+        "question": "JavaScript qaysi qatorda ishlaydi?",
+        "options": [
+            "Frontend",
+            "Backend",
+            "Ikkalasida ham",
+            "Faqat ma'lumotlar bazasida"
+        ],
+        "answer": "Ikkalasida ham"
+    },
+    {
+        "question": "JavaScript qaysi brauzer tomonidan birinchi marta qo‘llab-quvvatlangan?",
+        "options": [
+            "Chrome",
+            "Firefox",
+            "Netscape",
+            "Safari"
+        ],
+        "answer": "Netscape"
+    },
+    {
+        "question": "JavaScriptda `const` bilan yaratilgan o‘zgaruvchining xususiyati nima?",
+        "options": [
+            "Qiymati o‘zgartirilmaydi",
+            "Faqat raqam saqlaydi",
+            "Faqat string saqlaydi",
+            "Doimiy holatda chiqariladi"
+        ],
+        "answer": "Qiymati o‘zgartirilmaydi"
+    },
+    {
+        "question": "JavaScript-da `==` operatori qanday solishtiradi?",
+        "options": [
+            "Qiymat va tip",
+            "Faqat qiymat",
+            "Faqat tip",
+            "String sifatida"
+        ],
+        "answer": "Faqat qiymat"
+    },
+    {
+        "question": "JavaScript-da `===` operatori qanday solishtiradi?",
+        "options": [
+            "Faqat qiymat",
+            "Qiymat va tip",
+            "Faqat tip",
+            "Fayl nomini"
+        ],
+        "answer": "Qiymat va tip"
+    },
+    {
+        "question": "JavaScript-da `Math.random()` nima qiladi?",
+        "options": [
+            "Tasodifiy son qaytaradi",
+            "Sonni butun qiladi",
+            "Massivdan tasodifiy element tanlaydi",
+            "Qiymatni tozalaydi"
+        ],
+        "answer": "Tasodifiy son qaytaradi"
+    },
+    {
+        "question": "JavaScript-da `Array.length` nima qiladi?",
+        "options": [
+            "Massiv elementlarini sanaydi",
+            "Massivni tozalaydi",
+            "Massivni teskari qiladi",
+            "Massiv elementini o‘chiradi"
+        ],
+        "answer": "Massiv elementlarini sanaydi"
+    },
+    {
+        "question": "`forEach()` metodi qanday ishlaydi?",
+        "options": [
+            "Massivni nusxalaydi",
+            "Har bir element uchun amal bajaradi",
+            "Massivni o‘chiradi",
+            "Massivga qiymat qo‘shadi"
+        ],
+        "answer": "Har bir element uchun amal bajaradi"
+    },
+    {
+        "question": "`map()` metodi nima qiladi?",
+        "options": [
+            "Yangi massiv yaratadi",
+            "Elementni o‘chiradi",
+            "Qiymatni so‘raydi",
+            "Matnni formatlaydi"
+        ],
+        "answer": "Yangi massiv yaratadi"
+    },
+    {
+        "question": "`filter()` metodi nimani qaytaradi?",
+        "options": [
+            "O‘zgarmagan massiv",
+            "Shartga mos elementlar ro‘yxati",
+            "Faqat stringlar",
+            "Faqat raqamlar"
+        ],
+        "answer": "Shartga mos elementlar ro‘yxati"
+    },
+    {
+        "question": "JavaScript-da `try...catch` nima uchun ishlatiladi?",
+        "options": [
+            "Fayllarni tahrirlash",
+            "Xatoliklarni ushlash",
+            "Matnni o‘zgartirish",
+            "Massivni tartiblash"
+        ],
+        "answer": "Xatoliklarni ushlash"
+    },
+    {
+        "question": "`localStorage` nima qiladi?",
+        "options": [
+            "Vaqtinchalik fayl yaratadi",
+            "Ma'lumotni brauzerda saqlaydi",
+            "Faylni serverga yuboradi",
+            "Sahifani yopadi"
+        ],
+        "answer": "Ma'lumotni brauzerda saqlaydi"
+    },
+    {
+        "question": "`prompt()` funksiyasi nima qiladi?",
+        "options": [
+            "Foydalanuvchidan ma'lumot so‘raydi",
+            "Sahifani o‘chiradi",
+            "Audio yangraydi",
+            "Elementni tanlaydi"
+        ],
+        "answer": "Foydalanuvchidan ma'lumot so‘raydi"
+    },
+    {
+        "question": "JavaScript-da `typeof '5'` natijasi nima?",
+        "options": [
+            "number",
+            "string",
+            "boolean",
+            "undefined"
+        ],
+        "answer": "string"
+    },
+    {
+        "question": "`isNaN()` funksiyasi nimani tekshiradi?",
+        "options": [
+            "Qiymat son emasligini",
+            "Qiymat stringligini",
+            "Qiymat booleanligini",
+            "Qiymat null ekanligini"
+        ],
+        "answer": "Qiymat son emasligini"
+    },
+    {
+        "question": "JavaScript-da `break` operatori nima qiladi?",
+        "options": [
+            "Funksiyani to‘xtatadi",
+            "Siklni to‘xtatadi",
+            "Elementni yangilaydi",
+            "Qiymatni orttiradi"
+        ],
+        "answer": "Siklni to‘xtatadi"
+    },
+    {
+        "question": "`continue` operatori nima qiladi?",
+        "options": [
+            "Siklni to‘xtatadi",
+            "Siklning keyingi bosqichiga o‘tadi",
+            "Funksiyani to‘xtatadi",
+            "Qiymatni tozalaydi"
+        ],
+        "answer": "Siklning keyingi bosqichiga o‘tadi"
+    },
+    {
+        "question": "JavaScript-da `switch` operatori nima uchun ishlatiladi?",
+        "options": [
+            "Stil yaratish uchun",
+            "Shartli tanlashlar uchun",
+            "Sahifani yuklash uchun",
+            "Fayl ochish uchun"
+        ],
+        "answer": "Shartli tanlashlar uchun"
+    },
+    {
+        "question": "`JSON.stringify()` funksiyasi nima qiladi?",
+        "options": [
+            "JSONni matnga aylantiradi",
+            "Matnni JSONga aylantiradi",
+            "Ma'lumotni saqlaydi",
+            "Obyektni o‘chiradi"
+        ],
+        "answer": "JSONni matnga aylantiradi"
+    },
+    {
+        "question": "`JSON.parse()` funksiyasi nima qiladi?",
+        "options": [
+            "Matnni JSON obyektiga aylantiradi",
+            "JSONni matnga aylantiradi",
+            "Faylni ochadi",
+            "Elementni aniqlaydi"
+        ],
+        "answer": "Matnni JSON obyektiga aylantiradi"
+    },
+    {
+        "question": "JavaScript-da `setInterval()` funksiyasi nima qiladi?",
+        "options": [
+            "Kodni bir marta bajaradi",
+            "Har safar sahifa yangilanganda ishlaydi",
+            "Belgilangan vaqt oralig'ida takrorlanadi",
+            "Sahifani yopadi"
+        ],
+        "answer": "Belgilangan vaqt oralig'ida takrorlanadi"
+    },
+    {
+        "question": "`addEventListener()` funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "DOM elementlarini o'chirish uchun",
+            "Elementlarga hodisa bog'lash uchun",
+            "Fayllarni saqlash uchun",
+            "Raqamlarni formatlash uchun"
+        ],
+        "answer": "Elementlarga hodisa bog'lash uchun"
+    },
+    {
+        "question": "JavaScript-da `this` kalit so'zi nimani bildiradi?",
+        "options": [
+            "Global obyekt",
+            "Funktsiyadagi o'zgaruvchi",
+            "Joriy kontekstdagi obyekt",
+            "O'zgaruvchi tipini"
+        ],
+        "answer": "Joriy kontekstdagi obyekt"
+    },
+    {
+        "question": "JavaScript qanday turdagi til hisoblanadi?",
+        "options": [
+            "Statik tipli",
+            "Dinamik tipli",
+            "Kompilyatsiyalanuvchi",
+            "Mashina tili"
+        ],
+        "answer": "Dinamik tipli"
+    },
+    {
+        "question": "`NaN` nimani bildiradi?",
+        "options": [
+            "Number and Null",
+            "Not a Number",
+            "New as Needed",
+            "No available Name"
+        ],
+        "answer": "Not a Number"
+    },
+    {
+        "question": "JavaScriptda obyekt qanday belgilanadi?",
+        "options": [
+            "[]",
+            "{}",
+            "()",
+            "<>"
+        ],
+        "answer": "{}"
+    },
+    {
+        "question": "JavaScriptda massiv qanday belgilanadi?",
+        "options": [
+            "{}",
+            "[]",
+            "()",
+            "<>"
+        ],
+        "answer": "[]"
+    },
+    {
+        "question": "`typeof null` natijasi nima bo'ladi?",
+        "options": [
+            "null",
+            "undefined",
+            "object",
+            "boolean"
+        ],
+        "answer": "object"
+    },
+    {
+        "question": "JavaScript-da `document.getElementById()` nima qiladi?",
+        "options": [
+            "Elementni ID orqali tanlaydi",
+            "Faylni o'qiydi",
+            "Matn yozadi",
+            "Sahifani o'chiradi"
+        ],
+        "answer": "Elementni ID orqali tanlaydi"
+    },
+    {
+        "question": "`return` operatori funksiyada nima vazifa bajaradi?",
+        "options": [
+            "Funksiyani to'xtatadi",
+            "Qiymatni qaytaradi",
+            "O'zgaruvchini o'chiradi",
+            "Hech narsa qilmaydi"
+        ],
+        "answer": "Qiymatni qaytaradi"
+    },
+    {
+        "question": "JavaScriptda `async` funksiyalar nima uchun ishlatiladi?",
+        "options": [
+            "Sahifani tez yuklash uchun",
+            "Asinxron kod yozish uchun",
+            "Matnni o‘zgartirish uchun",
+            "Fayllarni kompress qilish uchun"
+        ],
+        "answer": "Asinxron kod yozish uchun"
+    },
+    {
+        "question": "JavaScript-da `await` kalit so'zi qayerda ishlatiladi?",
+        "options": [
+            "Oddiy funksiyada",
+            "`async` funksiyada",
+            "Script tagida",
+            "Event ichida"
+        ],
+        "answer": "`async` funksiyada"
+    },
+    {
+        "question": "JavaScript `null` qiymati nimani bildiradi?",
+        "options": [
+            "Noma'lum",
+            "Yo'q qiymat",
+            "Qiymat aniqlanmagan",
+            "0"
+        ],
+        "answer": "Yo'q qiymat"
+    },
+    {
+        "question": "JavaScriptda `undefined` nimani anglatadi?",
+        "options": [
+            "Qiymat mavjud",
+            "Qiymat noto'g'ri",
+            "Qiymat belgilanmagan",
+            "Qiymat to'g'ri"
+        ],
+        "answer": "Qiymat belgilanmagan"
+    },
+    {
+        "question": "`console.log()` funksiyasi nima uchun ishlatiladi?",
+        "options": [
+            "Kod bajarilishini to'xtatadi",
+            "Faylni saqlaydi",
+            "Ma'lumotni konsolga chiqaradi",
+            "Ma'lumotni o‘chiradi"
+        ],
+        "answer": "Ma'lumotni konsolga chiqaradi"
+    },
+    {
+        "question": "JavaScriptda `parseInt('10')` natijasi nima?",
+        "options": [
+            "'10'",
+            "NaN",
+            "10",
+            "undefined"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "JavaScript dasturlash tili kim tomonidan ishlab chiqilgan?",
+        "options": [
+            "Tim Berners-Lee",
+            "Dennis Ritchie",
+            "Guido van Rossum",
+            "Brendan Eich"
+        ],
+        "answer": "Brendan Eich"
+    },
+    {
+        "question": "JavaScript dastlab nechanchi yilda ishlab chiqilgan?",
+        "options": [
+            "2000",
+            "1989",
+            "1995",
+            "1999"
+        ],
+        "answer": "1995"
+    },
+    {
+        "question": "JavaScript-da qanday turdagi ma'lumotlar mavjud?",
+        "options": [
+            "Text, Integer, Float, Boolean",
+            "Word, Number, Value, Logic",
+            "String, Number, Boolean, Object, Undefined, Null",
+            "Char, String, Integer"
+        ],
+        "answer": "String, Number, Boolean, Object, Undefined, Null"
+    },
+    {
+        "question": "JavaScript qanday turdagi dasturlash tiliga kiradi?",
+        "options": [
+            "Kompilyatsiyalanuvchi", 
+            "Interpretatsiyalanuvchi",
+            "Assembler", "Mashina tili"
+        ],
+        "answer": "Interpretatsiyalanuvchi"
+    },
+    {
+        "question": "JavaScript'da localStorage nimaga xizmat qiladi?",
+        "options": [
+            "Ma'lumotni vaqtincha saqlash uchun",
+            "Fayllarni yuklash uchun", 
+            "Brauzerda ma'lumotni saqlash uchun", 
+            "Serverga ma'lumot yuborish uchun"
+        ],
+        "answer": "Brauzerda ma'lumotni saqlash uchun"
+    },
+    {
+        "question": "JavaScript yordamida HTML elementini tanlash uchun qaysi metod ishlatiladi?",
+        "options": [
+            "getElementById", 
+            "getByElement", 
+            "findElementById", 
+            "selectElementById"
+        ],
+        "answer": "getElementById"
+    },
+    {
+        "question": "JavaScript'da DOM nimani anglatadi?",
+        "options": [
+            "Data Object Model",
+            "Document Object Model", 
+            "Display Output Manager", 
+            "Design On Method"
+        ],
+        "answer": "Document Object Model"
+    },
+    {
+        "question": "JavaScript kodlari qayerda bajariladi?",
+        "options": [
+            "Serverda",
+            "Brauzerda", 
+            "Terminalda", 
+            "Photoshopda"
+        ],
+        "answer": "Brauzerda"
+    },
+    {
+        "question": "Qaysi biri JavaScript'da hoistingga ta'sir qilmaydi?",
+        "options": [ 
+            "var",
+            "function", 
+            "let", 
+            "barcha ta'sir qiladi"],
+        "answer": "let"
+    },
+    {
+        "question": "JavaScript'da 'closure' tushunchasi nimani anglatadi?",
+        "options": [
+            "Global o'zgaruvchi", 
+            "Funktsiya ichida boshqa funktsiyani qaytarish", 
+            "DOM manipulation", 
+            "Callback funksiyani chaqirish"
+        ],
+        "answer": "Funktsiya ichida boshqa funktsiyani qaytarish"
+    },
+    {
+        "question": "JavaScript'da 'this' kalit so'zi arrow function ichida nimani bildiradi?",
+        "options": [
+            "Yangi obyektni", 
+            "Global obyektni", 
+            "Arrow funksiyadagi parent contextni", 
+            "Undefined qiymatni"
+        ],
+        "answer": "Arrow funksiyadagi parent contextni"
+    },
+    {
+        "question": "JavaScript'da 'Promise' obyektining 'finally' metodi nima qiladi?",
+        "options": [
+            "Xatolikni ushlaydi", 
+        "Faqat muvaffaqiyatda chaqiriladi", 
+        "Doim chaqiriladi, natijadan qat'i nazar", 
+        "Hech narsa qilmaydi"
+        ],
+        "answer": "Doim chaqiriladi, natijadan qat'i nazar"
+    },
+    {
+        "question": "JavaScript'da 'undefined' va 'null' o‘rtasidagi farq nima?",
+        "options": [
+            "Ikkalasi ham bir xil narsani bildiradi", 
+            "undefined elon qilib qiymat belgilanmagan null bo‘sh qiymat", 
+            "'undefined' bo‘sh, 'null' belgilanmagan", 
+            "Faqat sintaksis farqi bor"
+        ],
+        "answer": "undefined elon qilib qiymat belgilanmagan null bo‘sh qiymat"
+    },
+    {
+        "question": "JavaScript'da 'call', 'apply' va 'bind' metodlari qanday farq qiladi?",
+        "options": [
+            "bind darhol chaqiriladi, call va apply esa keyin", 
+            "call va apply darhol chaqiriladi, bind esa keyin", 
+            "barcha bir xil ishlaydi", 
+            "apply faqat massivlar bilan ishlaydi"
+        ],
+        "answer": "call va apply darhol chaqiriladi, bind esa keyin"
+    },
+    {
+        "question": "JavaScript'da recursive function bu –",
+        "options": [
+            "Funktsiyani ko‘paytiradigan kod", 
+            "O‘zini o‘zi chaqiradigan funktsiya", 
+            "Doimiy qiymat qaytaruvchi funktsiya", 
+            "Anonym funktsiya"
+        ],
+        "answer": "O‘zini o‘zi chaqiradigan funktsiya"
+    },
+    {
+        "question": "JavaScript'da 'spread operator (...)' nimaga xizmat qiladi?",
+        "options": [
+            "Funktsiyani chaqirish", 
+            "Obyektni yopish", 
+            "Elementlarni ajratib olish yoki birlashtirish uchun", 
+            "Fayl yuklash uchun"
+        ],
+        "answer": "Elementlarni ajratib olish yoki birlashtirish uchun"
+    },
+    {
+        "question": "JavaScript'da 'Object.freeze' nima qiladi?",
+        "options": [
+            "Obyektni ko‘paytiradi", 
+            "Obyektni yangi qiymatga o‘zgartiradi", 
+            "Obyektni o‘zgartirilmas holatga keltiradi", 
+            "Obyektni stringga aylantiradi"
+        ],
+        "answer": "Obyektni o‘zgartirilmas holatga keltiradi"
+    },
+    {
+        "question": "Qaysi biri JSON formatdagi to‘g‘ri ma’lumot?",
+        "options": [
+            "{name: 'Conor'}", 
+            "{\"name\": \"Conor\"}", 
+            "(name: Conor)", 
+            "['name', 'Conor']"
+        ],
+        "answer": "{\"name\": \"Conor\"}"
+    },
+    {
+        "question": "JavaScript'da 'instanceof' operatori nima qiladi?",
+        "options": [
+            "Qiymatlarni solishtiradi", 
+            "Obyekt qaysi konstruktorda yaratilganligini tekshiradi", 
+            "Funktsiyani chaqiradi", 
+            "Massivni ko‘paytiradi"
+        ],
+        "answer": "Obyekt qaysi konstruktorda yaratilganligini tekshiradi"
+    },
+    {
+        "question": "JavaScript'da 'arguments' obyektining vazifasi nima?",
+        "options": [
+            "Massiv yaratish", 
+            "Funktsiyaga uzatilgan barcha argumentlarni olish", 
+            "Obyektni stringga aylantirish", 
+            "To‘xtatish belgisi"
+        ],
+        "answer": "Funktsiyaga uzatilgan barcha argumentlarni olish"
+    },
+    {
+        "question": "JavaScript'da 'Symbol' qanday turdagi ma’lumot?",
+        "options": [
+            "To‘plam", 
+            "Yagona va noyob qiymat yaratish uchun ma’lumot turi", 
+            "Boolean qiymat", 
+            "DOM obyekt"
+        ],
+        "answer": "Yagona va noyob qiymat yaratish uchun ma’lumot turi"
+    },
+    {
+        "question": "'use strict'; satri qanday maqsadda ishlatiladi?",
+        "options": [
+            "Kodning bajarilishini tezlashtiradi", 
+            "ES6 sintaksisini yoqadi", 
+            "Xatolarni aniqroq aniqlaydi va xavfsiz holatga o‘tadi", 
+            "Kodga o‘zgaruvchi qo‘shadi"
+        ],
+        "answer": "Xatolarni aniqroq aniqlaydi va xavfsiz holatga o‘tadi"
+    },
+    {
+        "question": "'let' va 'var' orasidagi asosiy farq nima?",
+        "options": [
+            "'let' faqat global ishlatiladi", 
+            "'var' faqat block scope ichida ishlaydi", 
+            "'var' hoisting qiladi, 'let' esa yo‘q", 
+            "Ikkalasi ham bir xil"
+        ],
+        "answer": "'var' hoisting qiladi, 'let' esa yo‘q"
+    },
+    {
+        "question": "JavaScript'da 'event loop' vazifasi nima?",
+        "options": [
+            "Kod bloklarini birlashtiradi", 
+            "DOMni yangilaydi", 
+            "Callback va asinxron funksiyalarni boshqaradi", 
+            "Foydalanuvchi xatolarini tuzatadi"
+        ],
+        "answer": "Callback va asinxron funksiyalarni boshqaradi"
+    },
+    {
+        "question": "JavaScript'da 'map()' metodi nima uchun ishlatiladi?",
+        "options": [
+            "Obyektlarni qo‘shish uchun", 
+            "Arraydagi har bir elementga funksiyani qo‘llash uchun", 
+            "Massivni filterlash uchun", 
+            "DOMni yangilash uchun"
+        ],
+        "answer": "Arraydagi har bir elementga funksiyani qo‘llash uchun"
+    },
+    {
+        "question": "JavaScript'dagi 'shift()' metodi nima qiladi?",
+        "options": [
+            "Massiv oxiriga element qo‘shadi", 
+            "Massiv boshidan elementni olib tashlaydi", 
+            "Massivni teskari aylantiradi", 
+            "Massivni bo‘shatadi"
+        ],
+        "answer": "Massiv boshidan elementni olib tashlaydi"
+    },
+    {
+        "question": "JavaScript'dagi 'unshift()' metodi qanday ishlaydi?",
+        "options": [
+            "Massivga bir nechta element qo‘shadi, oxiriga", 
+            "Massivning boshiga element(lar) qo‘shadi", 
+            "Massivni alifbo tartibida saralaydi", 
+            "Massivni stringga o‘giradi"
+        ],
+        "answer": "Massivning boshiga element(lar) qo‘shadi"
+    },
+    {
+        "question": "'slice()' metodi qanday maqsadda ishlatiladi?",
+        "options": [
+            "Massivdan qismini nusxalash uchun", 
+            "Massivga yangi element qo‘shish uchun", 
+            "Massivni tozalash uchun", 
+            "Massivni boshqa massiv bilan birlashtirish uchun"
+        ],
+        "answer": "Massivdan qismini nusxalash uchun"
+    },
+    {
+        "question": "JavaScript'dagi 'splice()' metodi nima qiladi?",
+        "options": [
+            "Faqat massiv oxiridan element olib tashlaydi", 
+            "Massivdan elementlarni olib tashlab yangisini qo‘shadi", 
+            "Stringni bo‘lib beradi", 
+            "Massivni teskari aylantiradi"
+        ],
+        "answer": "Massivdan elementlarni olib tashlab yangisini qo‘shadi"
+    },
+    {
+        "question": "JavaScript'da 'pop()' metodi qanday ishlaydi?",
+        "options": [
+            "Massiv boshidan element olib tashlaydi", 
+            "Massiv oxiridan element olib tashlaydi", 
+            "Massivga yangi element qo‘shadi", 
+            "Massivni saralaydi"
+        ],
+        "answer": "Massiv oxiridan element olib tashlaydi"
+    },
+    {
+        "question": "'push()' metodi qaysi holatda ishlatiladi?",
+        "options": [
+            "Elementni massiv boshiga qo‘shadi", 
+            "Elementni massiv oxiriga qo‘shadi", 
+            "Elementni olib tashlaydi", 
+            "Massivni nusxalaydi"
+        ],
+        "answer": "Elementni massiv oxiriga qo‘shadi"
+    },
+    {
+        "question": "'concat()' metodi qanday vazifani bajaradi?",
+        "options": [
+            "Massivlarni birlashtiradi", 
+            "Massiv elementlarini teskari aylantiradi", 
+            "Massivdagi stringlarni kesadi", 
+            "Massivdan elementni o‘chiradi"
+        ],
+        "answer": "Massivlarni birlashtiradi"
+    },
+    {
+        "question": "'includes()' metodi nimani tekshiradi?",
+        "options": [
+            "Element uzunligini", 
+            "Massivda element bor-yo‘qligini", 
+            "Massiv uzunligini", 
+            "Element raqamini"
+        ],
+        "answer": "Massivda element bor-yo‘qligini"
+    },
+    {
+        "question": "'indexOf()' metodi qanday ishlaydi?",
+        "options": [
+            "Massivning oxirgi elementini chiqaradi", 
+            "Elementning massivdagi birinchi indeksini qaytaradi", 
+            "Massivni stringga aylantiradi", 
+            "Element uzunligini beradi"
+        ],
+        "answer": "Elementning massivdagi birinchi indeksini qaytaradi"
+    },
+    {
+        "question": "'reverse()' metodi qanday vazifani bajaradi?",
+        "options": [
+            "Massivni saralaydi", 
+            "Massiv elementlarini teskari tartibga o‘giradi", 
+            "Massivni tozalaydi", 
+            "Massivni stringga aylantiradi"
+        ],
+        "answer": "Massiv elementlarini teskari tartibga o‘giradi"
+    },
+    {
+        "question": "JavaScript'dagi 'filter()' metodi qanday ishlaydi?",
+        "options": [
+            "Elementlarni o‘chiradi", 
+            "Massivdan shartga mos elementlarni qaytaradi", 
+            "Massivni sort qiladi", 
+            "Massivga element qo‘shadi"
+        ],
+        "answer": "Massivdan shartga mos elementlarni qaytaradi"
+    },
+    {
+        "question": "'find()' va 'filter()' metodlari orasidagi asosiy farq nima?",
+        "options": [
+            "'find()' ko‘p element qaytaradi", 
+            "'filter()' birinchi mos elementni qaytaradi", 
+            "find() birinchi mosini, filter() esa barchasini qaytaradi", 
+            "Ikkalasi ham bir xil"
+        ],
+        "answer": "find() birinchi mosini, filter() esa barchasini qaytaradi"
+    },
+    {
+        "question": "'every()' metodi qanday vazifani bajaradi?",
+        "options": [
+            "Massivni tozalaydi", 
+            "Massiv barcha elementlarni shartga mosligini tekshiradi", 
+            "Faqat birinchi elementni tekshiradi", 
+            "Elementlarni yig‘adi"
+        ],
+        "answer": "Massiv barcha elementlarni shartga mosligini tekshiradi"
+    },
+    {
+        "question": "'some()' metodi qachon true qaytaradi?",
+        "options": [
+            "Hech bir element shartga mos bo‘lmasa", 
+            "Faqat birinchi element shartga mos bo‘lsa", 
+            "Birorta bo‘lsa ham shartga mos kelsa", 
+            "Barcha elementlar shartga mos kelsa"
+        ],
+        "answer": "Birorta bo‘lsa ham shartga mos kelsa"
+    },
+    {
+        "question": "'reduce()' metodi qanday ishlaydi?",
+        "options": [
+            "Massiv uzunligini kamaytiradi", 
+            "Massiv elementlarini bitta qiymatga aylantiradi", 
+            "Massivni ikkiga bo‘ladi", 
+            "Elementni massivdan olib tashlaydi"
+        ],
+        "answer": "Massiv elementlarini bitta qiymatga aylantiradi"
+    },
+    {
+        "question": "'sort()' metodi qanday ishlaydi?",
+        "options": [
+            "Massivni random tartibga o‘tkazadi", 
+            "Massivni o‘zgartirmasdan saralaydi", 
+            "Massivni alifbo tartibida yoki moslashtirilgan tarzda saralaydi", 
+            "Massivni stringga aylantiradi"
+        ],
+        "answer": "Massivni alifbo tartibida saralaydi"
+    },
+    {
+        "question": "'join()' metodi qanday maqsadda ishlatiladi?",
+        "options": [
+            "Massivni bo‘shatadi", 
+            "Elementlarini ajratgich bilan stringga aylantiradi", 
+            "Elementlarni qo‘shadi", 
+            "Massivni teskari qiladi"
+        ],
+        "answer": "Elementlarini ajratgich bilan stringga aylantiradi"
+    },
+    {
+        "question": "'Math.floor()' funksiyasi nima qiladi?",
+        "options": [
+            "Sonni yaxlitlaydi", 
+            "Sonni yuqoriga yaxlitlaydi", 
+            "Sonni pastga yaxlitlaydi", 
+            "Raqamni butun son qiladi"
+        ],
+        "answer": "Sonni pastga yaxlitlaydi"
+    },
+    {
+        "question": "'typeof' operatori nima qiladi?",
+        "options": [
+            "O‘zgaruvchini aniqlaydi", 
+            "O‘zgaruvchining qiymatini o‘zgartiradi", 
+            "O‘zgaruvchining ma’lumot turini qaytaradi", 
+            "Stringni massivga aylantiradi"
+        ],
+        "answer": "O‘zgaruvchining ma’lumot turini qaytaradi"
+    },
+    {
+        "question": "'instanceof' operatori qachon ishlatiladi?",
+        "options": [
+            "Obyektni funksiyaga aylantirishda", 
+            "O‘zgaruvchining konstruktoriga tegishliligini tekshirishda", 
+            "Stringni taqqoslashda", 
+            "Elementni DOMga qo‘shishda"
+        ],
+        "answer": "O‘zgaruvchini konstruktorga tegishliligini tekshirishda"
+    },
+    {
+        "question": "JavaScript'da '||' operatori qanday ishlaydi?",
+        "options": [
+            "Ikkala shart ham rost bo‘lsa true", 
+            "Faqat birinchi shartni tekshiradi", 
+            "Birinchi true qiymatni qaytaradi", 
+            "Faqat false qiymatlarni solishtiradi"
+        ],
+        "answer": "Birinchi true qiymatni qaytaradi"
+    },
+    {
+        "question": "'&&' operatori qanday qiymat qaytaradi?",
+        "options": [
+            "Birinchi true qiymat", 
+            "Oxirgi true qiymat yoki birinchi false", 
+            "Faqat boolean qiymat", 
+            "Hech narsa qaytarmaydi"
+        ],
+        "answer": "Oxirgi true qiymat yoki birinchi false"
+    },
+    {
+        "question": "'!' operatori nima qiladi?",
+        "options": [
+            "Qiymatni musbatga aylantiradi", 
+            "Qiymatni teskarisiga o‘zgartiradi", 
+            "Qiymatni nolga o‘zgartiradi", 
+            "Qiymatni null qiladi"
+        ],
+        "answer": "Qiymatni teskarisiga o‘zgartiradi"
+    },
+    {
+        "question": "'??' (nullish coalescing) operatori qachon ishlatiladi?",
+        "options": [
+            "Agar qiymat false bo‘lsa", 
+            "Qiymat undefined yoki null bo‘lsa, alternativni olishda", 
+            "Faqat undefined bo‘lsa", 
+            "Faqat 0 bo‘lsa"
+        ],
+        "answer": "Qiymat undefined yoki null bo‘lsa, alternativni olishda"
+    },
+    {
+        "question": "'typeof null' ning natijasi nima bo‘ladi?",
+        "options": [
+            "'object'", 
+            "'null'", 
+            "'undefined'", 
+            "'boolean'"
+        ],
+        "answer": "'object'"
+    },
+    {
+        "question": "JavaScript'da 'toFixed()' metodi nima uchun ishlatiladi?",
+        "options": [
+            "Sonni butun songa aylantirish uchun", 
+            "Sonni belgilangan kasr raqamlarigacha yaxlitlash uchun", 
+            "Stringga aylantirish uchun", 
+            "Massivni tozalash uchun"
+        ],
+        "answer": "Sonni belgilangan kasr raqamlarigacha yaxlitlash uchun"
+    },
+    {
+        "question": "'parseInt(\"15px\")' ning natijasi nima bo‘ladi?",
+        "options": [
+            "15", 
+            "0", 
+            "NaN", 
+            "\"15px\""
+        ],
+        "answer": "15"
+    },
+    {
+        "question": "'isNaN(\"123\")' ning natijasi nima bo‘ladi?",
+        "options": [
+            "true", 
+            "false", 
+            "NaN", 
+            "123"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "'Array.isArray([1, 2, 3])' natijasi nima?",
+        "options": [
+            "false", 
+            "true", 
+            "NaN", 
+            "undefined"
+        ],
+        "answer": "true"
+    },
+    {
+        "question": "'String.prototype.trim()' metodi nima qiladi?",
+        "options": [
+            "Faqat boshidagi bo‘sh joylarni olib tashlaydi", 
+            "Bosh va oxiridagi bo‘sh joylarni olib tashlaydi", 
+            "Faqat oxiridagi bo‘sh joylarni olib tashlaydi", 
+            "Hamma bo‘sh joylarni o‘chiradi"
+        ],
+        "answer": "Bosh va oxiridagi bo‘sh joylarni olib tashlaydi"
+    },
+    {
+        "question": "'toUpperCase()' metodi nima qiladi?",
+        "options": [
+            "Faqat birinchi harfni katta qiladi", 
+            "Stringdagi barcha harflarni bosh harfga o‘zgartiradi", 
+            "Faqat stringni tozalaydi", 
+            "Stringni massivga aylantiradi"
+        ],
+        "answer": "Stringdagi barcha harflarni bosh harfga o‘zgartiradi"
+    },
+    {
+        "question": "'charAt(2)' metodi nimani bildiradi?",
+        "options": [
+            "2-pozitsiyadagi belgini qaytaradi", 
+            "2-ta belgini olib tashlaydi", 
+            "2-pozitsiyadan boshlab kesadi", 
+            "2 belgini qo‘shadi"
+        ],
+        "answer": "2-pozitsiyadagi belgini qaytaradi"
+    },
+    {
+        "question": "'includes(\"lo\")' string metodining vazifasi nima?",
+        "options": [
+            "String boshida 'lo' borligini tekshiradi", 
+            "String oxirida 'lo' borligini tekshiradi", 
+            "Stringda 'lo' mavjudmi, tekshiradi", 
+            "Faqat 'lo' ni o‘chiradi"
+        ],
+        "answer": "Stringda 'lo' mavjudmi, tekshiradi"
+    },
+    {
+        "question": "'repeat(3)' metodi qanday natija beradi?",
+        "options": [
+            "Stringni uch marta takrorlaydi", 
+            "Stringni uch harfigacha qisqartiradi", 
+            "Stringni uch marta bo‘lib beradi", 
+            "Faqat sonlarni takrorlaydi"
+        ],
+        "answer": "Stringni uch marta takrorlaydi"
+    },
+    {
+        "question": "'Object.keys(obj)' metodi nima qiladi?",
+        "options": [
+            "Qiymatlarni array qiladi", 
+            "Kalitlarni massivga aylantiradi", 
+            "Objectni tozalaydi", 
+            "Massivdan object qiladi"
+        ],
+        "answer": "Kalitlarni massivga aylantiradi"
+    },
+    {
+        "question": "'Object.values(obj)' metodi nima qiladi?",
+        "options": [
+            "Object qiymatlarini array qiladi", 
+            "Kalitlarni string qiladi", 
+            "Qiymatlarni birlashtiradi", 
+            "Objectni massivga aylantirmaydi"
+        ],
+        "answer": "Object qiymatlarini array qiladi"
+    },
+    {
+        "question": "'Object.entries(obj)' metodining natijasi qanday bo‘ladi?",
+        "options": [
+            "Object qiymatlarini string qiladi", 
+            "Key-value massiv qaytaradi", 
+            "Objectni JSON ga aylantiradi", 
+            "Qiymatlarni sonlarga aylantiradi"
+        ],
+        "answer": "Key-value massiv qaytaradi"
+    },
+    {
+        "question": "'JSON.stringify(obj)' funksiyasi nima qiladi?",
+        "options": [
+            "Objectni DOM elementga aylantiradi", 
+            "Objectni string ko‘rinishga o‘tkazadi", 
+            "Objectni butun son qiladi", 
+            "Objectdan massiv qiladi"
+        ],
+        "answer": "Objectni string ko‘rinishga o‘tkazadi"
+    },
+    {
+        "question": "\"5\" + 5 natijasi nima bo‘ladi?",
+        "options": [
+            "\"55\"",
+            "10",
+            "NaN",
+            "Error"
+        ],
+        "answer": "\"55\""
+    },
+    {
+        "question": "\"10\" - 5 natijasi nima bo‘ladi?",
+        "options": [
+            "15",
+            "5",
+            "\"5\"",
+            "NaN"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "\"5\" * 2 natijasi nima bo‘ladi?",
+        "options": [
+            "\"10\"",
+            "10",
+            "NaN",
+            "Error"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "\"6\" / 3 natijasi nima bo‘ladi?",
+        "options": [
+            "2",
+            "\"2\"",
+            "NaN",
+            "Error"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "false + 1 natijasi nima bo‘ladi?",
+        "options": [
+            "false",
+            "1",
+            "0",
+            "NaN"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "null + 1 natijasi nima bo‘ladi?",
+        "options": [
+            "0",
+            "1",
+            "null",
+            "NaN"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "true + 1 natijasi nima bo‘ladi?",
+        "options": [
+            "2",
+            "1",
+            "\"1\"",
+            "NaN"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "undefined + 1 natijasi nima bo‘ladi?",
+        "options": [
+            "NaN",
+            "undefined",
+            "1",
+            "Error"
+        ],
+        "answer": "NaN"
+    },
+    {
+        "question": "\"10\" - \"5\" natijasi nima bo‘ladi?",
+        "options": [
+            "15",
+            "5",
+            "\"5\"",
+            "NaN"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "3 + 2 + \"5\" natijasi nima bo‘ladi?",
+        "options": [
+            "7",
+            "5",
+            "\"25\"",
+            "\"75\""
+        ],
+        "answer": "\"25\""
+    },
+    {
+        "question": "5 + 2 + 10 natijasi nima bo‘ladi?",
+        "options": [
+            "17",
+            "12",
+            "102",
+            "NaN"
+        ],
+        "answer": "17"
+    },
+    {
+        "question": "3 * 4 + \"5\" natijasi nima bo‘ladi?",
+        "options": [
+            "\"35\"",
+            "17",
+            "NaN",
+            "12"
+        ],
+        "answer": "\"35\""
+    },
+    {
+        "question": "\"3\" * 4 + 5 natijasi nima bo‘ladi?",
+        "options": [
+            "17",
+            "\"35\"",
+            "14",
+            "NaN"
+        ],
+        "answer": "17"
+    },
+    {
+        "question": "false - 1 natijasi nima bo‘ladi?",
+        "options": [
+            "-1",
+            "false",
+            "0",
+            "NaN"
+        ],
+        "answer": "-1"
+    },
+    {
+        "question": "null - 1 natijasi nima bo‘ladi?",
+        "options": [
+            "-1",
+            "1",
+            "null",
+            "NaN"
+        ],
+        "answer": "-1"
+    },
+    {
+        "question": "\"5\" + null natijasi nima bo‘ladi?",
+        "options": [
+            "\"5null\"",
+            "null5",
+            "\"null5\"",
+            "\"5\""
+        ],
+        "answer": "\"5null\""
+    },
+    {
+        "question": "\"5\" + undefined natijasi nima bo‘ladi?",
+        "options": [
+            "\"5undefined\"",
+            "\"5NaN\"",
+            "\"undefined5\"",
+            "\"5\""
+        ],
+        "answer": "\"5undefined\""
+    },
+    {
+        "question": "10 == \"10\" natijasi nima bo‘ladi?",
+        "options": [
+            "true",
+            "false",
+            "\"true\"",
+            "NaN"
+        ],
+        "answer": "true"
+    },
+    {
+        "question": "10 === \"10\" natijasi nima bo‘ladi?",
+        "options": [
+            "true",
+            "false",
+            "\"true\"",
+            "NaN"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "10 > 5 && 3 < 4 natijasi nima bo'ladi?",
+        "options": [
+            "true",
+            "false",
+            "NaN",
+            "\"true\""
+        ],
+        "answer": "true"
+    },
+    {
+        "question": "5 * 0 === 0 natijasi nima bo‘ladi?",
+        "options": [
+            "true",
+            "false",
+            "NaN",
+            "undefined"
+        ],
+        "answer": "true"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nconsole.log(5 + 3);",
+        "options": [
+            "8",
+            "NaN",
+            "Error",
+            "undefined"
+        ],
+        "answer": "8"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nconsole.log(10 - 4);",
+        "options": [
+            "6",
+            "14",
+            "Error",
+            "NaN"
+        ],
+        "answer": "6"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet a = 10;\nlet b = 20;\nconsole.log(a + b);",
+        "options": [
+            "30",
+            "1020",
+            "NaN",
+            "undefined"
+        ],
+        "answer": "30"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet str = \"Hello\";\nconsole.log(str + \" World!\");",
+        "options": [
+            "\"Hello World!\"",
+            "Hello World!",
+            "NaN",
+            "undefined"
+        ],
+        "answer": "\"Hello World!\""
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet x = 5;\nconsole.log(x * 2);",
+        "options": [
+            "10",
+            "NaN",
+            "25",
+            "Error"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet z = \"1234\";\nconsole.log(typeof z);",
+        "options": [
+            "string",
+            "number",
+            "NaN",
+            "undefined"
+        ],
+        "answer": "string"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo'ladi? \nlet arr = [1, 2, 3];\nconsole.log(arr.length);",
+        "options": [
+            "3",
+            "undefined",
+            "Error",
+            "NaN"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet number1 = \"2\";\nlet number2 = 2;\nconsole.log( number1 == number2);",
+        "options": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+        ],
+        "answer": "true"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet number1 = \"10\";\nlet number2 = 10;\nconsole.log(number1 === number2);",
+        "options": [
+            "true",
+            "false",
+            "NaN",
+            "undefined"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet x = 2;\nlet y = 3;\nconsole.log(x > y);",
+        "options": [
+            "true",
+            "false",
+            "undefined",
+            "NaN"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet arr = [1, 2, 3];\narr.push(4);\nconsole.log(arr);",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[1, 2, 3]",
+            "[4, 3, 2, 1]",
+            "NaN"
+        ],
+        "answer": "[1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet x = 5;\nif (x > 3) {\n  console.log('Bigger');\n} else {\n  console.log('Smaller');\n}",
+        "options": [
+            "Bigger",
+            "Smaller",
+            "undefined",
+            "NaN"
+        ],
+        "answer": "Bigger"
+    },
+    {
+        "question": "Quyidagi kodni qanday to‘g‘irlash kerak? \nlet x = 5;\nif x == 5 console.log('Equal');",
+        "options": [
+            "Shunday yozilishi kerak 'if (x == 5)'",
+            "Code ishlaydi",
+            "Shunday yozilishi kerak 'if {x = 5}'",
+            "Xatolik mavjud emas"
+        ],
+        "answer": "Shunday yozilishi kerak 'if (x == 5)'"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet str = 'hello';\nconsole.log(str.toUpperCase());",
+        "options": [
+            "hello",
+            "undefined",
+            "HELLO",
+            "null"
+        ],
+        "answer": "HELLO"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet str = 'Conor';\nstr = str.concat('dev');\nconsole.log(str);",
+        "options": [
+            "conor dev",
+            "undefined",
+            "devConor",
+            "Conordev"
+        ],
+        "answer": "Conordev"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet x = 5;\nconsole.log(x++);",
+        "options": [
+            "5",
+            "6",
+            "undefined",
+            "NaN"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "Quyidagi kodni qanday to‘g‘irlash kerak? \nlet arr = [1, 2, 3];\narr.push();\nconsole.log(arr);",
+        "options": [
+            "undefined qiymati arrayga qo‘shiladi",
+            "Xatolik yuz beradi",
+            "To‘g‘ri ishlaydi",
+            "0 qiymati arrayga qo‘shiladi"
+        ],
+        "answer": "undefined qiymati arrayga qo‘shiladi"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet a = {x: 1};\nlet b = a;\nb.x = 2;\nconsole.log(a.x);",
+        "options": [
+            "2",
+            "1",
+            "undefined",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "2"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nconsole.log([2] == [2]);",
+        "options": [
+            "false",
+            "true",
+            "undefined",
+            "NaN"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet arr = [1, 2, 3];\narr.length = 1;\nconsole.log(arr);",
+        "options": [
+            "[1]",
+            "[1, 2, 3]",
+            "[]",
+            "[1, 2]"
+        ],
+        "answer": "[1]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishda qanday natija olinadi? \nconsole.log(typeof NaN);",
+        "options": [
+            "number",
+            "NaN",
+            "undefined",
+            "object"
+        ],
+        "answer": "number"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nconsole.log(3 + '5');",
+        "options": [
+            "'35'",
+            "8",
+            "NaN",
+            "undefined"
+        ],
+        "answer": "'35'"
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida qanday qiymat olinadi? \nlet arr = [1, 2, 3];\narr.unshift(0);\nconsole.log(arr);",
+        "options": [
+            "[0, 1, 2, 3]",
+            "[1, 2, 3, 0]",
+            "[0, 1, 2]",
+            "[3, 2, 1, 0]"
+        ],
+        "answer": "[0, 1, 2, 3]"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nconsole.log('a' > 'b');",
+        "options": [
+            "false",
+            "true",
+            "NaN",
+            "undefined"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = [1, 2, 3];\nx.length = 0;\nconsole.log(x);",
+        "options": [
+            "[]",
+            "[1, 2, 3]",
+            "[null, null, null]",
+            "undefined"
+        ],
+        "answer": "[]"
+    },
+    {
+        "question": "Quyidagi kodda qanday xato mavjud? \nlet a = '10';\nlet b = 5;\nconsole.log(a - b);",
+        "options": [
+            "15",
+            "undefined",
+            "Xatolik yuz beradi",
+            "5"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = ['apple', 'orange', 'banana'];\narr.push('grape');\nconsole.log(arr.length);",
+        "options": [
+            "3",
+            "5",
+            "4",
+            "2"
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet a = [1, 2, 3];\na.push([4, 5]);\nconsole.log(a);",
+        "options": [
+            "[1, 2, 3, [4, 5]]",
+            "[1, 2, 3, 4, 5]",
+            "[1, 2, 3, '4,5']",
+            "[1, 2, 3, 4, 5, 6]"
+        ],
+        "answer": "[1, 2, 3, [4, 5]]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet obj = {x: 1};\nObject.freeze(obj);\nobj.x = 2;\nconsole.log(obj.x);",
+        "options": [
+            "2",
+            "1",
+            "undefined",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = 10;\nconsole.log(x++);",
+        "options": [
+            "10",
+            "11",
+            "Xatolik yuz beradi",
+            "undefined"
+        ],
+        "answer": "10"
+    },
+    {
+        "question": "Quyidagi code natijasi qanday bo'ladi? \nlet x = null;\nconsole.log(typeof x);",
+        "options": [
+            "null",
+            "object",
+            "undefined",
+            "boolean"
+        ],
+        "answer": "object"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3];\narr.unshift(0);\narr.push(4);\nconsole.log(arr);",
+        "options": [
+            "[0, 1, 2, 3, 4]",
+            "[1, 2, 3, 4]",
+            "[0, 4, 1, 2, 3]",
+            "[4, 1, 2, 3, 0]"
+        ],
+        "answer": "[0, 1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodda qanday xato bor? \nlet arr = [1, 2, 3];\narr.pop(2);\nconsole.log(arr);",
+        "options": [
+            "[1, 2]",
+            "[1, 3]",
+            "[1]",
+            "[2, 3]"
+        ],
+        "answer": "[1, 2]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3];\narr.push([4, 5]);\nconsole.log(arr.length);",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "3"
+        ],
+        "answer": "4"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet a = 2;\nlet b = 3;\nlet c = a++ + ++b;\nconsole.log(c);",
+        "options": [
+            "5",
+            "6",
+            "4",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = ['apple', 'banana', 'cherry'];\narr.splice(1, 1);\nconsole.log(arr);",
+        "options": [
+            "['apple', 'cherry']",
+            "['banana', 'cherry']",
+            "['apple', 'banana']",
+            "['apple']"
+        ],
+        "answer": "['apple', 'cherry']"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo'ladi? \nlet arr = [1, 2, 3];\narr.reverse();\nconsole.log(arr);",
+        "options": [
+            "[3, 2, 1]",
+            "[1, 2, 3]",
+            "[1, 3, 2]",
+            "[2, 3, 1]"
+        ],
+        "answer": "[3, 2, 1]"
+    },
+    {
+        "question": "Quyidagi kodda qanday xato bor? \nlet arr = [1, 2, 3];\narr.splice(2, 1, 4, 5);\nconsole.log(arr);",
+        "options": [
+            "[1, 2, 4, 5]",
+            "[1, 2, 3, 4, 5]",
+            "[4, 5]",
+            "[1, 4, 5]"
+        ],
+        "answer": "[1, 2, 4, 5]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = 10;\nconsole.log(x < 5 ? 'Less' : 'More');",
+        "options": [
+            "'Less'",
+            "'More'",
+            "'undefined'",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "'More'"
+    },
+    {
+        "question": "Quyidagi kodning natijasi nima bo‘ladi? \nlet arr = [1, 2, 3];\nlet newArr = arr.slice(1, 2);\nconsole.log(newArr);",
+        "options": [
+            "[2]",
+            "[1, 2]",
+            "[2, 3]",
+            "[1]"
+        ],
+        "answer": "[2]"
+    },
+    {
+        "question": "Quyidagi kodda qanday xato bor? \nlet x = 10;\nlet y = 2;\nconsole.log(x / y);",
+        "options": [
+            "5",
+            "Xatolik yuz beradi",
+            "2",
+            "20"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "Quyidagi code natijasi qanday? \nlet arr = ['a', 'b', 'c'];\narr.shift();\nconsole.log(arr);",
+        "options": [
+            "['b', 'c']",
+            "['a', 'b', 'c']",
+            "['c']",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "['b', 'c']"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3];\narr[10] = 5;\nconsole.log(arr);",
+        "options": [
+            "[1, 2, 3, <7 bo‘sh element>, 5]",
+            "[1, 2, 3, 5]",
+            "[1, 2, 3, <10 bo‘sh element>]",
+            "[1, 2, 3, 5, undefined]"
+        ],
+        "answer": "[1, 2, 3, <7 bo‘sh element>, 5]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3];\narr.push(4, 5);\nconsole.log(arr.length);",
+        "options": [
+            "3",
+            "5",
+            "4",
+            "6"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = [1, 2, 3];\nlet y = [...x];\ny[0] = 4;\nconsole.log(x[0]);",
+        "options": [
+            "1",
+            "4",
+            "undefined",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "1"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet a = 'Java';\nlet b = 'Script';\nconsole.log(a + b);",
+        "options": [
+            "'JavaScript'",
+            "'Java Script'",
+            "'Java' + ' ' + 'Script'",
+            "'Java' + 'Script'"
+        ],
+        "answer": "'JavaScript'"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet a = {x: 1};\nlet b = {x: 1};\nconsole.log(a == b);",
+        "options": [
+            "true",
+            "false",
+            "undefined",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = '10';\nlet y = 10;\nconsole.log(x == y);",
+        "options": [
+            "true",
+            "false",
+            "Xatolik yuz beradi",
+            "undefined"
+        ],
+        "answer": "true"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3];\nlet [a, b, c] = arr;\nconsole.log(c);",
+        "options": [
+            "3",
+            "undefined",
+            "2",
+            "1"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3];\narr[1] = 4;\narr[5] = 6;\nconsole.log(arr);",
+        "options": [
+            "[1, 4, 3, <3 bo‘sh element>, 6]",
+            "[1, 4, 3, 6]",
+            "[1, 4, 3, <5 bo‘sh element>]",
+            "[1, 4, 3, 5, 6]"
+        ],
+        "answer": "[1, 4, 3, <3 bo‘sh element>, 6]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = 5;\nlet y = 10;\nlet z = x < y ? 'yes' : 'no';\nconsole.log(z);",
+        "options": [
+            "'yes'",
+            "'no'",
+            "5",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "'yes'"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [10, 20, 30];\nconsole.log(arr.map(x => x * 2));",
+        "options": [
+            "[10, 20, 30]",
+            "[20, 30, 40]",
+            "[20, 40, 60]",
+            "[20, 40, 60, 70]"
+        ],
+        "answer": "[20, 40, 60]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = [1, 2, 3];\nlet y = x;\ny.push(4);\nconsole.log(x);",
+        "options": [
+            "[1, 2, 3, 4]",
+            "[1, 2, 3]",
+            "[4, 2, 3]",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "[1, 2, 3, 4]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet a = [1, 2, 3];\nlet b = [1, 2, 3];\nconsole.log(a === b);",
+        "options": [
+            "true",
+            "false",
+            "Xatolik yuz beradi",
+            "undefined"
+        ],
+        "answer": "false"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet x = 10;\nlet y = 2;\nlet z = x / y;\nconsole.log(z);",
+        "options": [
+            "5",
+            "2",
+            "Xatolik yuz beradi",
+            "undefined"
+        ],
+        "answer": "5"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3, 4, 5];\narr.splice(2, 0, 6);\nconsole.log(arr);",
+        "options": [
+            "[1, 2, 6, 3, 4, 5]",
+            "[1, 2, 3, 4, 5, 6]",
+            "[1, 2, 6, 3, 4, 5]",
+            "[6, 1, 2, 3, 4, 5]"
+        ],
+        "answer": "[1, 2, 6, 3, 4, 5]"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [1, 2, 3];\nconsole.log(arr.join('-'));",
+        "options": [
+            "1-2-3",
+            "1,2,3",
+            "[1, 2, 3]",
+            "[1]-[2]-[3]"
+        ],
+        "answer": "1-2-3"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet obj = {a: 1, b: 2};\ndelete obj.a;\nconsole.log(obj);",
+        "options": [
+            "{a: 1, b: 2}",
+            "{}",
+            "{a: 1}",
+            "{b: 2}"
+        ],
+        "answer": "{b: 2}"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet a = 10;\nlet b = a++ + 5;\nconsole.log(b);",
+        "options": [
+            "15",
+            "16",
+            "10",
+            "Xatolik yuz beradi"
+        ],
+        "answer": "15"
+    },
+    {
+        "question": "Quyidagi kodni bajarishdan qanday natija olinadi? \nlet arr = [10, 20, 30];\narr.pop();\nconsole.log(arr);",
+        "options": [
+            "[10, 20]",
+            "[10, 30]",
+            "[20, 30]",
+            "[10, 20, 30]"
+        ],
+        "answer": "[10, 20]"
+    }
+]

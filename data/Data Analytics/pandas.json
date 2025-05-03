@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "Pandas kutubxonasida DataFrame ni yaratish uchun qaysi metod ishlatiladi?",
+        "options": [
+            "pd.DataFrame()",
+            "pd.createDataFrame()",
+            "pd.newDataFrame()",
+            "pd.create()"
+        ],
+        "answer": "pd.DataFrame()"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday qilib indekslar bo'yicha saralash mumkin?",
+        "options": [
+            "df.sort_index()",
+            "df.sort_values()",
+            "df.sort()",
+            "df.index_sort()"
+        ],
+        "answer": "df.sort_index()"
+    },
+    {
+        "question": "Pandasda DataFrame ustunini qanday olish mumkin?",
+        "options": [
+            "df['column_name']",
+            "df.get_column('column_name')",
+            "df.column('column_name')",
+            "df['column']"
+        ],
+        "answer": "df['column_name']"
+    },
+    {
+        "question": "Pandasda NaN qiymatlarni qanday aniqlash mumkin?",
+        "options": [
+            "df.isna()",
+            "df.isnan()",
+            "df.isnull()",
+            "df.notna()"
+        ],
+        "answer": "df.isna()"
+    },
+    {
+        "question": "Pandasda DataFrame dan ustunlarni qanday olib tashlash mumkin?",
+        "options": [
+            "df.drop('column_name', axis=1)",
+            "df.remove('column_name')",
+            "df.delete('column_name')",
+            "df.drop_column('column_name')"
+        ],
+        "answer": "df.drop('column_name', axis=1)"
+    },
+    {
+        "question": "Pandasda DataFrame ga yangi ustun qo'shishning to'g'ri sintaksisi qaysi?",
+        "options": [
+            "df['new_column'] = values",
+            "df.add_column('new_column', values)",
+            "df.insert_column('new_column', values)",
+            "df.create_column('new_column', values)"
+        ],
+        "answer": "df['new_column'] = values"
+    },
+    {
+        "question": "Pandasda DataFrame-ni faylga qanday eksport qilish mumkin?",
+        "options": [
+            "df.to_csv('file.csv')",
+            "df.export_csv('file.csv')",
+            "df.write_csv('file.csv')",
+            "df.save_csv('file.csv')"
+        ],
+        "answer": "df.to_csv('file.csv')"
+    },
+    {
+        "question": "Pandasda DataFrame dan qaysi metod yordamida ustun bo'yicha o'rtacha qiymatni olish mumkin?",
+        "options": [
+            "df.mean()",
+            "df.average()",
+            "df.sum()",
+            "df.median()"
+        ],
+        "answer": "df.mean()"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday filtrlash mumkin?",
+        "options": [
+            "df[df['column'] > value]",
+            "df.filter('column', value)",
+            "df.select('column', value)",
+            "df.query('column > value')"
+        ],
+        "answer": "df[df['column'] > value]"
+    },
+    {
+        "question": "Pandasda DataFrame qaysi metod yordamida missing qiymatlarni to'ldirish mumkin?",
+        "options": [
+            "df.fillna(value)",
+            "df.replace_na(value)",
+            "df.nan_to_value(value)",
+            "df.null_to_value(value)"
+        ],
+        "answer": "df.fillna(value)"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday qayta tuzish (reshape) mumkin?",
+        "options": [
+            "df.melt()",
+            "df.pivot()",
+            "df.reshape()",
+            "df.transpose()"
+        ],
+        "answer": "df.melt()"
+    },
+    {
+        "question": "Pandasda DataFrame uchun ustunlarni nomini qanday o'zgartirish mumkin?",
+        "options": [
+            "df.rename(columns={'old_name': 'new_name'})",
+            "df.change_column_name({'old_name': 'new_name'})",
+            "df.set_column_name({'old_name': 'new_name'})",
+            "df.relabel({'old_name': 'new_name'})"
+        ],
+        "answer": "df.rename(columns={'old_name': 'new_name'})"
+    },
+    {
+        "question": "Pandasda DataFrame-ni qanday nusxalash mumkin?",
+        "options": [
+            "df.copy()",
+            "df.duplicate()",
+            "df.clone()",
+            "df.new()"
+        ],
+        "answer": "df.copy()"
+    },
+    {
+        "question": "Pandasda DataFrame ustunida null qiymatlarni qanday tekshirish mumkin?",
+        "options": [
+            "df['column'].isnull()",
+            "df['column'].isna()",
+            "df['column'].notnull()",
+            "df['column'].none()"
+        ],
+        "answer": "df['column'].isnull()"
+    },
+    {
+        "question": "Pandasda ikkita DataFrame-ni qanday qo'shish mumkin?",
+        "options": [
+            "pd.concat([df1, df2])",
+            "pd.merge(df1, df2)",
+            "df1.append(df2)",
+            "df1.add(df2)"
+        ],
+        "answer": "pd.concat([df1, df2])"
+    },
+    {
+        "question": "Pandasda DataFrame ning barcha ustunlarini qanday olish mumkin?",
+        "options": [
+            "df.columns",
+            "df.get_columns()",
+            "df.all_columns()",
+            "df.ustunlar()"
+        ],
+        "answer": "df.columns"
+    },
+    {
+        "question": "Pandasda ustunlar bo'yicha maksimal qiymatni qanday olish mumkin?",
+        "options": [
+            "df.max()",
+            "df.maximum()",
+            "df.highest()",
+            "df.top()"
+        ],
+        "answer": "df.max()"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday formatlash mumkin?",
+        "options": [
+            "df.style.format()",
+            "df.format()",
+            "df.styling()",
+            "df.set_format()"
+        ],
+        "answer": "df.style.format()"
+    },
+    {
+        "question": "Pandasda DataFrame ustunining qiymatlarini qanday guruhlash mumkin?",
+        "options": [
+            "df.groupby('column')",
+            "df.sort_values('column')",
+            "df.categorize('column')",
+            "df.cluster('column')"
+        ],
+        "answer": "df.groupby('column')"
+    },
+    {
+        "question": "Pandasda DataFrame ustunlarida bo'sh qiymatlarni qanday aniqlash mumkin?",
+        "options": [
+            "df.check_null()",
+            "df.isnull().sum()",
+            "df.na_values()",
+            "df.isna().sum()"
+        ],
+        "answer": "df.isnull().sum()"
+    },
+    {
+        "question": "Pandasda DataFrame uchun qaysi metod yordamida qatorlar bo'yicha qiymatlarni guruhlash mumkin?",
+        "options": [
+            "df.aggregate('column_name')",
+            "df.groupby('column_name').sum()",
+            "df.grouper('column_name')",
+            "df.cluster_by('column_name')"
+        ],
+        "answer": "df.groupby('column_name').sum()"
+    },
+    {
+        "question": "Pandasda DataFrame ichidagi barcha raqamli ustunlar bo'yicha o'rtacha qiymatni qanday olish mumkin?",
+        "options": [
+            "df.average()",
+            "df.mean()",
+            "df.median()",
+            "df.calculate_mean()"
+        ],
+        "answer": "df.mean()"
+    },
+    {
+        "question": "Pandasda DataFrame ustunlarini bir nechta shartlarga ko'ra saralash uchun qaysi metoddan foydalaniladi?",
+        "options": [
+            "df.sort(by=['column1', 'column2'])",
+            "df.sort_values(by=['column1', 'column2'])",
+            "df.order_values(['column1', 'column2'])",
+            "df.order(['column1', 'column2'])"
+        ],
+        "answer": "df.sort_values(by=['column1', 'column2'])"
+    },
+    {
+        "question": "Pandasda DataFrame-ga yangi ustun qo'shish uchun qanday usuldan foydalaniladi?",
+        "options": [
+            "df.add_column('new_column', values)",
+            "df['new_column'] = values",
+            "df.insert_column('new_column', values)",
+            "df.create_column('new_column', values)"
+        ],
+        "answer": "df['new_column'] = values"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday faylga eksport qilish mumkin?",
+        "options": [
+            "df.to_file('file.xlsx')",
+            "df.to_excel('file.xlsx')",
+            "df.save('file.xlsx')",
+            "df.export('file.xlsx')"
+        ],
+        "answer": "df.to_excel('file.xlsx')"
+    },
+    {
+        "question": "Pandasda DataFrame ichidagi ustunlarning nomlarini qanday o'zgartirish mumkin?",
+        "options": [
+            "df.set_column_name({'old_name': 'new_name'})",
+            "df.rename(columns={'old_name': 'new_name'})",
+            "df.update_column({'old_name': 'new_name'})",
+            "df.relabel_columns({'old_name': 'new_name'})"
+        ],
+        "answer": "df.rename(columns={'old_name': 'new_name'})"
+    },
+    {
+        "question": "Pandasda DataFrame-ni birinchi n qatorini qanday olish mumkin?",
+        "options": [
+            "df.first(n)",
+            "df.head(n)",
+            "df.top(n)",
+            "df.limit(n)"
+        ],
+        "answer": "df.head(n)"
+    },
+    {
+        "question": "Pandasda DataFrame dan faqat unique (takrorlanmas) qiymatlarni qanday olish mumkin?",
+        "options": [
+            "df['column'].distinct()",
+            "df['column'].unique()",
+            "df['column'].no_duplicates()",
+            "df['column'].remove_duplicates()"
+        ],
+        "answer": "df['column'].unique()"
+    },
+    {
+        "question": "Pandasda DataFrame ustunlari bo'yicha minimal qiymatni qanday olish mumkin?",
+        "options": [
+            "df.minimum()",
+            "df.min()",
+            "df.lowest()",
+            "df.bottom()"
+        ],
+        "answer": "df.min()"
+    },
+    {
+        "question": "Pandasda DataFrame ustunlari bo'yicha median qiymatini qanday olish mumkin?",
+        "options": [
+            "df.middle()",
+            "df.median()",
+            "df.average()",
+            "df.center()"
+        ],
+        "answer": "df.median()"
+    },
+    {
+        "question": "Pandasda DataFrame da o'zgartirish kiritilgan qatorni qanday ko'rsatish mumkin?",
+        "options": [
+            "df.iloc[index]",
+            "df.loc[index]",
+            "df.select(index)",
+            "df.index_at(index)"
+        ],
+        "answer": "df.loc[index]"
+    },
+    {
+        "question": "Pandasda DataFrame-ni qanday shaklda transpozitsiya qilish mumkin?",
+        "options": [
+            "df.transpose()",
+            "df.T",
+            "df.flip()",
+            "df.change_shape()"
+        ],
+        "answer": "df.T"
+    },
+    {
+        "question": "Pandasda DataFrame ichida faqat aniq qiymatga teng bo'lgan qatorlarni qanday tanlash mumkin?",
+        "options": [
+            "df.filter(value, 'column')",
+            "df[df['column'] == value]",
+            "df.select(value, 'column')",
+            "df.query('column == value')"
+        ],
+        "answer": "df[df['column'] == value]"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday guruhlash mumkin?",
+        "options": [
+            "df.group_by('column_name')",
+            "df.groupby('column_name')",
+            "df.group_on('column_name')",
+            "df.clustering('column_name')"
+        ],
+        "answer": "df.groupby('column_name')"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday ichki ma'lumotlarni qo'shish mumkin?",
+        "options": [
+            "df.add(other_df)",
+            "df.append(other_df)",
+            "df.concat(other_df)",
+            "df.insert(other_df)"
+        ],
+        "answer": "df.append(other_df)"
+    },
+    {
+        "question": "Pandasda DataFrame-da ustun bo'yicha qiymatlarni qanday ko'rsatish mumkin?",
+        "options": [
+            "df.get_column('column')",
+            "df['column']",
+            "df.column()",
+            "df.select_column('column')"
+        ],
+        "answer": "df['column']"
+    },
+    {
+        "question": "Pandasda DataFrame ichidagi ustunlarni birlashtirish uchun qaysi metoddan foydalaniladi?",
+        "options": [
+            "df.combine_first()",
+            "df.merge()",
+            "df.concat()",
+            "df.join()"
+        ],
+        "answer": "df.merge()"
+    },
+    {
+        "question": "Pandasda DataFrame ni faqat kerakli ustunlar bilan qanday qisqartirish mumkin?",
+        "options": [
+            "df.slice_columns(['column1', 'column2'])",
+            "df[['column1', 'column2']]",
+            "df.get_columns(['column1', 'column2'])",
+            "df.select_columns(['column1', 'column2'])"
+        ],
+        "answer": "df[['column1', 'column2']]"
+    },
+    {
+        "question": "Pandasda DataFrame ni CSV faylidan qanday o'qish mumkin?",
+        "options": [
+            "df.read_csv('file.csv')",
+            "df.load_csv('file.csv')",
+            "pd.read_csv('file.csv')",
+            "df.import_csv('file.csv')"
+        ],
+        "answer": "pd.read_csv('file.csv')"
+    },
+    {
+        "question": "Pandasda DataFrame ustunlari bo'yicha o'rtacha qiymatni qanday olish mumkin?",
+        "options": [
+            "df.avg()",
+            "df.mean_value()",
+            "df.mean()",
+            "df.average()"
+        ],
+        "answer": "df.mean()"
+    },
+    {
+        "question": "Pandasda DataFrame ustunlari bo'yicha maksimal qiymatni qanday olish mumkin?",
+        "options": [
+            "df.maximum()",
+            "df.top()",
+            "df.max()",
+            "df.highest()"
+        ],
+        "answer": "df.max()"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday shartlarga asoslanib saralash mumkin?",
+        "options": [
+            "df.sort()",
+            "df.arrange()",
+            "df.sort_values(by='column_name')",
+            "df.order_by()"
+        ],
+        "answer": "df.sort_values(by='column_name')"
+    },
+    {
+        "question": "Pandasda DataFrame ustunini qanday o'zgartirish mumkin?",
+        "options": [
+            "df.rename_column('old', 'new')",
+            "df.change_name('old', 'new')",
+            "df.rename(columns={'old': 'new'})",
+            "df.update_column('old', 'new')"
+        ],
+        "answer": "df.rename(columns={'old': 'new'})"
+    },
+    {
+        "question": "Pandasda DataFrame ustunlarini qanday kombinatsiya qilish mumkin?",
+        "options": [
+            "df.concatenate()",
+            "df.merge_columns()",
+            "df.concat()",
+            "df.join_columns()"
+        ],
+        "answer": "df.concat()"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday yangi ustun qo'shish mumkin?",
+        "options": [
+            "df.add_column('new_column', values)",
+            "df.append_column('new_column', values)",
+            "df['new_column'] = values",
+            "df.create_column('new_column', values)"
+        ],
+        "answer": "df['new_column'] = values"
+    },
+    {
+        "question": "Pandasda DataFrame ni qanday qatorlar bo'yicha saralash mumkin?",
+        "options": [
+            "df.order()",
+            "df.sort_row()",
+            "df.sort_index()",
+            "df.sort_values(by='row_name')"
+        ],
+        "answer": "df.sort_index()"
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] + df['B']\nprint(df)",
+        "options": [
+            "DataFrame 'A' va 'B' ustunlari ustiga yana bir ustun qo'shiladi.",
+            "DataFrame 'C' ustuni butunlay bo'sh bo'ladi.",
+            "DataFrame C, A va B ustunlarining yig'indisiga teng bo'ladi.",
+            "DataFrame 'A' ustuni faqat birinchi elementni oladi."
+        ],
+        "answer": "DataFrame C, A va B ustunlarining yig'indisiga teng bo'ladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf = df.drop('B', axis=1)\nprint(df)",
+        "options": [
+            "B ustuni DataFrame'dan o'chiriladi.",
+            "A ustuni o'chiriladi.",
+            "Har ikkala ustun o'chiriladi.",
+            "DataFrame bo'sh bo'ladi."
+        ],
+        "answer": "B ustuni DataFrame'dan o'chiriladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].sum())",
+        "options": [
+            "A ustunining qiymatlarining o'rtacha qiymatini chiqaradi.",
+            "A ustunining qiymatlarining yig'indisini chiqaradi.",
+            "B ustunining yig'indisini chiqaradi.",
+            "DataFrame ni chiqaradi."
+        ],
+        "answer": "A ustunining qiymatlarining yig'indisini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.mean())",
+        "options": [
+            "Ustunlarining o'rtacha qiymatlarini chiqaradi.",
+            "B ustunining o'rtacha qiymatini chiqaradi.",
+            "DataFrame ni chiqaradi.",
+            "Barcha qiymatlar yig'indisini chiqaradi."
+        ],
+        "answer": "Ustunlarining o'rtacha qiymatlarini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'].apply(lambda x: x * 2)\nprint(df)",
+        "options": [
+            "C ustuni A ustunining har bir elementini 2 ga ko'paytiradi.",
+            "C ustuni faqat 2 ni ko'paytiradi.",
+            "C ustuni barcha qiymatlarni bo'sh qiladi.",
+            "C ustuni A ustuniga teng bo'ladi."
+        ],
+        "answer": "C ustuni A ustunining har bir elementini 2 ga ko'paytiradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] + df['B']\nprint(df['C'].max())",
+        "options": [
+            "C ustunining minimal qiymatini chiqaradi.",
+            "C ustunining maksimal qiymatini chiqaradi.",
+            "DataFrame ni chiqaradi.",
+            "A ustunining maksimal qiymatini chiqaradi."
+        ],
+        "answer": "C ustunining maksimal qiymatini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].std())",
+        "options": [
+            "A ustunining mediana qiymatini chiqaradi.",
+            "A ustunining standart og'ish qiymatini chiqaradi.",
+            "A ustunining maksimal qiymatini chiqaradi.",
+            "A ustunining o'rtacha qiymatini chiqaradi."
+        ],
+        "answer": "A ustunining standart og'ish qiymatini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] + df['B']\nprint(df[df['C'] > 5])",
+        "options": [
+            "C ustunining qiymati 5 dan katta bo'lgan qatorlar chiqariladi.",
+            "A ustunining qiymati 5 dan katta bo'lgan qatorlar chiqariladi.",
+            "B ustunining qiymati 5 dan katta bo'lgan qatorlar chiqariladi.",
+            "C ustunining qiymati 5 dan kichik bo'lgan qatorlar chiqariladi."
+        ],
+        "answer": "C ustunining qiymati 5 dan katta bo'lgan qatorlar chiqariladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].min())",
+        "options": [
+            "A ustunining maksimal qiymatini chiqaradi.",
+            "B ustunining minimal qiymatini chiqaradi.",
+            "A ustunining minimal qiymatini chiqaradi.",
+            "B ustunining o'rtacha qiymatini chiqaradi."
+        ],
+        "answer": "A ustunining minimal qiymatini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].apply(str))",
+        "options": [
+            "A ustunini butunlay bo'sh qiladi.",
+            "A ustunidagi barcha elementlarni string turiga aylantiradi.",
+            "A ustunidagi barcha elementlarni 2 ga ko'paytiradi.",
+            "A ustunini sonlarga aylantiradi."
+        ],
+        "answer": "A ustunidagi barcha elementlarni string turiga aylantiradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.isnull().sum())",
+        "options": [
+            "Har bir ustundagi null qiymatlar soni chiqadi.",
+            "Null qiymatlar mavjud bo'lsa, ularni to'liq o'chiradi.",
+            "Null qiymatlarni DataFrame'ga qo'shadi.",
+            "Null qiymatlarni o'zgartiradi."
+        ],
+        "answer": "Har bir ustundagi null qiymatlar soni chiqadi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] * df['B']\nprint(df['C'].head())",
+        "options": [
+            "C ustunining birinchi 5 qiymati chiqariladi.",
+            "C ustunining barcha qiymatlari chiqariladi.",
+            "DataFrame ni boshidan chiqaradi.",
+            "B ustunining birinchi 5 qiymati chiqariladi."
+        ],
+        "answer": "C ustunining birinchi 5 qiymati chiqariladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.corr())",
+        "options": [
+            "Ustunlarining o'rtasidagi korrelyatsiyani chiqaradi.",
+            "DataFrame ustunlarining maxsus funksiyalarini chiqaradi.",
+            "A ustunining qiymatlari orasidagi bog'liqlikni chiqaradi.",
+            "B ustunining qiymatlari orasidagi bog'liqlikni chiqaradi."
+        ],
+        "answer": "Ustunlarining o'rtasidagi korrelyatsiyani chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf = df.set_index('A')\nprint(df)",
+        "options": [
+            "A ustunini index sifatida belgilaydi.",
+            "B ustunini index sifatida belgilaydi.",
+            "DataFrame'ni index bilan chiqaradi.",
+            "Barcha qiymatlarni index qilib belgilaydi."
+        ],
+        "answer": "A ustunini index sifatida belgilaydi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] + df['B']\nprint(df['C'])",
+        "options": [
+            "C ustuni faqat 'A' ustunining qiymatlaridan iborat bo'ladi.",
+            "C ustuni 'B' ustunining qiymatlaridan iborat bo'ladi.",
+            "C ustuni 'A' va 'B' ustunlarining o'rtacha qiymatlaridan iborat bo'ladi.",
+            "C ustuni A va B ustunlarining yig'indisidan iborat bo'ladi."
+        ],
+        "answer": "C ustuni A va B ustunlarining yig'indisidan iborat bo'ladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.head())",
+        "options": [
+            "Birinchi 3 qatorni chiqaradi.",
+            "Birinchi 5 qatorni chiqaradi.",
+            "Oxirgi 5 qatorni chiqaradi.",
+            "Barcha qatorlarni chiqaradi."
+        ],
+        "answer": "Birinchi 5 qatorni chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] * df['B']\nprint(df['C'].sum())",
+        "options": [
+            "C ustunining o'rtacha qiymatini chiqaradi.",
+            "C ustunining maksimal qiymatini chiqaradi.",
+            "C ustunining qiymatlarining yig'indisini chiqaradi.",
+            "C ustunining qiymatlarining mediana qiymatini chiqaradi."
+        ],
+        "answer": "C ustunining qiymatlarining yig'indisini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].mean())",
+        "options": [
+            "A ustunining mediana qiymatini chiqaradi.",
+            "A ustunining maksimal qiymatini chiqaradi.",
+            "A ustunining o'rtacha qiymatini chiqaradi.",
+            "B ustunining o'rtacha qiymatini chiqaradi."
+        ],
+        "answer": "A ustunining o'rtacha qiymatini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'].apply(lambda x: x * 2)\nprint(df['C'])",
+        "options": [
+            "C ustuni 'A' ustunidagi barcha qiymatlarni 3 ga ko'paytiradi.",
+            "C ustuni A ustunidagi barcha qiymatlarni 2 ga ko'paytiradi.",
+            "C ustuni 'A' ustunidagi barcha qiymatlarni 1 ga ko'paytiradi.",
+            "C ustuni 'A' ustunidagi barcha qiymatlarni 4 ga ko'paytiradi."
+        ],
+        "answer": "C ustuni A ustunidagi barcha qiymatlarni 2 ga ko'paytiradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] + df['B']\nprint(df['C'].max())",
+        "options": [
+            "C ustunining minimal qiymatini chiqaradi.",
+            "C ustunining maksimal qiymatini chiqaradi.",
+            "C ustunining o'rtacha qiymatini chiqaradi.",
+            "A ustunining maksimal qiymatini chiqaradi."
+        ],
+        "answer": "C ustunining maksimal qiymatini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.isnull().sum())",
+        "options": [
+            "Null qiymatlar mavjud bo'lsa, ularni bo'sh qilib o'zgartiradi.",
+            "Null qiymatlar mavjud bo'lsa, ularni yig'indisini chiqaradi.",
+            "Har bir ustundagi null qiymatlar soni chiqadi.",
+            "Null qiymatlar mavjud bo'lsa, ular o'chiriladi."
+        ],
+        "answer": "Har bir ustundagi null qiymatlar soni chiqadi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf = df.dropna()\nprint(df)",
+        "options": [
+            "Null qiymatlar bo'lgan qatorlar o'chiriladi.",
+            "Null qiymatlar bo'lgan ustunlar o'chiriladi.",
+            "Barcha qiymatlar o'chiriladi.",
+            "DataFrame yangilanadi."
+        ],
+        "answer": "Null qiymatlar bo'lgan qatorlar o'chiriladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] * df['B']\nprint(df.head(2))",
+        "options": [
+            "DataFrame'ning barcha qatorlari chiqariladi.",
+            "Birinchi 3 qator chiqariladi.",
+            "Birinchi 2 qator chiqariladi.",
+            "Oxirgi 2 qator chiqariladi."
+        ],
+        "answer": "Birinchi 2 qator chiqariladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].apply(str))",
+        "options": [
+            "A ustunidagi barcha elementlarni float turiga aylantiradi.",
+            "A ustunidagi barcha elementlarni int turiga aylantiradi.",
+            "A ustunidagi barcha elementlarni string turiga aylantiradi.",
+            "A ustunidagi barcha elementlarni boolean turiga aylantiradi."
+        ],
+        "answer": "A ustunidagi barcha elementlarni string turiga aylantiradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf = df.sort_values(by='B')\nprint(df)",
+        "options": [
+            "B ustunining qiymatlariga qarab DataFrame tartiblanadi.",
+            "A ustunining qiymatlariga qarab DataFrame tartiblanadi.",
+            "Barcha qiymatlar tartiblanadi.",
+            "DataFrame'ni tartiblamaydi."
+        ],
+        "answer": "B ustunining qiymatlariga qarab DataFrame tartiblanadi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf = df.rename(columns={'A': 'X'})\nprint(df)",
+        "options": [
+            "A ustunining nomi 'X' ga o'zgartiriladi.",
+            "B ustunining nomi 'X' ga o'zgartiriladi.",
+            "DataFrame ustunlari nomlari o'chiriladi.",
+            "A ustuni butunlay o'chiriladi."
+        ],
+        "answer": "A ustunining nomi 'X' ga o'zgartiriladi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].std())",
+        "options": [
+            "A ustunining mediana qiymatini chiqaradi.",
+            "A ustunining maksimal qiymatini chiqaradi.",
+            "A ustunining standart og'ish qiymatini chiqaradi.",
+            "B ustunining standart og'ish qiymatini chiqaradi."
+        ],
+        "answer": "A ustunining standart og'ish qiymatini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df.corr())",
+        "options": [
+            "Ustunlarining o'rtasidagi korrelyatsiyani chiqaradi.",
+            "A ustunining qiymatlari orasidagi bog'liqlikni chiqaradi.",
+            "B ustunining qiymatlari orasidagi bog'liqlikni chiqaradi.",
+            "Barcha qiymatlar orasidagi bog'liqlikni chiqaradi."
+        ],
+        "answer": "Ustunlarining o'rtasidagi korrelyatsiyani chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\nprint(df['A'].median())",
+        "options": [
+            "A ustunining maksimal qiymatini chiqaradi.",
+            "A ustunining o'rtacha qiymatini chiqaradi.",
+            "A ustunining mediana qiymatini chiqaradi.",
+            "A ustunining minimal qiymatini chiqaradi."
+        ],
+        "answer": "A ustunining mediana qiymatini chiqaradi."
+    },
+    {
+        "question": "Quyidagi kodni bajarish natijasida nima bo'ladi?\n\nimport pandas as pd\ndf = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})\ndf['C'] = df['A'] / df['B']\nprint(df['C'])",
+        "options": [
+            "C da A ning qiymatlari B ustunining qiymatlariga bo'linadi.",
+            "C ustunida 'A' ustunining qiymatlari 'B' ustunining qiymatlariga qo'shiladi.",
+            "C ustunida 'A' ustunining qiymatlari 'B' ustunining qiymatlaridan ayiriladi.",
+            "C ustunida 'A' ustunining qiymatlari 'B' ustunining qiymatlaridan ko'paytiriladi."
+        ],
+        "answer": "C da A ning qiymatlari B ustunining qiymatlariga bo'linadi."
+    },
+    {
+        "question": "Pandas'ning `DataFrame.dropna()` metodi nima qiladi?",
+        "options": [
+            "DataFrame'dan barcha ustunlarni o'chiradi.",
+            "DataFrame'dan barcha null qiymatlarni o'chiradi.",
+            "DataFrame'ni faqat qatorlarga ajratadi.",
+            "DataFrame'ni faqat ustunlarga ajratadi."
+        ],
+        "answer": "DataFrame'dan barcha null qiymatlarni o'chiradi."
+    },
+    {
+        "question": "Quyidagi metodlardan qaysi biri DataFrame ustunini o'zgartirish uchun ishlatiladi?",
+        "options": [
+            "DataFrame.sort_values()",
+            "DataFrame.rename()",
+            "DataFrame.query()",
+            "DataFrame.append()"
+        ],
+        "answer": "DataFrame.rename()"
+    },
+    {
+        "question": "`DataFrame.fillna()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Null qiymatlar bilan to'ldirish uchun.",
+            "Null qiymatlarni o'chirish uchun.",
+            "Yangi qatorlarni qo'shish uchun.",
+            "DataFrame ustunlarining nomlarini o'zgartirish uchun."
+        ],
+        "answer": "Null qiymatlar bilan to'ldirish uchun."
+    },
+    {
+        "question": "`DataFrame.groupby()` metodi qanday maqsad uchun ishlatiladi?",
+        "options": [
+            "DataFrame'ni saralash uchun.",
+            "DataFrame ustunlarini birlashtirish uchun.",
+            "DataFrame'ni guruhlash va agregatsiya qilish uchun.",
+            "DataFrame'ni tasodifiy tartibda aralashtirish uchun."
+        ],
+        "answer": "DataFrame'ni guruhlash va agregatsiya qilish uchun."
+    },
+    {
+        "question": "`DataFrame.merge()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Birinchi DataFrame'ni ikkinchisi bilan birlashtirish uchun.",
+            "Yangi DataFrame yaratish uchun.",
+            "DataFrame'ni formatlash uchun.",
+            "DataFrame ustunlarini ajratish uchun."
+        ],
+        "answer": "Birinchi DataFrame'ni ikkinchisi bilan birlashtirish uchun."
+    },
+    {
+        "question": "`DataFrame.iloc[]` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Faoliyatga mos ustunlarni tanlash uchun.",
+            "Index bo'yicha qatorlarni tanlash uchun.",
+            "Faylni o'qish uchun.",
+            "DataFrame'dan faqat sonli qiymatlar chiqarish uchun."
+        ],
+        "answer": "Index bo'yicha qatorlarni tanlash uchun."
+    },
+    {
+        "question": "`DataFrame.loc[]` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Satrlar va ustunlar bo'yicha qatorlarni tanlash uchun.",
+            "Index bo'yicha qatorlarni tanlash uchun.",
+            "DataFrame'ni saralash uchun.",
+            "DataFrame ustunlarini guruhlash uchun."
+        ],
+        "answer": "Satrlar va ustunlar bo'yicha qatorlarni tanlash uchun."
+    },
+    {
+        "question": "`DataFrame.corr()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Ustunlari orasidagi korrelyatsiyani hisoblash uchun.",
+            "DataFrame'ni saralash uchun.",
+            "DataFrame ustunlarini birlashtirish uchun.",
+            "DataFrame'ni formatlash uchun."
+        ],
+        "answer": "Ustunlari orasidagi korrelyatsiyani hisoblash uchun."
+    },
+    {
+        "question": "`DataFrame.apply()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Barcha ustunlar bo'yicha ma'lum bir funksiyani qo'llash uchun.",
+            "DataFrame'ni guruhlash uchun.",
+            "DataFrame ustunlarini o'zgartirish uchun.",
+            "DataFrame'ni saralash uchun."
+        ],
+        "answer": "Barcha ustunlar bo'yicha ma'lum bir funksiyani qo'llash uchun."
+    },
+    {
+        "question": "`DataFrame.duplicated()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'dagi takroriy qiymatlarni aniqlash uchun.",
+            "DataFrame'ni birlashtirish uchun.",
+            "DataFrame ustunlarining o'rtacha qiymatini hisoblash uchun.",
+            "DataFrame'dagi null qiymatlarni aniqlash uchun."
+        ],
+        "answer": "DataFrame'dagi takroriy qiymatlarni aniqlash uchun."
+    },
+    {
+        "question": "`DataFrame.pivot_table()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Ustunlarini pivotlash va agregatsiya qilish uchun.",
+            "DataFrame'ni guruhlash uchun.",
+            "DataFrame ustunlarining o'rtacha qiymatini chiqarish uchun.",
+            "DataFrame'dagi null qiymatlarni aniqlash uchun."
+        ],
+        "answer": "Ustunlarini pivotlash va agregatsiya qilish uchun."
+    },
+    {
+        "question": "`DataFrame.query()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame ustunlarida qidiruv qilish uchun.",
+            "DataFrame'ni guruhlash uchun.",
+            "DataFrame'dan ma'lumotlarni filtrlash uchun.",
+            "DataFrame ustunlarining qiymatlarini o'zgartirish uchun."
+        ],
+        "answer": "DataFrame'dan ma'lumotlarni filtrlash uchun."
+    },
+    {
+        "question": "`DataFrame.astype()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'ni boshqa formatga o'zgartirish uchun.",
+            "DataFrame'ni guruhlash uchun.",
+            "DataFrame ustunlarining qiymatlarini o'zgartirish uchun.",
+            "DataFrame'ni formatlash uchun."
+        ],
+        "answer": "DataFrame'ni boshqa formatga o'zgartirish uchun."
+    },
+    {
+        "question": "`DataFrame.replace()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'dagi qiymatlarni almashtirish uchun.",
+            "DataFrame ustunlarini guruhlash uchun.",
+            "DataFrame'ni formatlash uchun.",
+            "DataFrame ustunlarini o'zgartirish uchun."
+        ],
+        "answer": "DataFrame'dagi qiymatlarni almashtirish uchun."
+    },
+    {
+        "question": "`DataFrame.describe()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "Tasvirlash va statistik ma'lumotlarni chiqarish uchun.",
+            "DataFrame ustunlarini guruhlash uchun.",
+            "DataFrame ustunlarining o'rtacha qiymatini chiqarish uchun.",
+            "DataFrame'ni birlashtirish uchun."
+        ],
+        "answer": "Tasvirlash va statistik ma'lumotlarni chiqarish uchun."
+    },
+    {
+        "question": "`DataFrame.tail()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'ning oxirgi 5 qatorini chiqarish uchun.",
+            "DataFrame'ning birinchi 5 qatorini chiqarish uchun.",
+            "DataFrame'ning barcha qatorlarini chiqarish uchun.",
+            "DataFrame'ni guruhlash uchun."
+        ],
+        "answer": "DataFrame'ning oxirgi 5 qatorini chiqarish uchun."
+    },
+    {
+        "question": "`DataFrame.sort_index()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'ni index bo'yicha saralash uchun.",
+            "DataFrame'ni qiymatlar bo'yicha saralash uchun.",
+            "DataFrame'ni faqat ustunlarga ajratish uchun.",
+            "DataFrame ustunlarini formatlash uchun."
+        ],
+        "answer": "DataFrame'ni index bo'yicha saralash uchun."
+    },
+    {
+        "question": "`DataFrame.sample()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'dan tasodifiy qatorlarni tanlash uchun.",
+            "DataFrame ustunlarini birlashtirish uchun.",
+            "DataFrame'ni guruhlash uchun.",
+            "DataFrame ustunlaridagi null qiymatlarni aniqlash uchun."
+        ],
+        "answer": "DataFrame'dan tasodifiy qatorlarni tanlash uchun."
+    },
+    {
+        "question": "`DataFrame.value_counts()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'dagi har bir qiymatning sonini hisoblash uchun.",
+            "DataFrame ustunlarini formatlash uchun.",
+            "DataFrame'ni guruhlash uchun.",
+            "DataFrame'ni tasvirlash uchun."
+        ],
+        "answer": "DataFrame'dagi har bir qiymatning sonini hisoblash uchun."
+    },
+    {
+        "question": "Pandas kutubxonasi nima uchun ishlatiladi?",
+        "options": [
+            "Ma'lumotlarni faqat ma'lumotlar bazasidan olish uchun.",
+            "Matnni faqat analiz qilish uchun.",
+            "Ma'lumotlarni to'plash, tahlil qilish va saqlash uchun.",
+            "Ma'lumotlarni faqat tasvirlash uchun."
+        ],
+        "answer": "Ma'lumotlarni to'plash, tahlil qilish va saqlash uchun."
+    },
+    {
+        "question": "`pd.DataFrame()` metodining asosiy vazifasi nima?",
+        "options": [
+            "Matnlarni saqlash.",
+            "Ma'lumotlarni faqat saqlash.",
+            "Ma'lumotlarni ikki o'lchovli strukturada saqlash.",
+            "Fayllarni yaratish."
+        ],
+        "answer": "Ma'lumotlarni ikki o'lchovli strukturada saqlash."
+    },
+    {
+        "question": "`pd.read_csv()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "CSV formatidagi faylni o'qish uchun.",
+            "Excel faylini o'qish uchun.",
+            "JSON faylini o'qish uchun.",
+            "Matn faylini o'qish uchun."
+        ],
+        "answer": "CSV formatidagi faylni o'qish uchun."
+    },
+    {
+        "question": "`DataFrame.isnull()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame'dagi null qiymatlarni aniqlash uchun.",
+            "DataFrame'dagi barcha qiymatlarni aniqlash uchun.",
+            "DataFrame'dagi barcha takroriy qiymatlarni aniqlash uchun.",
+            "DataFrame'ni filtrlash uchun."
+        ],
+        "answer": "DataFrame'dagi null qiymatlarni aniqlash uchun."
+    },
+    {
+        "question": "`DataFrame.drop()` metodi nima uchun ishlatiladi?",
+        "options": [
+            "DataFrame ustunlarini saqlash uchun.",
+            "DataFrame ustunlari yoki qatorlarini o'chirish uchun.",
+            "DataFrame ustunlarini ajratish uchun.",
+            "DataFrame ustunlarini guruhlash uchun."
+        ],
+        "answer": "DataFrame ustunlari yoki qatorlarini o'chirish uchun."
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "7355709066": {
+    "NumPy": [
+      "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4]); np.repeat(a, 2)`",
+      "Massivni tekislash uchun qaysi NumPy funksiyasi ishlatiladi?",
+      "np.ceil(arr) funksiyasi nima qiladi?",
+      "Quyidagi kodning natijasi nima bo‘ladi? `import numpy as np; a = np.array([1, 2, 3, 4, 5]); np.median(a)`",
+      "np.split(arr, 2) funksiyasi nima qiladi?"
+    ]
+  }
+}

@@ -1,0 +1,1002 @@
+[
+    {
+        "question": "CSS nima degan ma'noni anglatadi?",
+        "options": [
+            "Kompyuter uslublar jadvallari",
+            "Kaskadli uslublar jadvallari",
+            "Yaratilgan uslublar jadvallari",
+            "Rangli uslublar jadvallari"
+        ],
+        "answer": "Kaskadli uslublar jadvallari"
+    },
+    {
+        "question": "Orqa fon rangini o‘zgartirish uchun qaysi CSS xossasi ishlatiladi?",
+        "options": [
+            "color",
+            "bgcolor",
+            "background-color",
+            "background"
+        ],
+        "answer": "background-color"
+    },
+    {
+        "question": "<p> elementlarini qalin qilish uchun to‘g‘ri CSS kodini tanlang.",
+        "options": [
+            "p {text-style: bold;}",
+            "p {font-weight: bold;}",
+            "p {font: bold;}",
+            "p {text-weight: bold;}"
+        ],
+        "answer": "p {font-weight: bold;}"
+    },
+    {
+        "question": "Matn o‘lchamini boshqaruvchi xossa qaysi?",
+        "options": [
+            "font-style",
+            "text-size",
+            "font-size",
+            "text-style"
+        ],
+        "answer": "font-size"
+    },
+    {
+        "question": "Ro‘yxat belgilarini (bullet) yashirish uchun qaysi xossa ishlatiladi?",
+        "options": [
+            "list-style-type: none;",
+            "text-decoration: none;",
+            "bullet: none;",
+            "list: no-bullets;"
+        ],
+        "answer": "list-style-type: none;"
+    },
+    {
+        "question": "Element shriftini o‘zgartirish uchun qaysi xossa ishlatiladi?",
+        "options": [
+            "font-family",
+            "font-style",
+            "font-weight",
+            "text-style"
+        ],
+        "answer": "font-family"
+    },
+    {
+        "question": "Id'si 'header' bo‘lgan elementni tanlash uchun qaysi CSS selektor to‘g‘ri?",
+        "options": [
+            "#header",
+            ".header",
+            "header",
+            "*header"
+        ],
+        "answer": "#header"
+    },
+    {
+        "question": "Elementning standart position qiymati nima?",
+        "options": [
+            "relative",
+            "absolute",
+            "static",
+            "fixed"
+        ],
+        "answer": "static"
+    },
+    {
+        "question": "Elementning chegarasi ichida bo‘sh joy (ichki bo‘shliq) qo‘shish uchun qaysi xossa ishlatiladi?",
+        "options": [
+            "margin",
+            "spacing",
+            "padding",
+            "border-spacing"
+        ],
+        "answer": "padding"
+    },
+    {
+        "question": "Padding xossalarining barchasini biryo‘la o‘rnatish uchun ishlatiladigan qisqartma xossa qaysi?",
+        "options": [
+            "padding-all",
+            "padding",
+            "pad",
+            "padding-full"
+        ],
+        "answer": "padding"
+    },
+    {
+        "question": "Tashqi bo‘shliq (element atrofidagi bo‘sh joy) qaysi xossa bilan belgilanadi?",
+        "options": [
+            "border",
+            "padding",
+            "spacing",
+            "margin"
+        ],
+        "answer": "margin"
+    },
+    {
+        "question": "Qaysi CSS xossasi matnni chapga, o‘rtaga yoki o‘ngga joylashtiradi?",
+        "options": [
+            "text-style",
+            "text-align",
+            "align-text",
+            "position"
+        ],
+        "answer": "text-align"
+    },
+    {
+        "question": "Qanday qilib <div> elementining fon rangini qizil qilish mumkin?",
+        "options": [
+            "div {color: red;}",
+            "div {background: red;}",
+            "div {background-color: red;}",
+            "div {bgcolor: red;}"
+        ],
+        "answer": "div {background-color: red;}"
+    },
+    {
+        "question": "Qaysi xossa elementni ko‘rinmas qiladi, lekin sahifadan olib tashlamaydi?",
+        "options": [
+            "visibility: hidden;",
+            "display: none;",
+            "opacity: 0;",
+            "hide: true;"
+        ],
+        "answer": "visibility: hidden;"
+    },
+    {
+        "question": "Elementni to‘liq yashirish va sahifadan olib tashlash uchun qaysi usul ishlatiladi?",
+        "options": [
+            "display: block;",
+            "display: hidden;",
+            "visibility: none;",
+            "display: none;"
+        ],
+        "answer": "display: none;"
+    },
+    {
+        "question": "Qaysi xossa element chegarasining qalinligini belgilaydi?",
+        "options": [
+            "border-width",
+            "border-size",
+            "line-width",
+            "thickness"
+        ],
+        "answer": "border-width"
+    },
+    {
+        "question": "Hover effekti qanday yoziladi?",
+        "options": [
+            "a:hover",
+            "a::hover",
+            "hover.a",
+            "a.hover"
+        ],
+        "answer": "a:hover"
+    },
+    {
+        "question": "Elementni markazga joylashtirish uchun margin qanday yoziladi?",
+        "options": [
+            "margin: auto;",
+            "margin: center;",
+            "margin: middle;",
+            "margin-center: true;"
+        ],
+        "answer": "margin: auto;"
+    },
+    {
+        "question": "Chegaraning uslubini belgilovchi xossa qaysi?",
+        "options": [
+            "border-style",
+            "border-type",
+            "border-mode",
+            "line-style"
+        ],
+        "answer": "border-style"
+    },
+    {
+        "question": "Elementga soya berish uchun qaysi xossa ishlatiladi?",
+        "options": [
+            "box-shadow",
+            "element-shadow",
+            "shadow",
+            "drop-shadow"
+        ],
+        "answer": "box-shadow"
+    },
+    {
+        "question": "Matnga soya berish uchun qaysi xossa ishlatiladi?",
+        "options": [
+            "text-decoration",
+            "text-shadow",
+            "font-shadow",
+            "shadow-text"
+        ],
+        "answer": "text-shadow"
+    },
+    {
+        "question": "Qanday qilib barcha <h1> elementlarni tanlash mumkin?",
+        "options": [
+            "#h1",
+            ".h1",
+            "h1",
+            "*h1"
+        ],
+        "answer": "h1"
+    },
+    {
+        "question": "Qaysi qiymat flex konteynerni yoqadi?",
+        "options": [
+            "display: flex;",
+            "position: flex;",
+            "flex: true;",
+            "box: flex;"
+        ],
+        "answer": "display: flex;"
+    },
+    {
+        "question": "Qaysi CSS xossasi elementni aylana shaklida chiqaradi?",
+        "options": [
+            "shape: circle;",
+            "border: round;",
+            "border-radius: 50%;",
+            "circle: true;"
+        ],
+        "answer": "border-radius: 50%;"
+    },
+    {
+        "question": "Qanday qilib <a> havolasining tagidagi chiziqni olib tashlash mumkin?",
+        "options": [
+            "a {text-decoration: none;}",
+            "a {underline: none;}",
+            "a {link-style: none;}",
+            "a {no-underline: true;}"
+        ],
+        "answer": "a {text-decoration: none;}"
+    },
+    {
+        "question": "Qaysi CSS xossasi yordamida sahifa foniga rasm qo‘yiladi?",
+        "options": [
+            "background",
+            "background-color",
+            "background-image",
+            "image-background"
+        ],
+        "answer": "background-image"
+    },
+    {
+        "question": "Maxsus shriftni ulash uchun qaysi qoida ishlatiladi?",
+        "options": [
+            "@font-face",
+            "@font-family",
+            "@font-import",
+            "@text-font"
+        ],
+        "answer": "@font-face"
+    },
+    {
+        "question": "Qaysi CSS xossasi elementlar orasidagi masofani belgilaydi?",
+        "options": [
+            "line-height",
+            "letter-spacing",
+            "spacing",
+            "gap"
+        ],
+        "answer": "gap"
+    },
+    {
+        "question": "Matnni katta harflarda chiqarish uchun qaysi xossa ishlatiladi?",
+        "options": [
+            "text-size: big;",
+            "font-transform: uppercase;",
+            "text-transform: uppercase;",
+            "text-style: capital;"
+        ],
+        "answer": "text-transform: uppercase;"
+    },
+    {
+        "question": "Elementga tashqi chiziq (outline) beruvchi xossa qaysi?",
+        "options": [
+            "border",
+            "outline",
+            "frame",
+            "stroke"
+        ],
+        "answer": "outline"
+    },
+    {
+        "question": "Qanday qilib barcha elementlarni tanlash mumkin?",
+        "options": [
+            "#all",
+            "document",
+            "*",
+            "html"
+        ],
+        "answer": "*"
+    },
+    {
+        "question": "Qaysi qiymat grid konteynerni yoqadi?",
+        "options": [
+            "display: grid;",
+            "grid: true;",
+            "box: grid;",
+            "layout: grid;"
+        ],
+        "answer": "display: grid;"
+    },
+    {
+        "question": "Qaysi CSS xossasi matn satrlar orasidagi masofani belgilaydi?",
+        "options": [
+            "letter-spacing",
+            "line-height",
+            "font-spacing",
+            "row-gap"
+        ],
+        "answer": "line-height"
+    },
+    {
+        "question": "Qanday qilib class nomi 'menu' bo‘lgan elementni tanlash mumkin?",
+        "options": [
+            "#menu",
+            ".menu",
+            "menu",
+            "*menu"
+        ],
+        "answer": ".menu"
+    },
+    {
+        "question": "Qanday qilib elementni sahifaning o‘rtasiga to‘g‘rilash mumkin (flex yordamida)?",
+        "options": [
+            "justify-content: center; align-items: center;",
+            "margin: auto;",
+            "text-align: center;",
+            "align: middle;"
+        ],
+        "answer": "justify-content: center; align-items: center;"
+    },
+    {
+        "question": "Qanday qilib element ustiga bosilganda rangini o‘zgartirish mumkin?",
+        "options": [
+            ":hover",
+            ":click",
+            ":active",
+            ":press"
+        ],
+        "answer": ":active"
+    },
+    {
+        "question": "Z-index nima uchun ishlatiladi?",
+        "options": [
+            "Elementning orqa fonini o‘zgartirish uchun",
+            "Elementning ekran o‘lchamini belgilash uchun",
+            "Elementlarni ustma-ust joylashishini boshqarish uchun",
+            "Elementni aylantirish uchun"
+        ],
+        "answer": "Elementlarni ustma-ust joylashishini boshqarish uchun"
+    },
+    {
+        "question": "Qanday qilib element hajmini foizlarda berish mumkin?",
+        "options": [
+            "width: px;",
+            "width: 100%;",
+            "size: 100;",
+            "height: full;"
+        ],
+        "answer": "width: 100%;"
+    },
+    {
+        "question": "Qaysi CSS xossasi rasm fonini takrorlashni boshqaradi?",
+        "options": [
+            "background-repeat",
+            "background-clone",
+            "image-repeat",
+            "repeat-style"
+        ],
+        "answer": "background-repeat"
+    },
+    {
+        "question": "Qaysi qiymat `position` xossasida elementni sahifaga nisbatan doimiy joylashuvda ushlab turadi?",
+        "options": [
+            "static",
+            "relative",
+            "absolute",
+            "fixed"
+        ],
+        "answer": "fixed"
+    },
+    {
+        "question": "Qaysi `position` qiymati elementni ota konteynerga nisbatan joylashtiradi?",
+        "options": [
+            "relative",
+            "fixed",
+            "static",
+            "absolute"
+        ],
+        "answer": "absolute"
+    },
+    {
+        "question": "Qaysi qiymat `position` uchun standart (default) hisoblanadi?",
+        "options": [
+            "relative",
+            "fixed",
+            "static",
+            "absolute"
+        ],
+        "answer": "static"
+    },
+    {
+        "question": "Qanday qilib elementning eni ekranning yarmiga teng bo‘lishi mumkin?",
+        "options": [
+            "width: 100%;",
+            "width: 50%;",
+            "width: 200px;",
+            "max-width: 100%;"
+        ],
+        "answer": "width: 50%;"
+    },
+    {
+        "question": "Media queries nimaga xizmat qiladi?",
+        "options": [
+            "Matnni kattalashtirish uchun",
+            "Moslashuvchan dizayn yaratish uchun",
+            "Shriftni ulash uchun",
+            "Web sahifani fon bilan to‘ldirish uchun"
+        ],
+        "answer": "Moslashuvchan dizayn yaratish uchun"
+    },
+    {
+        "question": "`max-width` xossasi nimani belgilaydi?",
+        "options": [
+            "Elementning minimal enini",
+            "Elementning maksimal enini",
+            "Elementning o‘rtacha enini",
+            "Elementning balandligini"
+        ],
+        "answer": "Elementning maksimal enini"
+    },
+    {
+        "question": "`overflow: hidden;` xossasi nima qiladi?",
+        "options": [
+            "Elementni yashiradi",
+            "Ortiqcha kontentni yashiradi",
+            "Elementni ko‘paytiradi",
+            "Elementni kichraytiradi"
+        ],
+        "answer": "Ortiqcha kontentni yashiradi"
+    },
+    {
+        "question": "`opacity: 0.5;` nimani bildiradi?",
+        "options": [
+            "Elementning yarmi ko‘rinmaydi",
+            "Element ustiga fon tushadi",
+            "Element harakatlanadi",
+            "Element yashirinadi"
+        ],
+        "answer": "Elementning yarmi ko‘rinmaydi"
+    },
+    {
+        "question": "Qaysi xossa yordamida fon rasmi pozitsiyasi belgilanadi?",
+        "options": [
+            "background-size",
+            "background-position",
+            "background-repeat",
+            "position-image"
+        ],
+        "answer": "background-position"
+    },
+    {
+        "question": "Hover holatida rangi o‘zgaruvchi tugma uchun sintaksis qaysi?",
+        "options": [
+            "button.hover { color: red; }",
+            "button:hover { color: red; }",
+            ".button:hover { red: color; }",
+            ":hover button { color: red; }"
+        ],
+        "answer": "button:hover { color: red; }"
+    },
+    {
+        "question": "`display: inline-block;` nimani bildiradi?",
+        "options": [
+            "Faqat inline bo‘ladi",
+            "Faqat block bo‘ladi",
+            "Block kabi, lekin qator bo‘yicha",
+            "Element yashirinadi"
+        ],
+        "answer": "Block kabi, lekin qator bo‘yicha"
+    },
+    {
+        "question": "CSS faylini HTML hujjatiga qanday ulaysiz?",
+        "options": [
+            "<script src='style.css'>",
+            "<css href='style.css'>",
+            "<link rel='stylesheet' href='style.css'>",
+            "<style src='style.css'>"
+        ],
+        "answer": "<link rel='stylesheet' href='style.css'>"
+    },
+    {
+        "question": "Qaysi xossa yordamida animatsiya davomiyligi belgilanadi?",
+        "options": [
+            "animation-delay",
+            "animation-timing",
+            "animation-duration",
+            "transition"
+        ],
+        "answer": "animation-duration"
+    },
+    {
+        "question": "Qanday qilib sahifa yuklanganda animatsiyani kechiktirish mumkin?",
+        "options": [
+            "animation-delay",
+            "animation-late",
+            "animation-wait",
+            "animation-pause"
+        ],
+        "answer": "animation-delay"
+    },
+    {
+        "question": "Qanday qilib element ustiga bosilganda animatsiya bo‘lishi mumkin?",
+        "options": [
+            "hover",
+            "active",
+            "focus",
+            "click"
+        ],
+        "answer": "active"
+    },
+    {
+        "question": "`transition` xossasi nima qiladi?",
+        "options": [
+            "Elementga soya beradi",
+            "Element harakatini silliqlashtiradi",
+            "Elementni yashiradi",
+            "Elementga shrift beradi"
+        ],
+        "answer": "Element harakatini silliqlashtiradi"
+    },
+    {
+        "question": "`cursor: pointer;` nimani bildiradi?",
+        "options": [
+            "Matnni belgilaydi",
+            "Foydalanuvchi matn yozadi",
+            "Kursorni ko‘rsatkichga aylantiradi",
+            "Kursorni yashiradi"
+        ],
+        "answer": "Kursorni ko‘rsatkichga aylantiradi"
+    },
+    {
+        "question": "Qaysi xossa blok ichidagi matnning qator bo‘yicha joylashuvini boshqaradi?",
+        "options": [
+            "text-indent",
+            "text-align",
+            "align-items",
+            "justify-content"
+        ],
+        "answer": "text-align"
+    },
+    {
+        "question": "Qanday qilib elementni 90 darajaga aylantirish mumkin?",
+        "options": [
+            "transform: rotate(90deg);",
+            "rotate: 90;",
+            "angle: 90deg;",
+            "transform: angle(90);"
+        ],
+        "answer": "transform: rotate(90deg);"
+    },
+    {
+        "question": "Qaysi xossa yordamida matnga chiziq o‘tkaziladi (masalan: bekor qilingan narx)?",
+        "options": [
+            "text-decoration: line-through;",
+            "text-style: strike;",
+            "text-strike: true;",
+            "line-through: true;"
+        ],
+        "answer": "text-decoration: line-through;"
+    },
+    {
+        "question": "Qaysi CSS xossa matnni katta harflar bilan ko‘rsatadi?",
+        "options": [
+            "text-transform: uppercase;",
+            "font-style: capital;",
+            "text-case: upper;",
+            "letter-type: capital;"
+        ],
+        "answer": "text-transform: uppercase;"
+    },
+    {
+        "question": "Qaysi xossa yordamida element ichidagi matn boshqa qatorga o‘tmaydi?",
+        "options": [
+            "white-space: nowrap;",
+            "text-wrap: none;",
+            "line-break: avoid;",
+            "wrap: no;"
+        ],
+        "answer": "white-space: nowrap;"
+    },
+    {
+        "question": "Flexbox konteynerda elementlar o‘rtasida bo‘shliq hosil qilish uchun qaysi xossa ishlatiladi?",
+        "options": [
+            "justify-content",
+            "align-items",
+            "gap",
+            "padding"
+        ],
+        "answer": "gap"
+    },
+    {
+        "question": "Qanday qilib `div` elementi ichidagi elementlarni gorizontal markazga joylashtirasiz?",
+        "options": [
+            "text-align: center;",
+            "margin: 0 auto;",
+            "display: flex; justify-content: center;",
+            "Barchasi to‘g‘ri"
+        ],
+        "answer": "Barchasi to‘g‘ri"
+    },
+    {
+        "question": "Qanday qilib fon rangi shaffof qilinadi?",
+        "options": [
+            "background-color: transparent;",
+            "background-opacity: 0;",
+            "background-clear: true;",
+            "bg-color: none;"
+        ],
+        "answer": "background-color: transparent;"
+    },
+    {
+        "question": "`:first-child` selektori nima qiladi?",
+        "options": [
+            "Oxirgi elementni tanlaydi",
+            "Biror birinchi elementni tanlaydi",
+            "Har bir elementni tanlaydi",
+            "Faqat birinchi farzand elementni tanlaydi"
+        ],
+        "answer": "Faqat birinchi farzand elementni tanlaydi"
+    },
+    {
+        "question": "Qaysi xossa elementga soyani qo‘shadi?",
+        "options": [
+            "box-shadow",
+            "text-shadow",
+            "shadow",
+            "element-shadow"
+        ],
+        "answer": "box-shadow"
+    },
+    {
+        "question": "`text-shadow` nima qiladi?",
+        "options": [
+            "Elementga fon qo‘shadi",
+            "Matnga soya beradi",
+            "Matnni yashiradi",
+            "Matn o‘lchamini oshiradi"
+        ],
+        "answer": "Matnga soya beradi"
+    },
+    {
+        "question": "CSS da gradient fon yasash uchun qaysi funksiyadan foydalaniladi?",
+        "options": [
+            "linear-gradient()",
+            "background-gradient()",
+            "color-fade()",
+            "shadow-gradient()"
+        ],
+        "answer": "linear-gradient()"
+    },
+    {
+        "question": "Qaysi qiymat `display` xossasi uchun elementni yashiradi?",
+        "options": [
+            "none",
+            "hidden",
+            "invisible",
+            "hide"
+        ],
+        "answer": "none"
+    },
+    {
+        "question": "Qaysi selektor barcha elementlarga ta’sir qiladi?",
+        "options": [
+            "#",
+            "*",
+            "all",
+            "body"
+        ],
+        "answer": "*"
+    },
+    {
+        "question": "Qanday qilib CSS orqali rasm o‘lchami moslashtiriladi?",
+        "options": [
+            "width va height bilan",
+            "zoom bilan",
+            "fit-size bilan",
+            "img-size bilan"
+        ],
+        "answer": "width va height bilan"
+    },
+    {
+        "question": "Qaysi qiymat `background-repeat` xossasida fon rasmni faqat bir marta ko‘rsatadi?",
+        "options": [
+            "no-repeat",
+            "once",
+            "none",
+            "no"
+        ],
+        "answer": "no-repeat"
+    },
+    {
+        "question": "`list-style-type: none;` nimani bildiradi?",
+        "options": [
+            "Ro‘yxat elementlarini yashiradi",
+            "Matnni o‘chiradi",
+            "Rasmni olib tashlaydi",
+            "List belgilarini olib tashlaydi"
+        ],
+        "answer": "List belgilarini olib tashlaydi"
+    },
+    {
+        "question": "Qaysi xossa yordamida kontent tashqarisiga chiqib ketmasligi oldi olinadi?",
+        "options": [
+            "overflow",
+            "visibility",
+            "display",
+            "contain"
+        ],
+        "answer": "overflow"
+    },
+    {
+        "question": "`visibility: hidden;` nima qiladi?",
+        "options": [
+            "Elementni butunlay o‘chiradi",
+            "Elementni yashiradi, lekin joyni saqlab qoladi",
+            "Elementni bloklaydi",
+            "Elementni kichraytiradi"
+        ],
+        "answer": "Elementni yashiradi, lekin joyni saqlab qoladi"
+    },
+    {
+        "question": "Qaysi xossa yordamida elementlar yonma-yon (inline) joylashtiriladi?",
+        "options": [
+            "display: inline;",
+            "position: inline;",
+            "float: inline;",
+            "layout: inline;"
+        ],
+        "answer": "display: inline;"
+    },
+    {
+        "question": "`position: absolute;` nimani anglatadi?",
+        "options": [
+            "Elementni aniq joylashgan qilib belgilaydi",
+            "Elementni o‘chiradi",
+            "Elementga rang beradi",
+            "Elementni sahifa oxiriga tushiradi"
+        ],
+        "answer": "Elementni aniq joylashgan qilib belgilaydi"
+    },
+    {
+        "question": "`hover` selektori nima qiladi?",
+        "options": [
+            "Foydalanuvchi ustiga kursor olib kelganda effekt beradi",
+            "Elementni yashiradi",
+            "Foydalanuvchi bosganda ishlaydi",
+            "Elementni yuqoriga suradi"
+        ],
+        "answer": "Foydalanuvchi ustiga kursor olib kelganda effekt beradi"
+    },
+    {
+        "question": "`box-sizing: border-box;` nimani anglatadi?",
+        "options": [
+            "Padding va border o‘lchamni ichki hisobga oladi",
+            "Faqat border o‘lchanadi",
+            "Elementning tashqi o‘lchami hisoblanadi",
+            "Faqat content o‘lchanadi"
+        ],
+        "answer": "Padding va border o‘lchamni ichki hisobga oladi"
+    },
+    {
+        "question": "Qaysi CSS birligi eng kichigi hisoblanadi?",
+        "options": [
+            "px",
+            "em",
+            "rem",
+            "%"
+        ],
+        "answer": "px"
+    },
+    {
+        "question": "Qaysi xossa matnning qatorlar orasidagi masofani belgilaydi?",
+        "options": [
+            "line-height",
+            "letter-spacing",
+            "text-spacing",
+            "text-height"
+        ],
+        "answer": "line-height"
+    },
+    {
+        "question": "Qaysi CSS selektori faqat `<a>` tegining faollashgan holatiga ya'ni bosilganda ta’sir qiladi?",
+        "options": [
+            "a:active",
+            "a:hover",
+            "a:visited",
+            "a:focus"
+        ],
+        "answer": "a:active"
+    },
+    {
+        "question": "Qanday qilib `div` elementga fon rasmi beriladi?",
+        "options": [
+            "background-image: url('rasm.jpg');",
+            "image: background('rasm.jpg');",
+            "background: image('rasm.jpg');",
+            "bg-image: 'rasm.jpg';"
+        ],
+        "answer": "background-image: url('rasm.jpg');"
+    },
+    {
+        "question": "Qaysi xossa yordamida sahifa scroll qilinayotganda fon rasm joyida qoladi?",
+        "options": [
+            "background-attachment: fixed;",
+            "scroll: off;",
+            "background-static: true;",
+            "attachment: none;"
+        ],
+        "answer": "background-attachment: fixed;"
+    },
+    {
+        "question": "`display: none;` va `visibility: hidden;` orasidagi farq nimada?",
+        "options": [
+            "d: none elementni olib tashlaydi, v: hidden esa yashiradi",
+            "Ikkalasi ham bir xil",
+            "display: none rangni yashiradi",
+            "visibility: hidden elementga soya beradi"
+        ],
+        "answer": "d: none elementni olib tashlaydi, v: hidden esa yashiradi"
+    },
+    {
+        "question": "Qaysi CSS selektor bitta elementga maxsus identifikator orqali murojaat qiladi?",
+        "options": [
+            "#id",
+            ".class",
+            "*",
+            "element"
+        ],
+        "answer": "#id"
+    },
+    {
+        "question": "Qaysi CSS birligi ekran o‘lchamiga mos ravishda moslashadi?",
+        "options": [
+            "%",
+            "px",
+            "in",
+            "pt"
+        ],
+        "answer": "%"
+    },
+    {
+        "question": "`opacity: 0.5;` nima qiladi?",
+        "options": [
+            "Elementni yarim shaffof qiladi",
+            "Element fonini qizil qiladi",
+            "Elementni yashiradi",
+            "Elementni aylantiradi"
+        ],
+        "answer": "Elementni yarim shaffof qiladi"
+    },
+    {
+        "question": "CSS dastlab kim tomonidan ishlab chiqilgan?",
+        "options": [
+            "Håkon Wium Lie",
+            "Tim Berners-Lee",
+            "Brendan Eich",
+            "Linus Torvalds"
+        ],
+        "answer": "Hakon Wium Lie"
+    },
+    {
+        "question": "CSS dastlab nechinchi yilda ishlab chiqilgan?",
+        "options": [
+            "1996-yilda",
+            "1994-yilda",
+            "1998-yilda",
+            "2000-yilda"
+        ],
+        "answer": "1996-yilda"
+    },
+    {
+        "question": "CSS-ga style berishning nechta asosiy uslubi bor?",
+        "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+        ],
+        "answer": "3"
+    },
+    {
+        "question": "CSS-ga style berishning uchta asosiy uslubi qaysilar?",
+        "options": [
+            "Inline style, Internal style, External style",
+            "Inline style, External style, JavaScript style",
+            "Internal style, JavaScript style, HTML style",
+            "Inline style, External style, External JavaScript style"
+        ],
+        "answer": "Inline style, Internal style, External style"
+    },
+    {
+        "question": "Inline style nima?",
+        "options": [
+            "CSS uslublarini HTML elementiga bevosita qo‘llash",
+            "CSS faylini HTML faylga ulash",
+            "CSS-ni `<head>` qismida qo‘llash",
+            "CSS faylini boshqa sahifaga ulash"
+        ],
+        "answer": "CSS uslublarini HTML elementiga bevosita, ya'ni ichida qo‘llash"
+    },
+    {
+        "question": "Internal style nima?",
+        "options": [
+            "CSS uslublarini HTML hujjatining `<style>` tegida qo‘llash",
+            "CSS uslublarini bevosita HTML elementlariga qo‘llash",
+            "CSS faylini HTML faylga ulash",
+            "CSS uslublarini browser orqali o‘zgartirish"
+        ],
+        "answer": "CSS uslublarini HTML hujjatining `<style>` tegida qo‘llash"
+    },
+    {
+        "question": "External style nima?",
+        "options": [
+            "CSS uslublarini HTML elementlariga bevosita qo‘llash",
+            "CSS uslublarini alohida `.css` faylga yozish",
+            "CSS uslublarini HTML hujjatining `<style>` tegida qo‘llash",
+            "CSS uslublarini har bir sahifada alohida kiritish"
+        ],
+        "answer": "CSS uslublarini alohida `.css` faylga yozish"
+    },
+    {
+        "question": "CSS to‘liq yozilishi qanday?",
+        "options": [
+            "Cascading System Styles",
+            "Creative Style Sheets",
+            "Computer Style Sheets",
+            "Cascading Style Sheets"
+        ],
+        "answer": "Cascading Style Sheets"
+    },
+    {
+        "question": "CSS Box Model nima?",
+        "options": [
+            "Matnli blokning chiziqlarini belgilaydi",
+            "Elementni kengligini va marginlarini o‘z ichiga olgan model",
+            "Faylni avtomatik ravishda o‘lchash",
+            "HTML fayllarini tekshiruvchi vosita"
+        ],
+        "answer": "Elementni kengligini va marginlarini o‘z ichiga olgan model"
+    },
+    {
+        "question": "CSS `position` xususiyati nima uchun ishlatiladi?",
+        "options": [
+            "Elementning rangini belgilash uchun",
+            "Elementni sahifada joylashuvi va yerini belgilash uchun",
+            "Elementning fonini o‘zgartirish uchun",
+            "Elementni ko‘rinmas qilish uchun"
+        ],
+        "answer": "Elementni sahifada joylashuvi va yerini belgilash uchun"
+    },
+    {
+        "question": "CSS `display` xususiyati nima uchun ishlatiladi?",
+        "options": [
+            "Elementning vizual ko‘rinishini va tartibini belgilash uchun",
+            "Elementni ekranda ko‘rinmas qilish uchun",
+            "Elementning fon rangini o‘zgartirish uchun",
+            "Elementni joylashishini aniqlash uchun"
+        ],
+        "answer": "Elementning vizual ko‘rinishini va tartibini belgilash uchun"
+    },
+    {
+        "question": "CSS `flexbox` tizimi nima uchun ishlatiladi?",
+        "options": [
+            "Elementlarni gorizontal yoki vertikal ravishda joylashtirish",
+            "Elementlarning rangini o‘zgartirish uchun",
+            "Matnni markazlashtirish uchun",
+            "Elementni ko‘rinmas qilish uchun"
+        ],
+        "answer": "Elementlarni gorizontal yoki vertikal ravishda joylashtirish"
+    }
+]
