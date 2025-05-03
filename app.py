@@ -4,6 +4,9 @@ import logging
 from flask import Flask
 from aiogram import executor
 from loader import dp
+from dotenv import load_dotenv
+
+load_dotenv()  # .env faylni yuklash
 
 # Loglar
 logging.basicConfig(level=logging.INFO)
@@ -25,8 +28,6 @@ def start_bot():
     executor.start_polling(dp, skip_updates=True)
 
 if __name__ == "__main__":
-    # Flask va botni alohida thread-larda ishga tushirish
     flask_thread = threading.Thread(target=start_flask, daemon=True)
     flask_thread.start()
-
     start_bot()
