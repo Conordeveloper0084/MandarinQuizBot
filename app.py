@@ -3,7 +3,6 @@ import threading
 from flask import Flask
 from aiogram import executor
 from loader import dp  
-import handlers 
 
 # Flask ilovasi
 app = Flask(__name__)
