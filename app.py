@@ -1,33 +1,39 @@
-# app.py bu Rednderda asosiy ishga tushuruvchi file!
-import os
-import threading
 import logging
-from flask import Flask
-from aiogram import executor
-from loader import dp
-from dotenv import load_dotenv
-import handlers  
+from aiogram import Bot, Dispatcher, types
+from aiogram.types import Message
+from aiogram.utils.executor import start_webhook
+import os
 
-load_dotenv()  
+API_TOKEN = os.getenv("BOT_TOKEN")
+
+# Webhook settings:
+WEBHOOK_HOST = 'https://mandarinquizbot.onrender.com'  # Render URL
+WEBHOOK_PATH = f"/webhook/{API_TOKEN}"
+WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
+
+# Webserver settings:
+WEBAPP_HOST = '0.0.0.0'
+WEBAPP_PORT = int(os.getenv("PORT", default=10000))
 
 logging.basicConfig(level=logging.INFO)
+bot = Bot(token=API_TOKEN)
+dp = Dispatcher(bot)
 
-app = Flask(__name__)
+async def on_startup(dispatcher):
+    await bot.set_webhook(WEBHOOK_URL)
+    print("Webhook set")
 
-@app.route('/')
-def home():
-    return "Hello, World! Bot is running."
+async def on_shutdown(dispatcher):
+    await bot.delete_webhook()
+    print("Webhook deleted")
 
-def start_flask():
-    """Flask ilovasini ishga tushirish"""
-    port = int(os.environ.get("PORT", 5000))
-    app.run(host="0.0.0.0", port=port, debug=False)
 
-def start_bot():
-    """Aiogram botini ishga tushirish"""
-    executor.start_polling(dp, skip_updates=True)
-
-if __name__ == "__main__":
-    flask_thread = threading.Thread(target=start_flask, daemon=True)
-    flask_thread.start()
-    start_bot()
+if __name__ == '__main__':
+    start_webhook(
+        dispatcher=dp,
+        webhook_path=WEBHOOK_PATH,
+        on_startup=on_startup,
+        on_shutdown=on_shutdown,
+        host=WEBAPP_HOST,
+        port=WEBAPP_PORT,
+    )
