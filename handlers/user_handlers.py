@@ -105,14 +105,8 @@ async def start_quiz(message: types.Message, state: FSMContext):
     await state.finish()
     markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
     markup.add(KeyboardButton("Data Analitika"), KeyboardButton("Front End"))
-    markup.add(KeyboardButton("🔙 Ortga"))
     await message.answer("🧑‍💻 Qaysi yo‘nalishni tanlaysiz?", reply_markup=markup)
     await QuizState.choose_direction.set()
-
-@dp.message_handler(lambda message: message.text == "🔙 Ortga", state=QuizState.choose_direction)
-async def back_to_main_menu(message: types.Message, state: FSMContext):
-    await state.finish()
-    await message.answer("🔙 Bosh sahifaga qaytdingiz.", reply_markup=main_menu)
 
 @dp.message_handler(state=QuizState.choose_direction)
 async def choose_direction(message: types.Message, state: FSMContext):
@@ -134,41 +128,26 @@ async def choose_direction(message: types.Message, state: FSMContext):
     await message.answer("📚 Qaysi texnologiya bo‘yicha quiz ishlamoqchisiz?", reply_markup=markup)
     await QuizState.choose_technology.set()
 
-@dp.message_handler(lambda m: m.text == "🔙 Ortga", state=QuizState.choose_technology)
-async def back_to_main_from_technology(message: types.Message, state: FSMContext):
-    await state.finish()
-    await message.answer("🔙 Bosh sahifaga qaytdingiz.", reply_markup=main_menu)
-
 @dp.message_handler(state=QuizState.choose_technology)
 async def choose_technology(message: types.Message, state: FSMContext):
-    tech = message.text.strip()
-    user_data = await state.get_data()
-    direction = user_data.get("direction")
-    valid_techs = ["NumPy", "Pandas"] if direction == "Data Analitika" else ["HTML", "CSS", "JavaScript"]
-    if tech not in valid_techs:
-        await message.answer("❌ Noto‘g‘ri texnologiya. Iltimos, tugmalardan tanlang.")
+    if message.text == "/admin" and message.from_user.id in ADMINS:
+        await state.finish()
+        await message.answer("🔧 Admin menyu:")
         return
     
-    await state.update_data(technology=tech)
+    if message.text == "🔙 Ortga":
+        markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+        markup.add(KeyboardButton("Data Analitika"), KeyboardButton("Front End"))
+        await message.answer("🔙 Qaytildi. Qayta yo‘nalish tanlang:", reply_markup=markup)
+        await QuizState.choose_direction.set()
+        return
+    
+    await state.update_data(technology=message.text.strip())
     markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
     markup.add(KeyboardButton("5 ta savol"), KeyboardButton("10 ta savol"))
     markup.add(KeyboardButton("🔙 Ortga"))
     await message.answer("📝 Nechta quiz ishlamoqchisiz?", reply_markup=markup)
     await QuizState.choose_question_count.set()
-
-@dp.message_handler(lambda m: m.text == "🔙 Ortga", state=QuizState.choose_question_count)
-async def back_to_technology(message: types.Message, state: FSMContext):
-    user_data = await state.get_data()
-    direction = user_data.get("direction")
-    techs = ["NumPy", "Pandas"] if direction == "Data Analitika" else ["HTML", "CSS", "JavaScript"]
-
-    markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-    for tech in techs:
-        markup.add(KeyboardButton(tech))
-    markup.add(KeyboardButton("🔙 Ortga"))
-    await message.answer("📚 Qayta texnologiya tanlang:", reply_markup=markup)
-    await QuizState.choose_technology.set()
-
 
 def get_main_menu_keyboard():
     return ReplyKeyboardMarkup(resize_keyboard=True).add(
@@ -177,13 +156,38 @@ def get_main_menu_keyboard():
 
 @dp.message_handler(state=QuizState.choose_question_count)
 async def choose_question_count(message: types.Message, state: FSMContext):
-    text = message.text.strip()
+    text = message.text.strip().lower()
 
-    if text not in ["5 ta savol", "10 ta savol"]:
+    if text == "🔙 ortga":
+        user_data = await state.get_data()
+        direction = user_data.get("direction", "Data Analitika")
+
+        techs = ["NumPy", "Pandas"] if direction == "Data Analitika" else ["HTML", "CSS", "JavaScript"]
+        markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
+        for tech in techs:
+            markup.add(KeyboardButton(tech))
+        markup.add(KeyboardButton("🔙 Ortga"))
+
+        await message.answer("📚 Qayta texnologiya tanlang:", reply_markup=markup)
+        await QuizState.choose_technology.set()
+        return
+
+    if "qayta boshlash" in text:
+        await restart_quiz(message, state)
+        return
+
+    if "boshqa quizlar" in text:
+        await return_to_main_menu(message, state)
+        return
+
+    if text == "5 ta savol":
+        count = 5
+    elif text == "10 ta savol":
+        count = 10
+    else:
         await message.answer("❌ Noto‘g‘ri tanlov. Iltimos, \"5 ta savol\" yoki \"10 ta savol\" ni tanlang.")
         return
 
-    count = 5 if "5" in text else 10
     user_data = await state.get_data()
     tech = user_data['technology']
     file_path = get_file_path(tech)
