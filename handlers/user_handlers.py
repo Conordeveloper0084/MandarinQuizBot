@@ -137,10 +137,8 @@ async def choose_technology(message: types.Message, state: FSMContext):
         return
     
     if message.text == "🔙 Ortga":
-        markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-        markup.add(KeyboardButton("Data Analitika"), KeyboardButton("Front End"))
-        await message.answer("🔙 Qaytildi. Qayta yo‘nalish tanlang:", reply_markup=markup)
-        await QuizState.choose_direction.set()
+        await state.finish()
+        await message.answer("🔙 Bosh sahifaga qaytdingiz. Quyidagilardan birini tanlang:", reply_markup=main_menu)
         return
     
     await state.update_data(technology=message.text.strip())
