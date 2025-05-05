@@ -135,12 +135,9 @@ async def choose_direction(message: types.Message, state: FSMContext):
     await QuizState.choose_technology.set()
 
 @dp.message_handler(lambda m: m.text == "🔙 Ortga", state=QuizState.choose_technology)
-async def back_to_direction(message: types.Message, state: FSMContext):
-    markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
-    markup.add(KeyboardButton("Data Analitika"), KeyboardButton("Front End"))
-    markup.add(KeyboardButton("🔙 Ortga"))
-    await message.answer("🧑‍💻 Qaysi yo‘nalishni tanlaysiz?", reply_markup=markup)
-    await QuizState.choose_direction.set()
+async def back_to_main_from_technology(message: types.Message, state: FSMContext):
+    await state.finish()
+    await message.answer("🔙 Bosh sahifaga qaytdingiz.", reply_markup=main_menu)
 
 @dp.message_handler(state=QuizState.choose_technology)
 async def choose_technology(message: types.Message, state: FSMContext):
