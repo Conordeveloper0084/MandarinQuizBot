@@ -105,6 +105,7 @@ async def start_quiz(message: types.Message, state: FSMContext):
     await state.finish()
     markup = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
     markup.add(KeyboardButton("Data Analitika"), KeyboardButton("Front End"))
+    markup.add(KeyboardButton("🔙 Ortga"))
     await message.answer("🧑‍💻 Qaysi yo‘nalishni tanlaysiz?", reply_markup=markup)
     await QuizState.choose_direction.set()
 
